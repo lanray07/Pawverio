@@ -1,0 +1,104 @@
+{
+  "verified_date": "2026-11-04",
+  "status": "DRAFT_SAVED_INCOMPLETE_NOT_SUBMITTED",
+  "store": "Amazon Appstore",
+  "app_title": "Pawverio Pet Care and Daily Planner",
+  "publisher": "Existing Amazon developer account; unchanged",
+  "support_email": "Existing Amazon account email used; intentionally not committed",
+  "support_url": "https://github.com/lanray07/Pawverio/issues",
+  "privacy_policy_url": "https://github.com/lanray07/Pawverio/blob/main/PRIVACY_POLICY.txt",
+  "data_deletion_url": "https://github.com/lanray07/Pawverio/blob/main/PRIVACY_POLICY.txt",
+  "category": "Lifestyle > Pets & Animals",
+  "app_price_model": "Free download; one-time Premium IAP remains unconfigured/unverified",
+  "availability_draft": "All countries and regions where Amazon sells apps",
+  "target_audience_draft": "18+ years of age; household pet-care organiser",
+  "language_support_checkbox": "English only; broader translations still require native-language review",
+  "content_rating_questionnaire": "Complete and persisted on review page; not store approval",
+  "detailed_privacy_questionnaire": "NOT COMPLETED; requires reviewed SDK/provider data-practice assessment",
+  "descriptions_verified_after_reload": [
+    "en-US",
+    "de-DE",
+    "en-AU",
+    "en-GB",
+    "es-ES",
+    "fr-FR",
+    "it-IT",
+    "ja-JP",
+    "nl-NL",
+    "pl-PL",
+    "pt-BR",
+    "pt-PT",
+    "sv-SE"
+  ],
+  "artwork_verified_after_reload": {
+    "en-US": {
+      "screenshots": 8,
+      "distinct_screenshot_assets": true,
+      "icons_512_and_114": true
+    },
+    "de-DE": {
+      "screenshots": 8,
+      "distinct_screenshot_assets": true,
+      "icons_512_and_114": true
+    },
+    "en-AU": {
+      "screenshots": 8,
+      "distinct_screenshot_assets": true,
+      "icons_512_and_114": true
+    },
+    "en-GB": {
+      "screenshots": 8,
+      "distinct_screenshot_assets": true,
+      "icons_512_and_114": true
+    },
+    "es-ES": {
+      "screenshots": 8,
+      "distinct_screenshot_assets": true,
+      "icons_512_and_114": true
+    },
+    "fr-FR": {
+      "screenshots": 8,
+      "distinct_screenshot_assets": true,
+      "icons_512_and_114": true
+    },
+    "it-IT": {
+      "screenshots": 8,
+      "distinct_screenshot_assets": true,
+      "icons_512_and_114": true
+    },
+    "ja-JP": {
+      "screenshots": 8,
+      "distinct_screenshot_assets": true,
+      "icons_512_and_114": true
+    },
+    "pt-BR": {
+      "screenshots": 8,
+      "distinct_screenshot_assets": true,
+      "icons_512_and_114": true
+    }
+  },
+  "total_uploaded_screenshots": 72,
+  "description_locales_without_dedicated_artwork_selector": [
+    "nl-NL",
+    "pl-PL",
+    "pt-PT",
+    "sv-SE"
+  ],
+  "artwork_fallback_note": "The console offers separate description and artwork locale sets. These four description locales use the English (U.S.) artwork fallback; do not call their store artwork fully localised. Original localised image files remain available in the project.",
+  "native_language_approval": "PENDING for all translated drafts",
+  "verification": "Description values were compared with prepared source files after reload. Nine artwork sets were reopened and checked for eight distinct image references and both icon sizes. Category, account contact, audience, rating and GitHub URLs were checked in Amazon review UI.",
+  "reviewer_instructions": "Optional Step 4 text did not persist after reload; no saved reviewer-instruction claim is made.",
+  "export_compliance_certification": "UNCHECKED; owner/legal review required",
+  "submit_app_button": "DISABLED at final verification; never clicked",
+  "app_files_uploaded": 0,
+  "remaining_before_submission": [
+    "Owner-controlled signed release APK and verification of that exact binary",
+    "APK-dependent compatible device selection",
+    "Detailed user data privacy questionnaire and final privacy/publisher/provider review",
+    "Export-compliance assessment and owner certification",
+    "Amazon IAP configuration and real purchase/restore validation",
+    "Native translation and store-asset approval; resolve artwork fallback limitations",
+    "Remaining supported-device voice, accessibility and release checks"
+  ],
+  "account_data_handling": "No account email, legal name, address, phone, credentials or account-profile screenshots were added to the public repository."
+}

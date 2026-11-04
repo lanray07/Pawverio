@@ -1,9 +1,9 @@
 PAWVERIO — AMAZON SUBMISSION FORM DRAFT
-Prepared 4 November 2026. No console fields have been changed or saved.
+Updated 4 November 2026. Amazon draft created and saved; NOT submitted. See AMAZON_DRAFT_RESULT.json for verified scope and remaining requirements.
 Use only after matching these entries to the actual console form. All store text remains an editorial draft.
 
 APP TITLE
-Pawverio – Pet Care & Daily Planner
+Pawverio Pet Care and Daily Planner
 
 SHORT DESCRIPTION
 Plan feeding, walks and everyday care. Keep pet health records together on your device.
@@ -52,8 +52,8 @@ Other locale drafts and captures: deliverables/store-assets/metadata/ and delive
 All 19 language drafts require native-language approval; the actual console locale selectors have not been inspected.
 
 PUBLISHER FIELDS AWAITING VERIFIED VALUES
-Publisher/legal name: NOT PROVIDED
-Public support email: NOT PROVIDED
+Publisher/legal name: inherited from the existing Amazon account; no account-profile changes
+Public support email: existing Amazon account email entered; intentionally omitted from this public file
 Privacy notice URL (pre-release review pending): https://github.com/lanray07/Pawverio/blob/main/PRIVACY_POLICY.txt
 Public support website: https://github.com/lanray07/Pawverio/issues
 
