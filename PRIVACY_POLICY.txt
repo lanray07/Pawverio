@@ -1,0 +1,44 @@
+Pawverio – Pet Care & Daily Planner: Privacy Notice
+Last updated: 4 November 2026
+
+Publication status: pre-release notice based on the current implementation. Publisher legal identity, a private contact channel and final privacy review remain outstanding before commercial release. This document does not certify legal or store compliance.
+
+About this app and notice
+Pawverio helps you organise pet care without creating a Pawverio account. The project and support channel are maintained through https://github.com/lanray07/Pawverio. A GitHub account handle is not a statement of the publisher's legal identity.
+
+Information on your device
+The app stores the information you enter: pet profiles, optional photographs, breed, age, weight, microchip references, allergies, care notes, routines, completion history, walking logs, veterinary and clinic details, medication and vaccination records, imported documents and household care assignments. Sitter instructions, emergency contacts, language and other preferences are also saved locally. Fields may contain information about people if you choose to enter it. Health-related pet fields are optional. Please avoid unnecessary personal information.
+
+How records are used
+The app uses these records to display your planner, calculate the next occurrence of your own routines, show history and charts, prepare requested exports, and produce local reminders. Pet names and reminder details can appear in device notifications; people with access to your device or notification previews may see them. Scheduling data is also stored locally by Android WorkManager. Reminders can be delayed by device power restrictions.
+
+Voice input and spoken feedback
+Microphone access is requested for push-to-talk. Pawverio does not continuously listen in the background or save raw microphone recordings. Recognition is handled by the speech service installed on your device; text-to-speech is handled by your installed speech engine. These providers may process audio or text, including record details you choose to speak or have read aloud, on their own systems under their own terms. Voice support varies by device and language, and offline recognition is not guaranteed. Touch and typed controls remain available. You can deny microphone permission and disable spoken feedback.
+
+Purchases
+Optional Premium purchases use Amazon's purchasing service. Amazon handles the store account and transaction. Pawverio uses store-provided account identifiers and receipt information to determine entitlement, and caches the account identifier and Premium status in private app preferences for offline use and restoration. Pawverio does not receive your payment-card details. Amazon's store processing is separate from pet records. The current pre-release integration has not completed live store validation.
+
+No advertising or automatic record uploads
+The current app includes no advertising or analytics SDK, Pawverio registration, GPS tracking, hosted pet-record backend or cross-device synchronisation. Pawverio does not automatically upload your pet records. Installed speech services, the Amazon store and document providers can process information separately as described here.
+
+Photos, documents and exports
+Files you select are copied to app-private storage. When you export records, attachments or sitter reports, a confirmation appears before destination selection. A chosen document provider may represent local or cloud storage and receives the file you save there. Text, PDF, attachment and ordinary JSON exports are not password-encrypted. You control any later sharing, and app deletion cannot recall exported copies.
+
+Optional encrypted backup
+User-initiated encrypted backup protects the portable record file with your password, using PBKDF2-HMAC-SHA256 and AES-256-GCM. Passwords are not saved for recovery. This backup excludes photographs, document contents, app settings, sitter/emergency preference contacts, purchase data and device credentials. Keep separate copies where needed. Restore merges validated records and does not import external filesystem paths.
+
+Storage protection and retention
+Records and media use Android's private app storage. The local database and attachments are not separately encrypted by Pawverio. Optional device-credential app lock adds an access screen; it is not database encryption and cannot protect a compromised or unlocked operating system. Automatic Android app backup is disabled in the manifest; device-manufacturer migration behaviour may differ. Data remains on the device until you edit/delete it, clear app storage or uninstall. Interrupted imports may leave private temporary files until cleanup.
+
+Deletion and choices
+You can edit/delete profiles and records, use the app's Delete all pet data control, revoke microphone/notification permissions, disable spoken feedback, export records, or uninstall. Delete all pet data clears pet records, private attachments, sitter/emergency preferences and reminder data. Purchase entitlement preferences remain separate so store access can be restored. Deletion is logical, not a forensic-erasure guarantee. It does not delete files already exported to other apps/providers or records held by Amazon, your speech provider or GitHub.
+
+GitHub support and privacy questions
+Support: https://github.com/lanray07/Pawverio/issues
+GitHub issues are public and GitHub applies its own privacy notice. Posting requires your own GitHub account; using Pawverio does not. For a support or privacy question, provide only a general description, app version and device model. Do not post pet health records, people’s contact details, microchip references, purchase receipts, passwords or sensitive attachments. A secure contact arrangement is required before sharing private information; no private support email is currently published. Pawverio's maintainers cannot retrieve app-local records remotely.
+
+Other services
+Review the policies/settings of Amazon, your device's speech engine and any document provider you choose. GitHub's privacy statement is available at https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement.
+
+Changes
+Updates to this notice will be published at https://github.com/lanray07/Pawverio/blob/main/PRIVACY_POLICY.txt. Review it again when a new version materially changes data processing.

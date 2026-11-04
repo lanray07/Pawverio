@@ -1,0 +1,76 @@
+PAWVERIO — AMAZON SUBMISSION FORM DRAFT
+Prepared 4 November 2026. No console fields have been changed or saved.
+Use only after matching these entries to the actual console form. All store text remains an editorial draft.
+
+APP TITLE
+Pawverio – Pet Care & Daily Planner
+
+SHORT DESCRIPTION
+Plan feeding, walks and everyday care. Keep pet health records together on your device.
+
+LONG DESCRIPTION
+Give every pet a calmer routine. Create a profile, plan care and record what has been done. Keep feeding notes, walk logs, grooming reminders and veterinary appointments in one place.
+
+Start free with one pet, essential care reminders and veterinary records.
+
+Premium adds more pets, medication and vaccination records, weight history, household assignments and pet sitter exports.
+
+Premium is an optional one-time purchase. The Amazon store shows the current local price. Restore purchases from Settings. Existing health records remain accessible.
+
+Speak a care command or type it instead. Speech recognition and spoken responses depend on the language services available on your device; offline voice is not guaranteed.
+
+No account is required. Pet records are stored locally. Exports are your choice. There are no advertising SDKs or automatic location tracking.
+
+Pawverio is an organiser. It does not diagnose conditions or recommend diets, medication doses or treatments. Record your vet’s instructions.
+
+First release: local pet profiles, care planning, health records and optional voice interaction.
+
+FEATURE BULLETS
+• Feeding · Walking · Grooming
+• Veterinary appointment · Medication · Vaccination
+• Weight journal · Household care
+• Pet sitter report · Export PDF
+• Stored on this device
+
+KEYWORDS (only if the console provides this field)
+Feeding, Walking, Grooming, Veterinary appointment, Medication, Vaccination, Weight journal, Pet sitter report
+
+RELEASE NOTES
+First release: local pet profiles, care planning, health records and optional voice interaction.
+
+VERIFIED BINARY IDENTIFIERS
+Package: com.pawverio.app
+Version name: 1.0.0
+Version code: 1
+Minimum Android API: 26
+Target Android API: 35
+
+ASSETS AVAILABLE FOR A DRAFT
+Icons: deliverables/brand-assets/pawverio-master-icon-114.png and pawverio-master-icon-512.png
+English Fire screenshots: deliverables/store-assets/screenshots/compositions/fire-tablet/en-GB/01.png through 08.png
+Other locale drafts and captures: deliverables/store-assets/metadata/ and deliverables/store-assets/screenshots/
+All 19 language drafts require native-language approval; the actual console locale selectors have not been inspected.
+
+PUBLISHER FIELDS AWAITING VERIFIED VALUES
+Publisher/legal name: NOT PROVIDED
+Public support email: NOT PROVIDED
+Privacy notice URL (pre-release review pending): https://github.com/lanray07/Pawverio/blob/main/PRIVACY_POLICY.txt
+Public support website: https://github.com/lanray07/Pawverio/issues
+
+COMMERCIAL DRAFT
+App model: free download with optional one-time Premium entitlement
+Amazon entitlement SKU: pawverio.premium.lifetime
+Suggested UK test price: GBP 4.99; not a configured or verified live price
+No live Amazon purchase or restore success has been verified.
+
+DECLARATIONS REQUIRING THE ACTUAL QUESTIONS
+Content-rating answers, age targeting, rights/copyright declarations, export/compliance statements, countries and device eligibility require review against the actual form. Do not certify unreviewed answers.
+Pet records are local; no account, advertising SDK or automatic location tracking. User-initiated exports and installed voice/store services require their own disclosure assessment. Do not infer a blanket no-data-collection declaration.
+
+BINARY UPLOAD STATUS
+Debug APK is for testing. Do not upload it as the production artifact.
+Release APK exists but is unsigned. Owner-controlled signing and verification of that exact signed binary are outstanding.
+
+FINAL SUBMISSION
+BLOCKED. Keep the application in draft. Production signing, Amazon purchase validation, speech/device/accessibility tests, language/store approval and publisher/privacy details remain outstanding.
+Evidence: deliverables/reports/RELEASE_READINESS.md

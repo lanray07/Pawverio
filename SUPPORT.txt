@@ -1,0 +1,9 @@
+Pawverio support
+
+Project: https://github.com/lanray07/Pawverio
+Support: https://github.com/lanray07/Pawverio/issues
+Privacy notice: https://github.com/lanray07/Pawverio/blob/main/PRIVACY_POLICY.txt
+
+For a general question or bug, open a GitHub issue with your app version, device model and steps to reproduce. GitHub issues are public. Do not attach private records, health/contact details, microchip references, purchase receipts, passwords or sensitive screenshots. Posting requires a GitHub account; the app does not.
+
+The application is pre-release. Store submission, live Amazon purchasing, supported-device speech and final language/privacy reviews remain incomplete. No private support email or verified legal publisher identity has been supplied. A GitHub URL cannot replace a required email or legal-name field.
