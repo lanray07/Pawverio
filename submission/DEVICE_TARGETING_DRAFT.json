@@ -1,0 +1,24 @@
+{
+  "status": "SAVED_DRAFT",
+  "basis": "Amazon console APK compatibility filtering, not physical certification of every model",
+  "selectedFireTablets": [
+    "18+ years of age",
+    "Fire 7 (2019) KFMUWI",
+    "Fire HD 10 (2019) KFMAWI",
+    "Fire HD 8 (2018) KFKAWI",
+    "Fire HD 8 (2020) KFONWI",
+    "Fire HD 10 (2021) KFTRWI",
+    "Fire HD 10 Plus (2021) KFTRPWI",
+    "Fire HD 8 (2022) KFRAWI",
+    "Fire HD 8 Plus (2022) / Fire HD 8 (2024) KFRAPWI",
+    "Fire 7 (2022) KFQUWI",
+    "Fire Max 11 (2023) KFSNWI",
+    "Fire HD 10 (2023) KFTUWI",
+    "Fire HD 8 (2024) KFRASWI"
+  ],
+  "selectedFireTv": 0,
+  "selectedAutomotive": 0,
+  "physicallyTestedDebugModel": "Fire HD 10 (2021) KFTRWI",
+  "productionSignedRuntimeTest": "NOT TESTED; debug installation preserved",
+  "excludedDevices": "Older incompatible Fire devices, Alexa/Amazon Kids tablet families and Fire Phone remain disabled by Amazon; no filtering bypass"
+}

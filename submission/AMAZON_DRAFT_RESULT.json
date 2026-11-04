@@ -1,6 +1,6 @@
 {
   "verified_date": "2026-11-04",
-  "status": "DRAFT_SAVED_INCOMPLETE_NOT_SUBMITTED",
+  "status": "DRAFT_SAVED_WITH_SIGNED_APK_EXPORT_CONFIRMATION_PENDING",
   "store": "Amazon Appstore",
   "app_title": "Pawverio Pet Care and Daily Planner",
   "publisher": "Existing Amazon developer account; unchanged",
@@ -14,7 +14,7 @@
   "target_audience_draft": "18+ years of age; household pet-care organiser",
   "language_support_checkbox": "English only; broader translations still require native-language review",
   "content_rating_questionnaire": "Complete and persisted on review page; not store approval",
-  "detailed_privacy_questionnaire": "NOT COMPLETED; requires reviewed SDK/provider data-practice assessment",
+  "detailed_privacy_questionnaire": "Saved for review; all 39 data-type answers and purposes matched on readback after reload. Conservative technical draft pending final provider/owner review.",
   "descriptions_verified_after_reload": [
     "en-US",
     "de-DE",
@@ -88,17 +88,24 @@
   "native_language_approval": "PENDING for all translated drafts",
   "verification": "Description values were compared with prepared source files after reload. Nine artwork sets were reopened and checked for eight distinct image references and both icon sizes. Category, account contact, audience, rating and GitHub URLs were checked in Amazon review UI.",
   "reviewer_instructions": "Optional Step 4 text did not persist after reload; no saved reviewer-instruction claim is made.",
-  "export_compliance_certification": "UNCHECKED; owner/legal review required",
-  "submit_app_button": "DISABLED at final verification; never clicked",
-  "app_files_uploaded": 0,
+  "export_compliance_certification": "UNCHECKED_PENDING_EXPLICIT_OWNER_CONFIRMATION",
+  "submit_app_button": "DISABLED at last verification; never clicked",
+  "app_files_uploaded": 1,
   "remaining_before_submission": [
-    "Owner-controlled signed release APK and verification of that exact binary",
-    "APK-dependent compatible device selection",
-    "Detailed user data privacy questionnaire and final privacy/publisher/provider review",
-    "Export-compliance assessment and owner certification",
-    "Amazon IAP configuration and real purchase/restore validation",
-    "Native translation and store-asset approval; resolve artwork fallback limitations",
-    "Remaining supported-device voice, accessibility and release checks"
+    "Explicit owner export-compliance declaration after an appropriate assessment",
+    "Exact production-signed runtime checks on a clean compatible device/emulator",
+    "Final provider/owner review of conservative privacy classifications and vendor retention/secondary purposes",
+    "Secure portable backup/recovery arrangement for the dedicated owner-local signing key",
+    "Amazon entitlement SKU setup, real purchase/restore testing and receipt-verification decision",
+    "Native language and store-asset approval, including four text-only locales with artwork fallback",
+    "Remaining supported-device voice/accessibility/release checks"
   ],
-  "account_data_handling": "No account email, legal name, address, phone, credentials or account-profile screenshots were added to the public repository."
+  "account_data_handling": "No account email, legal name, address, phone, credentials or account-profile screenshots were added to the public repository.",
+  "uploaded_apk_filename": "Pawverio-1.0.0-9d5336de.apk",
+  "signed_apk_sha256": "9d5336de8cbbacaeba8146b90b420accc1d1aa32a101ea939d0244dc530a4c07",
+  "signed_apk_local_verification": "PASS: signature v2/v3 for API26+, ZIP alignment, package identity, public-key asset and archive integrity",
+  "signed_apk_device_runtime": "NOT TESTED: existing debug-signed Fire installation/data preserved; clean authorised device required",
+  "amazon_public_authentication_key": "Configured from the app-specific console download; public verification asset only",
+  "microphone_hardware": "Optional, as required by the touch/text fallback",
+  "selected_fire_tablet_count": 13
 }

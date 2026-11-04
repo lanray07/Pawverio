@@ -1,0 +1,13 @@
+{
+  "status": "PASS_UI_UPLOAD_ACCEPTED",
+  "uploaded_filename": "Pawverio-1.0.0-9d5336de.apk",
+  "local_signed_apk_sha256": "9d5336de8cbbacaeba8146b90b420accc1d1aa32a101ea939d0244dc530a4c07",
+  "evidence": "Amazon App Files and review UI show one processed APK with the hash-labelled filename and version code1; device filtering became available",
+  "package": "com.pawverio.app",
+  "version_code": 1,
+  "version_name": "1.0.0",
+  "min_sdk": 26,
+  "target_sdk": 35,
+  "remote_byte_for_byte_download": "NOT TESTED: the console download action did not produce a browser download event. No remote SHA256 equality is claimed.",
+  "submitted": false
+}

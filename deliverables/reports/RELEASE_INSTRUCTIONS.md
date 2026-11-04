@@ -1,6 +1,6 @@
 # Release instructions
 
-No store upload or production deployment has been performed.
+The verified production-signed APK has been uploaded to an unsubmitted Amazon draft. No app review submission, publication or production deployment has occurred.
 
 1. Review RELEASE_READINESS.md and acceptance evidence. Fix any FAIL and complete BLOCKED/NOT TESTED requirements before claiming ready.
 2. Supply the developer’s support email, publisher/legal identity and privacy contact; have the privacy drafts reviewed and host the final policy at a real reachable URL. No fabricated contacts are supplied.
@@ -18,3 +18,7 @@ No store upload or production deployment has been performed.
 There is no hosted backend or analytics collector. CI builds and checks the repository; device tests still require authorized hardware. SQLite/Room data and private files rely on Android’s app sandbox and device storage protection. Portable backups are user initiated and authenticated/encrypted. No automatic cloud backup is enabled.
 
 Keep dependencies current through reviewed updates. Retest Fire OS scheduling after OS updates. Monitor store crash reports after launch only under the developer account’s chosen privacy policy. No external monitoring, paid service or account configuration is silently provisioned.
+
+## Current signing and draft status
+
+The dedicated Pawverio key is owner-local, outside Git, and its password is Windows CurrentUser DPAPI protected. Use `scripts/sign_release.ps1`; preserve the key and arrange private portable recovery before changing machines. The public Amazon authentication key is packaged and is not a private signer. See `submission/SIGNING_AND_UPLOAD_NOTES.txt`, `SIGNED_RELEASE.json`, and the submission draft records. Exact signed-device runtime, live purchasing, native review and legal export certification remain separate requirements. Do not uninstall the owner’s debug app merely to bypass a certificate conflict.

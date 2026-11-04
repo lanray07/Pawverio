@@ -59,3 +59,7 @@ A read-only constant-pool scan of the actual pinned 3.0.9 Maven JAR found no lit
 ## Final verification update
 
 Final copied XML reports 15 JVM and 11 physical platform tests, all passing. Six additional receipt-ledger tests verify duplicate handling, cancellation dominance for the same receipt, later distinct repurchase, account separation and cached-entitlement preservation after incomplete updates. These local policies do not verify a real Amazon purchase or replace Receipt Verification Service validation. The additional physical test covers both explicit and automatic notification language selection.
+
+## Signed draft update
+
+The app-specific Amazon public authentication key is now packaged. A dedicated owner-local production signature verifies, and the APK is accepted in the unsubmitted Amazon draft. The configured SKU and real transaction/restore tests remain outstanding; signing does not prove billing success. Static SDK review identified reachable identifier, receipt, diagnostic and API-use metric paths. The conservative 39-row privacy draft is saved for review; provider retention/secondary purposes are not independently verified. See submission/PRIVACY_QUESTIONNAIRE_ASSESSMENT.txt.

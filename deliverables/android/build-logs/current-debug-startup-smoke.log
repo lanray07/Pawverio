@@ -1,0 +1,11 @@
+PASS: current debug APK updated with matching pre-existing debug certificate, preserving app data.
+PASS: launcher activity started and process remained alive after the passive startup check.
+Scope: current debug artifact with configured Amazon public key and optional microphone. No care-record mutations, uninstall, clear-data, purchase or permission grant was performed.
+Exact production-signed artifact runtime: NOT TESTED because the existing app has a different certificate.
+Starting: Intent { cmp=com.pawverio.app/.MainActivity }
+Status: ok
+Activity: com.pawverio.app/.MainActivity
+ThisTime: 4570
+TotalTime: 4397
+WaitTime: 4641
+Complete

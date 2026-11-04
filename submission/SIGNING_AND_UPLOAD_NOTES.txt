@@ -1,0 +1,13 @@
+Pawverio production signing and draft upload — 4 November 2026
+
+A dedicated RSA4096 production signing identity (CN=Pawverio) was generated specifically for this app. No unrelated application's key or Android debug key was reused. The self-issued signing certificate is an app identity, not a legal identity certificate.
+
+Private signing material remains outside the repository in the owner account's .codex/signing/pawverio-production directory. The keystore is PKCS12. Its random password is stored with Windows CurrentUser DPAPI protection, and the directory ACL is restricted to the current user and SYSTEM. No password, private key or protected password file is committed or embedded in the APK. The Amazon AppstoreAuthenticationKey.pem asset is a public verification key and is distinct from the private signing identity.
+
+Use scripts/sign_release.ps1 to sign a locally built release with this identity. Do not re-run key creation with a new identity for a published app. Preserve the key for updates. The DPAPI password file is bound to this Windows account/machine context: copying it alone to a different computer is not a portable recovery plan. Before changing computers or releasing, use the owner account to transfer the password through a trusted private password manager and keep an independently secured keystore backup. Never send the password in chat, commit it, or include it in a command line/log.
+
+The exact production-signed APK passed apksigner verification for API26+ (v2/v3) and zipalign verification with 16KiB native-library page alignment. Package com.pawverio.app, version1/1.0.0, minimumAPI26, targetAPI35. Its manifest makes the microphone optional. Final evidence and hashes: deliverables/reports/SIGNED_RELEASE.json and android/build-logs/release-signature-verification.log.
+
+The connected Fire contains a debug-signed installation with a different certificate. It was preserved, without uninstall, clear-data or package-ID changes. Dynamic verification of this exact production-signed APK therefore remains NOT TESTED and needs a clean authorised compatible device/emulator. Upload validation is not a substitute for runtime tests.
+
+The detailed privacy form is a conservative technical draft, not final provider/legal approval. See PRIVACY_QUESTIONNAIRE_DRAFT.json and PRIVACY_QUESTIONNAIRE_ASSESSMENT.txt. Unverified vendor retention and secondary use are not certified. Export compliance must not be certified without explicit owner confirmation and an appropriate assessment. No app-store submission is authorised or performed.

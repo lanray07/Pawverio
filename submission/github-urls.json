@@ -1,5 +1,5 @@
 {
-  "status": "DRAFT_SAVED_INCOMPLETE_NOT_SUBMITTED",
+  "status": "DRAFT_SAVED_WITH_SIGNED_APK_NOT_SUBMITTED",
   "project_url": "https://github.com/lanray07/Pawverio",
   "support_url": "https://github.com/lanray07/Pawverio/issues",
   "privacy_policy_url": "https://github.com/lanray07/Pawverio/blob/main/PRIVACY_POLICY.txt",
@@ -11,5 +11,6 @@
   "support_email_status": "Existing Amazon account email entered and verified in the saved Amazon draft; value intentionally omitted from this public repository",
   "legal_publisher_name_status": "Existing signed-in Amazon publisher account inherited; account profile not changed",
   "accepted_app_title": "Pawverio Pet Care and Daily Planner",
-  "submission_performed": false
+  "submission_performed": false,
+  "export_certification": "PENDING_OWNER_CONFIRMATION"
 }

@@ -2,21 +2,22 @@
   "release_status": "BLOCKED",
   "mandatory_criteria": 46,
   "status_counts": {
-    "PASS": 35,
+    "PASS": 36,
     "FAIL": 0,
-    "BLOCKED": 9,
+    "BLOCKED": 8,
     "NOT TESTED": 2
   },
-  "verified_acceptance_rate_percent": 76.09,
+  "verified_acceptance_rate_percent": 78.26,
   "screenshot_compositions": 304,
   "expected_screenshot_compositions": 304,
   "missing_screenshot_compositions": 0,
   "capture_blocker": null,
   "approved_locales": [],
   "human_review_pending_locales": 19,
-  "debug_sha256": "ad61963938953acfbde990741c50f3aa35ddfae35a90b880fed8b9c41474c891",
-  "unsigned_release_sha256": "4bb727dae1374fae9167681a4da4515baef3cde76a90ace3999e76f32ec33a0f",
+  "debug_sha256": "5d6a234ea7bbeb2d2500ff7d50d15a11c371f3b40121b746a988b1dae21d30be",
+  "unsigned_release_sha256": "ad467ffad1787d8233eaf4dc2b4b5f3ba6f12643424a557544345ab09f77b8ad",
   "dialog_locale_regression_pass": true,
-  "production_signing": "BLOCKED: owner signing key not supplied",
-  "amazon_store_tests": "BLOCKED: authentication/product/test configuration unavailable"
+  "production_signing": "PASS: dedicated owner-local RSA4096 identity; verified v2/v3 signatures",
+  "amazon_store_tests": "BLOCKED: app public key configured; real SKU/purchase/restore validation remains outstanding",
+  "signed_release_sha256": "9d5336de8cbbacaeba8146b90b420accc1d1aa32a101ea939d0244dc530a4c07"
 }

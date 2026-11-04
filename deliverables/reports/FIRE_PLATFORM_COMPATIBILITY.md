@@ -35,3 +35,9 @@ Notification tests exercised the actual Android notification API but invoked the
 ## Final verification update
 
 Final copied XML supersedes the earlier ten-test baseline: 11 platform and 14 core physical tests passed. The additional checks cover automatic/manual notification locale selection and Indonesian parser locale aliases. The final APK passed 3 real aeroplane-mode UI journeys, 1 Spanish dialog regression and 2 private-attachment boundary tests. All 304 captures passed independent label/frame guards: 19 locales, eight screens, Fire tablet and app-only compact viewport. The compact viewport is not phone hardware certification. Full accessibility, audible TTS and long-term background delivery remain NOT TESTED.
+
+## Production-signing and console targeting update
+
+A separate dedicated production certificate now signs the release. The existing KFTRWI debug app/data were preserved. Exact production-signed runtime remains NOT TESTED. Amazon auto-filtering exposes 12 compatible Fire tablet entries, with Fire TV/Automotive unselected; this is a console compatibility result, not physical certification of those 12. Older incompatible Fire models, Alexa/Amazon Kids tablet families and Fire Phone remain disabled. Microphone hardware is explicitly optional.
+
+Current debug artifact passive smoke: matching-debug-certificate in-place update succeeded, preserving existing data. The launcher activity started and the app process remained alive. No pet records were mutated, and no install/uninstall workaround was used for the production certificate conflict. This is not an end-to-end test of the production-signed APK. See android/build-logs/current-debug-startup-smoke.log.

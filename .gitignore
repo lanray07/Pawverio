@@ -7,5 +7,9 @@ __pycache__/
 local.properties
 *.jks
 *.keystore
+*.p12
+*.pfx
+*.dpapi
 .env
 *.pem
+!app/src/main/assets/AppstoreAuthenticationKey.pem

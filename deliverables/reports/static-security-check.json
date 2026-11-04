@@ -1,14 +1,18 @@
 {
   "result": "PASS",
-  "source_files_scanned": 90,
+  "source_files_scanned": 92,
   "apk_scan": [
     {
       "file": "deliverables\\android\\debug\\Pawverio-debug.apk",
-      "entries_scanned": 35
+      "entries_scanned": 36
     },
     {
       "file": "deliverables\\android\\release\\Pawverio-release-unsigned.apk",
-      "entries_scanned": 32
+      "entries_scanned": 33
+    },
+    {
+      "file": "deliverables\\android\\release\\Pawverio-release-signed.apk",
+      "entries_scanned": 33
     }
   ],
   "checks": [

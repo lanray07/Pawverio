@@ -1,0 +1,430 @@
+{
+  "status": "DRAFT_PENDING_FINAL_PROVIDER_AND_OWNER_REVIEW",
+  "basis": "Conservative technical draft based on current app source and Amazon Appstore SDK bytecode. Local data handling is disclosed broadly; vendor and speech transfers are disclosed conservatively without assuming an exemption. No claim of legal compliance, vendor retention verification or runtime network capture.",
+  "answers": [
+    {
+      "type": "Name",
+      "collected": true,
+      "thirdPartyTransfer": false,
+      "purposes": [
+        "App functionality"
+      ]
+    },
+    {
+      "type": "Email Address",
+      "collected": false,
+      "thirdPartyTransfer": false,
+      "purposes": []
+    },
+    {
+      "type": "User IDs",
+      "collected": true,
+      "thirdPartyTransfer": true,
+      "purposes": [
+        "App functionality",
+        "Fraud Prevention, Security and Compliance"
+      ]
+    },
+    {
+      "type": "Address",
+      "collected": false,
+      "thirdPartyTransfer": false,
+      "purposes": []
+    },
+    {
+      "type": "Phone number",
+      "collected": false,
+      "thirdPartyTransfer": false,
+      "purposes": []
+    },
+    {
+      "type": "Race and ethnicity",
+      "collected": false,
+      "thirdPartyTransfer": false,
+      "purposes": []
+    },
+    {
+      "type": "Sexual orientation",
+      "collected": false,
+      "thirdPartyTransfer": false,
+      "purposes": []
+    },
+    {
+      "type": "Political or religious beliefs",
+      "collected": false,
+      "thirdPartyTransfer": false,
+      "purposes": []
+    },
+    {
+      "type": "Other user info",
+      "collected": false,
+      "thirdPartyTransfer": false,
+      "purposes": []
+    },
+    {
+      "type": "User payment info",
+      "collected": false,
+      "thirdPartyTransfer": false,
+      "purposes": []
+    },
+    {
+      "type": "Purchase history",
+      "collected": true,
+      "thirdPartyTransfer": true,
+      "purposes": [
+        "App functionality",
+        "Fraud Prevention, Security and Compliance"
+      ]
+    },
+    {
+      "type": "Credit score",
+      "collected": false,
+      "thirdPartyTransfer": false,
+      "purposes": []
+    },
+    {
+      "type": "Other financial info",
+      "collected": false,
+      "thirdPartyTransfer": false,
+      "purposes": []
+    },
+    {
+      "type": "Device or other ID",
+      "collected": true,
+      "thirdPartyTransfer": true,
+      "purposes": [
+        "App functionality",
+        "Analytics",
+        "Fraud Prevention, Security and Compliance"
+      ]
+    },
+    {
+      "type": "Advertising ID",
+      "collected": false,
+      "thirdPartyTransfer": false,
+      "purposes": []
+    },
+    {
+      "type": "Health & Biometrics Info",
+      "collected": false,
+      "thirdPartyTransfer": false,
+      "purposes": []
+    },
+    {
+      "type": "Fitness info",
+      "collected": false,
+      "thirdPartyTransfer": false,
+      "purposes": []
+    },
+    {
+      "type": "Approximate location",
+      "collected": false,
+      "thirdPartyTransfer": false,
+      "purposes": []
+    },
+    {
+      "type": "Precise location",
+      "collected": false,
+      "thirdPartyTransfer": false,
+      "purposes": []
+    },
+    {
+      "type": "Web browsing history",
+      "collected": false,
+      "thirdPartyTransfer": false,
+      "purposes": []
+    },
+    {
+      "type": "Photos",
+      "collected": true,
+      "thirdPartyTransfer": false,
+      "purposes": [
+        "App functionality"
+      ]
+    },
+    {
+      "type": "Videos",
+      "collected": false,
+      "thirdPartyTransfer": false,
+      "purposes": []
+    },
+    {
+      "type": "Voice or sound recordings",
+      "collected": true,
+      "thirdPartyTransfer": true,
+      "purposes": [
+        "App functionality"
+      ]
+    },
+    {
+      "type": "Music files",
+      "collected": false,
+      "thirdPartyTransfer": false,
+      "purposes": []
+    },
+    {
+      "type": "Other audio files",
+      "collected": false,
+      "thirdPartyTransfer": false,
+      "purposes": []
+    },
+    {
+      "type": "Crash logs",
+      "collected": false,
+      "thirdPartyTransfer": false,
+      "purposes": []
+    },
+    {
+      "type": "Diagnostics",
+      "collected": true,
+      "thirdPartyTransfer": true,
+      "purposes": [
+        "App functionality",
+        "Analytics",
+        "Fraud Prevention, Security and Compliance"
+      ]
+    },
+    {
+      "type": "Other app performance data",
+      "collected": false,
+      "thirdPartyTransfer": false,
+      "purposes": []
+    },
+    {
+      "type": "App interactions",
+      "collected": true,
+      "thirdPartyTransfer": true,
+      "purposes": [
+        "App functionality",
+        "Analytics"
+      ]
+    },
+    {
+      "type": "In-app search history",
+      "collected": false,
+      "thirdPartyTransfer": false,
+      "purposes": []
+    },
+    {
+      "type": "Installed apps",
+      "collected": false,
+      "thirdPartyTransfer": false,
+      "purposes": []
+    },
+    {
+      "type": "Other user-generated content",
+      "collected": true,
+      "thirdPartyTransfer": true,
+      "purposes": [
+        "App functionality"
+      ]
+    },
+    {
+      "type": "Other actions",
+      "collected": false,
+      "thirdPartyTransfer": false,
+      "purposes": []
+    },
+    {
+      "type": "Emails",
+      "collected": false,
+      "thirdPartyTransfer": false,
+      "purposes": []
+    },
+    {
+      "type": "SMS or MMS",
+      "collected": false,
+      "thirdPartyTransfer": false,
+      "purposes": []
+    },
+    {
+      "type": "Other in-app messages",
+      "collected": false,
+      "thirdPartyTransfer": false,
+      "purposes": []
+    },
+    {
+      "type": "Files and doc",
+      "collected": true,
+      "thirdPartyTransfer": false,
+      "purposes": [
+        "App functionality"
+      ]
+    },
+    {
+      "type": "Calendar events",
+      "collected": true,
+      "thirdPartyTransfer": true,
+      "purposes": [
+        "App functionality"
+      ]
+    },
+    {
+      "type": "Contacts / Phone Logs",
+      "collected": true,
+      "thirdPartyTransfer": false,
+      "purposes": [
+        "App functionality"
+      ]
+    }
+  ],
+  "consoleStatus": "Saved for review",
+  "readbackAfterReload": [
+    {
+      "type": "Name",
+      "persisted": true
+    },
+    {
+      "type": "Email Address",
+      "persisted": true
+    },
+    {
+      "type": "User IDs",
+      "persisted": true
+    },
+    {
+      "type": "Address",
+      "persisted": true
+    },
+    {
+      "type": "Phone number",
+      "persisted": true
+    },
+    {
+      "type": "Race and ethnicity",
+      "persisted": true
+    },
+    {
+      "type": "Sexual orientation",
+      "persisted": true
+    },
+    {
+      "type": "Political or religious beliefs",
+      "persisted": true
+    },
+    {
+      "type": "Other user info",
+      "persisted": true
+    },
+    {
+      "type": "User payment info",
+      "persisted": true
+    },
+    {
+      "type": "Purchase history",
+      "persisted": true
+    },
+    {
+      "type": "Credit score",
+      "persisted": true
+    },
+    {
+      "type": "Other financial info",
+      "persisted": true
+    },
+    {
+      "type": "Device or other ID",
+      "persisted": true
+    },
+    {
+      "type": "Advertising ID",
+      "persisted": true
+    },
+    {
+      "type": "Health & Biometrics Info",
+      "persisted": true
+    },
+    {
+      "type": "Fitness info",
+      "persisted": true
+    },
+    {
+      "type": "Approximate location",
+      "persisted": true
+    },
+    {
+      "type": "Precise location",
+      "persisted": true
+    },
+    {
+      "type": "Web browsing history",
+      "persisted": true
+    },
+    {
+      "type": "Photos",
+      "persisted": true
+    },
+    {
+      "type": "Videos",
+      "persisted": true
+    },
+    {
+      "type": "Voice or sound recordings",
+      "persisted": true
+    },
+    {
+      "type": "Music files",
+      "persisted": true
+    },
+    {
+      "type": "Other audio files",
+      "persisted": true
+    },
+    {
+      "type": "Crash logs",
+      "persisted": true
+    },
+    {
+      "type": "Diagnostics",
+      "persisted": true
+    },
+    {
+      "type": "Other app performance data",
+      "persisted": true
+    },
+    {
+      "type": "App interactions",
+      "persisted": true
+    },
+    {
+      "type": "In-app search history",
+      "persisted": true
+    },
+    {
+      "type": "Installed apps",
+      "persisted": true
+    },
+    {
+      "type": "Other user-generated content",
+      "persisted": true
+    },
+    {
+      "type": "Other actions",
+      "persisted": true
+    },
+    {
+      "type": "Emails",
+      "persisted": true
+    },
+    {
+      "type": "SMS or MMS",
+      "persisted": true
+    },
+    {
+      "type": "Other in-app messages",
+      "persisted": true
+    },
+    {
+      "type": "Files and doc",
+      "persisted": true
+    },
+    {
+      "type": "Calendar events",
+      "persisted": true
+    },
+    {
+      "type": "Contacts / Phone Logs",
+      "persisted": true
+    }
+  ]
+}

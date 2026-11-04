@@ -18,7 +18,7 @@ python scripts/localization.py validate
 python -m unittest scripts/localization_test.py
 ```
 
-Install `app/build/outputs/apk/debug/app-debug.apk` with `adb install -r`. Release build is deliberately **unsigned** until the owner supplies a production signing key. Never distribute a debug or QA-signed artifact as the production app.
+Install `app/build/outputs/apk/debug/app-debug.apk` with `adb install -r`. Gradle emits an unsigned build input. A verified production-signed APK is included under `deliverables/android/release/`; the owner-local `scripts/sign_release.ps1` signs future builds with the dedicated key outside the repository. Never distribute a debug or QA-signed artifact as the production app.
 
 ## Architecture
 
@@ -43,7 +43,7 @@ The app records user-entered veterinary instructions; it does not calculate feed
 
 ## Monetization
 
-Amazon SDK3.0.9, entitlement SKU `pawverio.premium.lifetime`, one-time unlock. The suggested £4.99 is a pricing hypothesis; the UI displays the store price only. Configure the actual product and Amazon-issued app authentication public key before testing. No Google Play Billing and no simulated purchase success. Amazon sandbox purchase verification, refunds/account changes/restore, and receipt-verification assessment are release blockers. See [platform integration](deliverables/reports/PLATFORM_INTEGRATIONS.md).
+Amazon SDK3.0.9, entitlement SKU `pawverio.premium.lifetime`, one-time unlock. The suggested £4.99 is a pricing hypothesis; the UI displays the store price only. The app-specific Amazon public verification key is packaged. Configure and validate the actual store product before testing purchases. No Google Play Billing and no simulated purchase success. Amazon sandbox purchase verification, refunds/account changes/restore, and receipt-verification assessment are release blockers. See [platform integration](deliverables/reports/PLATFORM_INTEGRATIONS.md).
 
 ## Localization and screenshots
 

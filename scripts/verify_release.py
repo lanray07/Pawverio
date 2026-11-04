@@ -9,7 +9,7 @@ def main():
     for folder in ['app/src','core/src','platform/src','scripts','.github']:
         for path in (ROOT/folder).rglob('*'):
             if not path.is_file() or '.tools' in path.parts or '__pycache__' in path.parts:continue
-            if path.suffix not in ['.kt','.xml','.kts','.py','.json','.yml']:continue
+            if path.suffix not in ['.kt','.xml','.kts','.py','.json','.yml','.ps1','.pem']:continue
             text=path.read_text(encoding='utf-8-sig');count+=1
             for pattern in patterns:
                 if re.search(pattern,text):errors.append({'path':str(path.relative_to(ROOT)),'check':'Potential embedded credential; inspect privately'})
@@ -25,7 +25,7 @@ def main():
         with zipfile.ZipFile(apk) as archive:
             for entry in archive.infolist():
                 name=entry.filename.lower()
-                if name.endswith(('.jks','.keystore','/.env')):errors.append({'path':str(apk.relative_to(ROOT)),'entry':entry.filename,'check':'Unexpected credential container'})
+                if name.endswith(('.jks','.keystore','.p12','.pfx','.dpapi','/.env')):errors.append({'path':str(apk.relative_to(ROOT)),'entry':entry.filename,'check':'Unexpected credential container'})
                 if name.endswith(('.dex','.json','.properties','.xml','.pem')):
                     raw=archive.read(entry);scanned+=1
                     for pattern in patterns:
