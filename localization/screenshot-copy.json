@@ -1,0 +1,439 @@
+{
+  "en-GB": {
+    "headlines": [
+      "Pet Care & Daily Planner",
+      "Pet Feeding Reminders",
+      "Vet Appointments & Health Records",
+      "Pet Medication Tracker",
+      "Pet Grooming & Care Schedule",
+      "Voice-Powered Pet Care Planner",
+      "Offline Pet Care Tracker",
+      "Pet Sitter Instructions & Reports"
+    ],
+    "captions": [
+      "Today’s care",
+      "Feeding",
+      "Health",
+      "Medication",
+      "Grooming",
+      "Type or speak a care command",
+      "Stored on this device",
+      "Pet sitter report"
+    ],
+    "review": "PENDING_HUMAN_REVIEW"
+  },
+  "en-US": {
+    "headlines": [
+      "Pet Care & Daily Planner",
+      "Pet Feeding Reminders",
+      "Vet Appointments & Health Records",
+      "Pet Medication Tracker",
+      "Pet Grooming & Care Schedule",
+      "Voice-Powered Pet Care Planner",
+      "Offline Pet Care Tracker",
+      "Pet Sitter Instructions & Reports"
+    ],
+    "captions": [
+      "Today’s care",
+      "Feeding",
+      "Health",
+      "Medication",
+      "Grooming",
+      "Type or speak a care command",
+      "Stored on this device",
+      "Pet sitter report"
+    ],
+    "review": "PENDING_HUMAN_REVIEW"
+  },
+  "en-AU": {
+    "headlines": [
+      "Pet Care & Daily Planner",
+      "Pet Feeding Reminders",
+      "Vet Appointments & Health Records",
+      "Pet Medication Tracker",
+      "Pet Grooming & Care Schedule",
+      "Voice-Powered Pet Care Planner",
+      "Offline Pet Care Tracker",
+      "Pet Sitter Instructions & Reports"
+    ],
+    "captions": [
+      "Today’s care",
+      "Feeding",
+      "Health",
+      "Medication",
+      "Grooming",
+      "Type or speak a care command",
+      "Stored on this device",
+      "Pet sitter report"
+    ],
+    "review": "PENDING_HUMAN_REVIEW"
+  },
+  "es-ES": {
+    "headlines": [
+      "Agenda de cuidados para mascotas",
+      "Recordatorios de comida para mascotas",
+      "Citas veterinarias y registros de salud",
+      "Seguimiento de medicación de mascotas",
+      "Agenda de aseo y cuidados",
+      "Organiza los cuidados con tu voz",
+      "Cuidados de mascotas sin conexión",
+      "Instrucciones e informes para cuidadores"
+    ],
+    "captions": [
+      "Cuidados de hoy",
+      "Alimentación",
+      "Salud",
+      "Medicación",
+      "Aseo",
+      "Escribe o di un comando de cuidado",
+      "Guardado en este dispositivo",
+      "Informe para cuidadores"
+    ],
+    "review": "PENDING_HUMAN_REVIEW"
+  },
+  "es-419": {
+    "headlines": [
+      "Agenda de cuidados para mascotas",
+      "Recordatorios de comida para mascotas",
+      "Citas veterinarias y registros de salud",
+      "Seguimiento de medicación de mascotas",
+      "Agenda de aseo y cuidados",
+      "Organiza los cuidados con tu voz",
+      "Cuidados de mascotas sin conexión",
+      "Instrucciones e informes para cuidadores"
+    ],
+    "captions": [
+      "Cuidados de hoy",
+      "Alimentación",
+      "Salud",
+      "Medicación",
+      "Aseo",
+      "Escribe o di un comando de cuidado",
+      "Guardado en este dispositivo",
+      "Informe para cuidadores"
+    ],
+    "review": "PENDING_HUMAN_REVIEW"
+  },
+  "fr-FR": {
+    "headlines": [
+      "Soins et agenda pour animaux",
+      "Rappels des repas de vos animaux",
+      "Rendez-vous vétérinaires et santé",
+      "Suivi des médicaments de vos animaux",
+      "Toilettage et soins planifiés",
+      "Organisez les soins à la voix",
+      "Suivi des soins hors ligne",
+      "Consignes et rapports de garde"
+    ],
+    "captions": [
+      "Soins du jour",
+      "Repas",
+      "Santé",
+      "Médicament",
+      "Toilettage",
+      "Saisissez ou dictez une commande de soin",
+      "Enregistré sur cet appareil",
+      "Rapport de garde"
+    ],
+    "review": "PENDING_HUMAN_REVIEW"
+  },
+  "fr-CA": {
+    "headlines": [
+      "Soins et agenda pour animaux",
+      "Rappels des repas de vos animaux",
+      "Rendez-vous vétérinaires et santé",
+      "Suivi des médicaments de vos animaux",
+      "Toilettage et soins planifiés",
+      "Organisez les soins à la voix",
+      "Suivi des soins hors ligne",
+      "Consignes et rapports de garde"
+    ],
+    "captions": [
+      "Soins du jour",
+      "Repas",
+      "Santé",
+      "Médicament",
+      "Toilettage",
+      "Saisissez ou dictez une commande de soin",
+      "Enregistré sur cet appareil",
+      "Rapport de garde"
+    ],
+    "review": "PENDING_HUMAN_REVIEW"
+  },
+  "de-DE": {
+    "headlines": [
+      "Haustierpflege und Tagesplaner",
+      "Erinnerungen ans Füttern",
+      "Tierarzttermine und Gesundheitsdaten",
+      "Medikamente für Haustiere im Blick",
+      "Fellpflege und Pflegeroutinen",
+      "Haustierpflege per Sprachbefehl",
+      "Haustierpflege offline festhalten",
+      "Hinweise und Berichte für die Betreuung"
+    ],
+    "captions": [
+      "Heutige Pflege",
+      "Fütterung",
+      "Gesundheit",
+      "Medikament",
+      "Fellpflege",
+      "Pflegebefehl eingeben oder sprechen",
+      "Auf diesem Gerät gespeichert",
+      "Betreuungsbericht"
+    ],
+    "review": "PENDING_HUMAN_REVIEW"
+  },
+  "it-IT": {
+    "headlines": [
+      "Cura e agenda per animali",
+      "Promemoria per i pasti",
+      "Visite veterinarie e dati sanitari",
+      "Registro dei farmaci per animali",
+      "Agenda di toelettatura e cure",
+      "Organizza le cure con la voce",
+      "Registro delle cure offline",
+      "Istruzioni e rapporti per pet sitter"
+    ],
+    "captions": [
+      "Cure di oggi",
+      "Alimentazione",
+      "Salute",
+      "Farmaco",
+      "Toelettatura",
+      "Scrivi o pronuncia un comando di cura",
+      "Salvato su questo dispositivo",
+      "Rapporto per pet sitter"
+    ],
+    "review": "PENDING_HUMAN_REVIEW"
+  },
+  "pt-BR": {
+    "headlines": [
+      "Agenda de cuidados dos pets",
+      "Lembretes de alimentação",
+      "Consultas veterinárias e saúde",
+      "Registro de medicamentos dos pets",
+      "Agenda de higiene e cuidados",
+      "Cuidados dos pets com sua voz",
+      "Registro de cuidados offline",
+      "Instruções e relatórios para cuidadores"
+    ],
+    "captions": [
+      "Cuidados de hoje",
+      "Alimentação",
+      "Saúde",
+      "Medicamento",
+      "Higiene",
+      "Digite ou fale um comando de cuidado",
+      "Salvo neste dispositivo",
+      "Relatório para cuidador"
+    ],
+    "review": "PENDING_HUMAN_REVIEW"
+  },
+  "pt-PT": {
+    "headlines": [
+      "Agenda de cuidados dos animais",
+      "Lembretes de alimentação",
+      "Consultas veterinárias e saúde",
+      "Registro de medicamentos dos animais",
+      "Agenda de higiene e cuidados",
+      "Cuidados dos animais com sua voz",
+      "Registro de cuidados offline",
+      "Instruções e relatórios para cuidadores"
+    ],
+    "captions": [
+      "Cuidados de hoje",
+      "Alimentação",
+      "Saúde",
+      "Medicamento",
+      "Higiene",
+      "Escreva ou diga um comando de cuidado",
+      "Guardado neste dispositivo",
+      "Relatório para cuidador"
+    ],
+    "review": "PENDING_HUMAN_REVIEW"
+  },
+  "nl-NL": {
+    "headlines": [
+      "Huisdierzorg en dagplanner",
+      "Herinneringen voor eten",
+      "Dierenartsafspraken en gezondheid",
+      "Medicatie voor huisdieren bijhouden",
+      "Planning voor verzorging",
+      "Huisdierzorg met je stem",
+      "Huisdierzorg offline bijhouden",
+      "Instructies en rapporten voor de oppas"
+    ],
+    "captions": [
+      "Verzorging vandaag",
+      "Voeren",
+      "Gezondheid",
+      "Medicatie",
+      "Verzorging",
+      "Typ of spreek een verzorgingsopdracht",
+      "Op dit apparaat opgeslagen",
+      "Oppasrapport"
+    ],
+    "review": "PENDING_HUMAN_REVIEW"
+  },
+  "pl-PL": {
+    "headlines": [
+      "Opieka nad zwierzętami i planer",
+      "Przypomnienia o karmieniu",
+      "Wizyty weterynaryjne i zdrowie",
+      "Rejestr leków dla zwierząt",
+      "Harmonogram pielęgnacji i opieki",
+      "Planuj opiekę głosem",
+      "Rejestr opieki bez internetu",
+      "Instrukcje i raporty dla opiekunów"
+    ],
+    "captions": [
+      "Dzisiejsza opieka",
+      "Karmienie",
+      "Zdrowie",
+      "Lek",
+      "Pielęgnacja",
+      "Wpisz lub wypowiedz polecenie opieki",
+      "Zapisane na tym urządzeniu",
+      "Raport dla opiekuna"
+    ],
+    "review": "PENDING_HUMAN_REVIEW"
+  },
+  "sv-SE": {
+    "headlines": [
+      "Husdjursvård och dagsplanerare",
+      "Påminnelser om matning",
+      "Veterinärbesök och hälsouppgifter",
+      "Håll koll på husdjurets medicin",
+      "Schema för pälsvård och skötsel",
+      "Planera omsorgen med rösten",
+      "Registrera husdjursvård offline",
+      "Instruktioner och rapporter till djurvakt"
+    ],
+    "captions": [
+      "Dagens omsorg",
+      "Matning",
+      "Hälsa",
+      "Läkemedel",
+      "Pälsvård",
+      "Skriv eller säg ett skötselkommando",
+      "Sparat på den här enheten",
+      "Rapport till djurvakt"
+    ],
+    "review": "PENDING_HUMAN_REVIEW"
+  },
+  "ja-JP": {
+    "headlines": [
+      "ペットのお世話と毎日の予定",
+      "ペットの食事リマインダー",
+      "動物病院の予約と健康記録",
+      "ペットの投薬を記録",
+      "お手入れとお世話の予定",
+      "声でペットのお世話を計画",
+      "オフラインでお世話を記録",
+      "シッターへの指示とレポート"
+    ],
+    "captions": [
+      "今日のお世話",
+      "食事",
+      "健康",
+      "投薬",
+      "お手入れ",
+      "お世話の指示を入力または発話",
+      "この端末に保存",
+      "ペットシッターレポート"
+    ],
+    "review": "PENDING_HUMAN_REVIEW"
+  },
+  "hi-IN": {
+    "headlines": [
+      "पालतू देखभाल और दैनिक योजना",
+      "पालतू के भोजन के रिमाइंडर",
+      "पशु चिकित्सक की अपॉइंटमेंट और स्वास्थ्य रिकॉर्ड",
+      "पालतू की दवा का रिकॉर्ड",
+      "साफ़-सफ़ाई और देखभाल की योजना",
+      "अपनी आवाज़ से देखभाल की योजना",
+      "बिना इंटरनेट पालतू देखभाल का रिकॉर्ड",
+      "देखभालकर्ता के निर्देश और रिपोर्ट"
+    ],
+    "captions": [
+      "आज की देखभाल",
+      "भोजन",
+      "स्वास्थ्य",
+      "दवा",
+      "साफ़-सफ़ाई",
+      "देखभाल का निर्देश लिखें या बोलें",
+      "इस डिवाइस पर सहेजा गया",
+      "पालतू देखभालकर्ता की रिपोर्ट"
+    ],
+    "review": "PENDING_HUMAN_REVIEW"
+  },
+  "ar": {
+    "headlines": [
+      "رعاية الحيوانات والتخطيط اليومي",
+      "تذكيرات إطعام الحيوانات الأليفة",
+      "المواعيد البيطرية والسجلات الصحية",
+      "سجل أدوية الحيوان الأليف",
+      "جدول النظافة والرعاية",
+      "خطط لرعاية حيوانك بصوتك",
+      "سجل الرعاية دون إنترنت",
+      "تعليمات وتقارير جليس الحيوان"
+    ],
+    "captions": [
+      "رعاية اليوم",
+      "الإطعام",
+      "الصحة",
+      "الدواء",
+      "العناية والنظافة",
+      "اكتب أمر رعاية أو انطقه",
+      "محفوظ على هذا الجهاز",
+      "تقرير جليس الحيوان الأليف"
+    ],
+    "review": "PENDING_HUMAN_REVIEW"
+  },
+  "tr-TR": {
+    "headlines": [
+      "Evcil Hayvan Bakımı ve Günlük Plan",
+      "Evcil Hayvan Besleme Hatırlatıcıları",
+      "Veteriner Randevuları ve Sağlık Kayıtları",
+      "Evcil Hayvan İlaç Takibi",
+      "Temizlik ve Bakım Takvimi",
+      "Sesinizle Evcil Hayvan Bakım Planı",
+      "Çevrimdışı Evcil Hayvan Bakım Kaydı",
+      "Bakıcı Talimatları ve Raporları"
+    ],
+    "captions": [
+      "Bugünün bakımı",
+      "Besleme",
+      "Sağlık",
+      "İlaç",
+      "Bakım ve temizlik",
+      "Bir bakım komutu yazın veya söyleyin",
+      "Bu cihazda saklanır",
+      "Evcil hayvan bakıcısı raporu"
+    ],
+    "review": "PENDING_HUMAN_REVIEW"
+  },
+  "id-ID": {
+    "headlines": [
+      "Perawatan Hewan dan Agenda Harian",
+      "Pengingat Makan Hewan",
+      "Janji Dokter Hewan dan Catatan Kesehatan",
+      "Pencatatan Obat Hewan",
+      "Jadwal Kebersihan dan Perawatan",
+      "Rencanakan Perawatan dengan Suara",
+      "Catatan Perawatan Hewan Offline",
+      "Petunjuk dan Laporan Pengasuh"
+    ],
+    "captions": [
+      "Perawatan hari ini",
+      "Pemberian makan",
+      "Kesehatan",
+      "Obat",
+      "Perawatan",
+      "Ketik atau ucapkan perintah perawatan",
+      "Disimpan di perangkat ini",
+      "Laporan penitipan hewan"
+    ],
+    "review": "PENDING_HUMAN_REVIEW"
+  }
+}

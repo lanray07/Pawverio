@@ -1,0 +1,227 @@
+> Task :core:clean
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :app:mergeDebugNativeDebugMetadata NO-SOURCE
+> Task :app:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :app:generateDebugBuildConfig UP-TO-DATE
+> Task :core:preBuild UP-TO-DATE
+> Task :core:preDebugBuild UP-TO-DATE
+> Task :platform:preBuild UP-TO-DATE
+> Task :platform:preDebugBuild UP-TO-DATE
+> Task :platform:writeDebugAarMetadata UP-TO-DATE
+> Task :core:writeDebugAarMetadata
+> Task :app:generateDebugResValues UP-TO-DATE
+> Task :app:checkDebugAarMetadata UP-TO-DATE
+> Task :core:generateDebugResValues
+> Task :core:generateDebugResources
+> Task :core:packageDebugResources
+> Task :platform:generateDebugResValues UP-TO-DATE
+> Task :platform:generateDebugResources UP-TO-DATE
+> Task :platform:packageDebugResources UP-TO-DATE
+> Task :app:mapDebugSourceSetPaths
+> Task :app:generateDebugResources
+> Task :app:mergeDebugResources
+> Task :app:packageDebugResources
+> Task :app:createDebugCompatibleScreenManifests UP-TO-DATE
+> Task :app:extractDeepLinksDebug UP-TO-DATE
+> Task :app:parseDebugLocalResources
+> Task :core:extractDeepLinksDebug
+> Task :platform:extractDeepLinksDebug UP-TO-DATE
+> Task :platform:processDebugManifest UP-TO-DATE
+> Task :core:processDebugManifest
+> Task :core:compileDebugLibraryResources
+> Task :app:processDebugMainManifest UP-TO-DATE
+> Task :app:processDebugManifest UP-TO-DATE
+> Task :app:processDebugManifestForPackage UP-TO-DATE
+> Task :platform:compileDebugLibraryResources UP-TO-DATE
+> Task :platform:parseDebugLocalResources UP-TO-DATE
+> Task :core:parseDebugLocalResources
+> Task :platform:generateDebugRFile UP-TO-DATE
+> Task :core:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :core:generateDebugRFile
+> Task :core:javaPreCompileDebug
+> Task :app:processDebugResources
+> Task :platform:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :platform:compileDebugKotlin
+> Task :platform:javaPreCompileDebug UP-TO-DATE
+> Task :core:kspDebugKotlin
+> Task :platform:compileDebugJavaWithJavac NO-SOURCE
+> Task :platform:bundleLibCompileToJarDebug
+> Task :app:javaPreCompileDebug UP-TO-DATE
+> Task :app:mergeDebugShaders UP-TO-DATE
+> Task :app:compileDebugShaders NO-SOURCE
+> Task :app:generateDebugAssets UP-TO-DATE
+> Task :core:mergeDebugShaders
+> Task :core:compileDebugShaders NO-SOURCE
+> Task :core:generateDebugAssets UP-TO-DATE
+> Task :core:packageDebugAssets
+> Task :platform:mergeDebugShaders UP-TO-DATE
+> Task :platform:compileDebugShaders NO-SOURCE
+> Task :platform:generateDebugAssets UP-TO-DATE
+> Task :platform:packageDebugAssets UP-TO-DATE
+> Task :app:mergeDebugAssets UP-TO-DATE
+> Task :app:compressDebugAssets UP-TO-DATE
+> Task :platform:bundleLibRuntimeToJarDebug
+> Task :app:desugarDebugFileDependencies UP-TO-DATE
+> Task :platform:processDebugJavaRes UP-TO-DATE
+> Task :app:checkDebugDuplicateClasses UP-TO-DATE
+> Task :app:mergeExtDexDebug UP-TO-DATE
+> Task :platform:bundleLibRuntimeToDirDebug
+> Task :app:mergeDebugJniLibFolders UP-TO-DATE
+> Task :core:mergeDebugJniLibFolders
+> Task :core:mergeDebugNativeLibs NO-SOURCE
+> Task :core:copyDebugJniLibsProjectOnly
+> Task :platform:mergeDebugJniLibFolders UP-TO-DATE
+> Task :platform:mergeDebugNativeLibs NO-SOURCE
+> Task :platform:copyDebugJniLibsProjectOnly UP-TO-DATE
+> Task :app:mergeDebugNativeLibs UP-TO-DATE
+> Task :app:stripDebugDebugSymbols UP-TO-DATE
+> Task :app:validateSigningDebug UP-TO-DATE
+> Task :app:writeDebugAppMetadata UP-TO-DATE
+> Task :app:writeDebugSigningConfigVersions UP-TO-DATE
+> Task :app:preDebugAndroidTestBuild SKIPPED
+> Task :app:processDebugAndroidTestManifest
+> Task :app:generateDebugAndroidTestBuildConfig
+> Task :app:checkDebugAndroidTestAarMetadata
+> Task :app:generateDebugAndroidTestResValues
+> Task :app:mapDebugAndroidTestSourceSetPaths
+> Task :core:compileDebugKotlin
+> Task :app:generateDebugAndroidTestResources
+> Task :core:compileDebugJavaWithJavac
+> Task :core:bundleLibRuntimeToJarDebug
+> Task :core:bundleLibCompileToJarDebug
+> Task :core:processDebugJavaRes
+> Task :core:bundleLibRuntimeToDirDebug
+> Task :app:mergeLibDexDebug
+
+> Task :app:compileDebugKotlin
+w: file:///D:/App%20Projects/Pawverio/app/src/main/java/com/pawverio/app/PawverioApp.kt:719:61 'val Icons.Outlined.DirectionsWalk: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Outlined.DirectionsWalk.
+w: file:///D:/App%20Projects/Pawverio/app/src/main/java/com/pawverio/app/PawverioApp.kt:1484:26 Java type mismatch: inferred type is 'kotlin.String?', but 'kotlin.String' was expected.
+w: file:///D:/App%20Projects/Pawverio/app/src/main/java/com/pawverio/app/PawverioApp.kt:1544:60 'val Icons.Outlined.DirectionsWalk: ImageVector' is deprecated. Use the AutoMirrored version at Icons.AutoMirrored.Outlined.DirectionsWalk.
+
+> Task :app:mergeDebugAndroidTestResources
+> Task :app:compileDebugJavaWithJavac UP-TO-DATE
+> Task :app:processDebugAndroidTestResources
+> Task :app:dexBuilderDebug
+> Task :app:mergeDebugGlobalSynthetics UP-TO-DATE
+> Task :app:processDebugJavaRes UP-TO-DATE
+> Task :app:mergeDebugJavaResource UP-TO-DATE
+> Task :app:mergeProjectDexDebug
+> Task :app:bundleDebugClassesToCompileJar
+> Task :app:packageDebug
+> Task :app:createDebugApkListingFileRedirect UP-TO-DATE
+> Task :app:assembleDebug
+> Task :app:javaPreCompileDebugAndroidTest
+> Task :app:mergeDebugAndroidTestShaders
+> Task :app:compileDebugAndroidTestShaders NO-SOURCE
+> Task :app:generateDebugAndroidTestAssets UP-TO-DATE
+> Task :app:mergeDebugAndroidTestAssets
+> Task :app:compressDebugAndroidTestAssets
+> Task :app:desugarDebugAndroidTestFileDependencies
+> Task :app:checkDebugAndroidTestDuplicateClasses
+> Task :app:compileDebugAndroidTestKotlin
+> Task :app:mergeExtDexDebugAndroidTest
+> Task :app:compileDebugAndroidTestJavaWithJavac
+> Task :app:dexBuilderDebugAndroidTest
+> Task :app:mergeDebugAndroidTestGlobalSynthetics
+> Task :app:processDebugAndroidTestJavaRes
+> Task :app:mergeLibDexDebugAndroidTest
+> Task :app:mergeProjectDexDebugAndroidTest
+> Task :app:mergeDebugAndroidTestJniLibFolders
+> Task :app:mergeDebugAndroidTestJavaResource
+> Task :app:mergeDebugAndroidTestNativeLibs NO-SOURCE
+> Task :app:stripDebugAndroidTestDebugSymbols NO-SOURCE
+> Task :app:validateSigningDebugAndroidTest
+> Task :app:writeDebugAndroidTestSigningConfigVersions
+> Task :core:preDebugUnitTestBuild UP-TO-DATE
+> Task :core:generateDebugUnitTestStubRFile
+> Task :app:packageDebugAndroidTest
+> Task :app:createDebugAndroidTestApkListingFileRedirect
+> Task :app:assembleDebugAndroidTest
+> Task :core:javaPreCompileDebugUnitTest
+> Task :platform:preDebugUnitTestBuild UP-TO-DATE
+> Task :platform:generateDebugUnitTestStubRFile UP-TO-DATE
+> Task :core:kspDebugUnitTestKotlin
+> Task :platform:compileDebugUnitTestKotlin
+> Task :platform:javaPreCompileDebugUnitTest UP-TO-DATE
+> Task :platform:compileDebugUnitTestJavaWithJavac NO-SOURCE
+> Task :platform:processDebugUnitTestJavaRes UP-TO-DATE
+> Task :core:compileDebugUnitTestKotlin
+> Task :platform:testDebugUnitTest
+> Task :core:compileDebugUnitTestJavaWithJavac NO-SOURCE
+> Task :core:processDebugUnitTestJavaRes
+> Task :core:testDebugUnitTest
+> Task :core:preDebugAndroidTestBuild UP-TO-DATE
+> Task :core:checkDebugAndroidTestAarMetadata
+> Task :core:generateDebugAndroidTestResValues
+> Task :core:mapDebugAndroidTestSourceSetPaths
+> Task :core:generateDebugAndroidTestResources
+> Task :core:mergeDebugAndroidTestResources
+> Task :core:processDebugAndroidTestManifest
+> Task :core:javaPreCompileDebugAndroidTest
+> Task :core:mergeDebugAndroidTestShaders
+> Task :core:compileDebugAndroidTestShaders NO-SOURCE
+> Task :core:generateDebugAndroidTestAssets UP-TO-DATE
+> Task :core:mergeDebugAndroidTestAssets
+> Task :core:compressDebugAndroidTestAssets
+> Task :core:desugarDebugAndroidTestFileDependencies
+> Task :core:processDebugAndroidTestResources
+> Task :core:checkDebugAndroidTestDuplicateClasses
+> Task :core:kspDebugAndroidTestKotlin
+> Task :core:mergeExtDexDebugAndroidTest
+> Task :core:mergeLibDexDebugAndroidTest
+> Task :core:mergeDebugAndroidTestJniLibFolders
+> Task :core:mergeDebugAndroidTestNativeLibs NO-SOURCE
+> Task :core:stripDebugAndroidTestDebugSymbols NO-SOURCE
+> Task :core:validateSigningDebugAndroidTest
+> Task :core:writeDebugAndroidTestSigningConfigVersions
+> Task :platform:preDebugAndroidTestBuild UP-TO-DATE
+> Task :platform:checkDebugAndroidTestAarMetadata
+> Task :platform:generateDebugAndroidTestResValues
+> Task :platform:mapDebugAndroidTestSourceSetPaths
+> Task :platform:generateDebugAndroidTestResources
+> Task :core:compileDebugAndroidTestKotlin
+> Task :core:compileDebugAndroidTestJavaWithJavac NO-SOURCE
+> Task :core:dexBuilderDebugAndroidTest
+> Task :core:mergeDebugAndroidTestGlobalSynthetics
+> Task :core:processDebugAndroidTestJavaRes
+> Task :platform:mergeDebugAndroidTestResources
+> Task :core:mergeProjectDexDebugAndroidTest
+> Task :platform:processDebugAndroidTestManifest
+> Task :core:mergeDebugAndroidTestJavaResource
+> Task :core:packageDebugAndroidTest
+> Task :core:createDebugAndroidTestApkListingFileRedirect
+> Task :platform:processDebugAndroidTestResources
+> Task :core:connectedDebugAndroidTest
+Starting 13 tests on KFTRWI - 9
+
+Finished 13 tests on KFTRWI - 9
+
+> Task :platform:javaPreCompileDebugAndroidTest
+> Task :platform:mergeDebugAndroidTestShaders
+> Task :platform:compileDebugAndroidTestShaders NO-SOURCE
+> Task :platform:generateDebugAndroidTestAssets UP-TO-DATE
+> Task :platform:mergeDebugAndroidTestAssets
+> Task :platform:compressDebugAndroidTestAssets
+
+> Task :platform:compileDebugAndroidTestKotlin
+e: file:///D:/App%20Projects/Pawverio/platform/src/androidTest/java/com/pawverio/platform/PlatformDeviceTest.kt:187:19 Unresolved reference 'deleteAllData'.
+
+> Task :platform:compileDebugAndroidTestKotlin FAILED
+> Task :platform:desugarDebugAndroidTestFileDependencies
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':platform:compileDebugAndroidTestKotlin'.
+> A failure occurred while executing org.jetbrains.kotlin.compilerRunner.GradleCompilerRunnerWithWorkers$GradleKotlinCompilerWorkAction
+   > Compilation error. See log for more details
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+
+BUILD FAILED in 4m 6s
+159 actionable tasks: 115 executed, 44 up-to-date

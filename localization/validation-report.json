@@ -1,0 +1,216 @@
+{
+  "result": "PASS",
+  "scope": "catalog/XML/placeholder/plural structure only; no linguistic or device certification",
+  "errors": [],
+  "locales": [
+    {
+      "locale": "en-GB",
+      "source_strings": 179,
+      "present": 179,
+      "missing": 0,
+      "coverage_percent": 100.0,
+      "human_review": "PENDING_HUMAN_REVIEW",
+      "layout_testing": "NOT TESTED",
+      "voice_recognition": "NOT TESTED",
+      "text_to_speech": "NOT TESTED"
+    },
+    {
+      "locale": "en-US",
+      "source_strings": 179,
+      "present": 179,
+      "missing": 0,
+      "coverage_percent": 100.0,
+      "human_review": "PENDING_HUMAN_REVIEW",
+      "layout_testing": "NOT TESTED",
+      "voice_recognition": "NOT TESTED",
+      "text_to_speech": "NOT TESTED"
+    },
+    {
+      "locale": "en-AU",
+      "source_strings": 179,
+      "present": 179,
+      "missing": 0,
+      "coverage_percent": 100.0,
+      "human_review": "PENDING_HUMAN_REVIEW",
+      "layout_testing": "NOT TESTED",
+      "voice_recognition": "NOT TESTED",
+      "text_to_speech": "NOT TESTED"
+    },
+    {
+      "locale": "es-ES",
+      "source_strings": 179,
+      "present": 179,
+      "missing": 0,
+      "coverage_percent": 100.0,
+      "human_review": "PENDING_HUMAN_REVIEW",
+      "layout_testing": "NOT TESTED",
+      "voice_recognition": "NOT TESTED",
+      "text_to_speech": "NOT TESTED"
+    },
+    {
+      "locale": "es-419",
+      "source_strings": 179,
+      "present": 179,
+      "missing": 0,
+      "coverage_percent": 100.0,
+      "human_review": "PENDING_HUMAN_REVIEW",
+      "layout_testing": "NOT TESTED",
+      "voice_recognition": "NOT TESTED",
+      "text_to_speech": "NOT TESTED"
+    },
+    {
+      "locale": "fr-FR",
+      "source_strings": 179,
+      "present": 179,
+      "missing": 0,
+      "coverage_percent": 100.0,
+      "human_review": "PENDING_HUMAN_REVIEW",
+      "layout_testing": "NOT TESTED",
+      "voice_recognition": "NOT TESTED",
+      "text_to_speech": "NOT TESTED"
+    },
+    {
+      "locale": "fr-CA",
+      "source_strings": 179,
+      "present": 179,
+      "missing": 0,
+      "coverage_percent": 100.0,
+      "human_review": "PENDING_HUMAN_REVIEW",
+      "layout_testing": "NOT TESTED",
+      "voice_recognition": "NOT TESTED",
+      "text_to_speech": "NOT TESTED"
+    },
+    {
+      "locale": "de-DE",
+      "source_strings": 179,
+      "present": 179,
+      "missing": 0,
+      "coverage_percent": 100.0,
+      "human_review": "PENDING_HUMAN_REVIEW",
+      "layout_testing": "NOT TESTED",
+      "voice_recognition": "NOT TESTED",
+      "text_to_speech": "NOT TESTED"
+    },
+    {
+      "locale": "it-IT",
+      "source_strings": 179,
+      "present": 179,
+      "missing": 0,
+      "coverage_percent": 100.0,
+      "human_review": "PENDING_HUMAN_REVIEW",
+      "layout_testing": "NOT TESTED",
+      "voice_recognition": "NOT TESTED",
+      "text_to_speech": "NOT TESTED"
+    },
+    {
+      "locale": "pt-BR",
+      "source_strings": 179,
+      "present": 179,
+      "missing": 0,
+      "coverage_percent": 100.0,
+      "human_review": "PENDING_HUMAN_REVIEW",
+      "layout_testing": "NOT TESTED",
+      "voice_recognition": "NOT TESTED",
+      "text_to_speech": "NOT TESTED"
+    },
+    {
+      "locale": "pt-PT",
+      "source_strings": 179,
+      "present": 179,
+      "missing": 0,
+      "coverage_percent": 100.0,
+      "human_review": "PENDING_HUMAN_REVIEW",
+      "layout_testing": "NOT TESTED",
+      "voice_recognition": "NOT TESTED",
+      "text_to_speech": "NOT TESTED"
+    },
+    {
+      "locale": "nl-NL",
+      "source_strings": 179,
+      "present": 179,
+      "missing": 0,
+      "coverage_percent": 100.0,
+      "human_review": "PENDING_HUMAN_REVIEW",
+      "layout_testing": "NOT TESTED",
+      "voice_recognition": "NOT TESTED",
+      "text_to_speech": "NOT TESTED"
+    },
+    {
+      "locale": "pl-PL",
+      "source_strings": 179,
+      "present": 179,
+      "missing": 0,
+      "coverage_percent": 100.0,
+      "human_review": "PENDING_HUMAN_REVIEW",
+      "layout_testing": "NOT TESTED",
+      "voice_recognition": "NOT TESTED",
+      "text_to_speech": "NOT TESTED"
+    },
+    {
+      "locale": "sv-SE",
+      "source_strings": 179,
+      "present": 179,
+      "missing": 0,
+      "coverage_percent": 100.0,
+      "human_review": "PENDING_HUMAN_REVIEW",
+      "layout_testing": "NOT TESTED",
+      "voice_recognition": "NOT TESTED",
+      "text_to_speech": "NOT TESTED"
+    },
+    {
+      "locale": "ja-JP",
+      "source_strings": 179,
+      "present": 179,
+      "missing": 0,
+      "coverage_percent": 100.0,
+      "human_review": "PENDING_HUMAN_REVIEW",
+      "layout_testing": "NOT TESTED",
+      "voice_recognition": "NOT TESTED",
+      "text_to_speech": "NOT TESTED"
+    },
+    {
+      "locale": "hi-IN",
+      "source_strings": 179,
+      "present": 179,
+      "missing": 0,
+      "coverage_percent": 100.0,
+      "human_review": "PENDING_HUMAN_REVIEW",
+      "layout_testing": "NOT TESTED",
+      "voice_recognition": "NOT TESTED",
+      "text_to_speech": "NOT TESTED"
+    },
+    {
+      "locale": "ar",
+      "source_strings": 179,
+      "present": 179,
+      "missing": 0,
+      "coverage_percent": 100.0,
+      "human_review": "PENDING_HUMAN_REVIEW",
+      "layout_testing": "NOT TESTED",
+      "voice_recognition": "NOT TESTED",
+      "text_to_speech": "NOT TESTED"
+    },
+    {
+      "locale": "tr-TR",
+      "source_strings": 179,
+      "present": 179,
+      "missing": 0,
+      "coverage_percent": 100.0,
+      "human_review": "PENDING_HUMAN_REVIEW",
+      "layout_testing": "NOT TESTED",
+      "voice_recognition": "NOT TESTED",
+      "text_to_speech": "NOT TESTED"
+    },
+    {
+      "locale": "id-ID",
+      "source_strings": 179,
+      "present": 179,
+      "missing": 0,
+      "coverage_percent": 100.0,
+      "human_review": "PENDING_HUMAN_REVIEW",
+      "layout_testing": "NOT TESTED",
+      "voice_recognition": "NOT TESTED",
+      "text_to_speech": "NOT TESTED"
+    }
+  ]
+}

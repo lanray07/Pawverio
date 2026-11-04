@@ -1,0 +1,2 @@
+11-04 12:16:27.178 25140 25157 I TestRunner: started: expiredMedicationEndDateSuppressesDeliveryAndRecurrence(com.pawverio.platform.PlatformDeviceTest)
+11-04 12:16:27.323 25140 25157 I TestRunner: finished: expiredMedicationEndDateSuppressesDeliveryAndRecurrence(com.pawverio.platform.PlatformDeviceTest)

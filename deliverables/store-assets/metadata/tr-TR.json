@@ -1,0 +1,59 @@
+{
+  "locale": "tr-TR",
+  "status": "DRAFT_NOT_APPROVED",
+  "human_review": "PENDING",
+  "functional_claim_review": "PENDING_END_TO_END_VERIFICATION",
+  "display_title": "Pawverio – Evcil Hayvan Bakım ve Gün Planı",
+  "short_description": "Besleme, yürüyüş ve günlük bakımı planlayın. Sağlık kayıtlarını cihazınızda bir arada tutun.",
+  "long_description": "Her evcil hayvan için daha sakin bir rutin. Profil oluşturun, bakımı planlayın ve tamamlanan işleri kaydedin. Beslenme notları, yürüyüşler, temizlik ve veteriner randevuları bir arada.\n\nBir evcil hayvan, temel hatırlatıcılar ve veteriner kayıtlarıyla ücretsiz başlayın.\n\nPremium daha fazla evcil hayvan, ilaç ve aşı kayıtları, ağırlık geçmişi, ev halkı görevleri ve bakıcı raporları ekler.\n\nPremium isteğe bağlı, tek seferlik satın alımdır. Amazon mağazası güncel yerel fiyatı gösterir. Satın alımları Ayarlar’dan geri yükleyin. Mevcut sağlık kayıtları erişilebilir kalır.\n\nBakım komutunu söyleyin veya yazın. Konuşma tanıma ve sesli yanıtlar cihazın dil hizmetlerine bağlıdır; çevrimdışı ses kullanımı garanti edilmez.\n\nHesap gerekmez. Kayıtlar yerel olarak saklanır. Dışa aktarmayı siz seçersiniz. Reklam SDK’sı veya otomatik konum takibi yoktur.\n\nPawverio bir düzenleme aracıdır. Tanı koymaz; diyet, doz veya tedavi önermez. Veterinerinizin talimatlarını kaydedin.\n\nİlk sürüm: yerel profiller, bakım planlama, sağlık kayıtları ve isteğe bağlı sesli etkileşim.",
+  "product_feature_bullets": [
+    "Besleme · Yürüyüş · Bakım ve temizlik",
+    "Veteriner randevusu · İlaç · Aşı",
+    "Ağırlık günlüğü · Ev halkı bakımı",
+    "Evcil hayvan bakıcısı raporu · PDF dışa aktar",
+    "Bu cihazda saklanır"
+  ],
+  "keywords": [
+    "Besleme",
+    "Yürüyüş",
+    "Bakım ve temizlik",
+    "Veteriner randevusu",
+    "İlaç",
+    "Aşı",
+    "Ağırlık günlüğü",
+    "Evcil hayvan bakıcısı raporu"
+  ],
+  "release_notes": "İlk sürüm: yerel profiller, bakım planlama, sağlık kayıtları ve isteğe bağlı sesli etkileşim.",
+  "support_copy": "Destek için uygulama sürümü, cihaz modeli ve sorunu belirtin. Özel sağlık kayıtları göndermeyin. Yayından önce yayıncının doğrulanmış destek adresi eklenmelidir.",
+  "screenshot_headlines": [
+    "Evcil Hayvan Bakımı ve Günlük Plan",
+    "Evcil Hayvan Besleme Hatırlatıcıları",
+    "Veteriner Randevuları ve Sağlık Kayıtları",
+    "Evcil Hayvan İlaç Takibi",
+    "Temizlik ve Bakım Takvimi",
+    "Sesinizle Evcil Hayvan Bakım Planı",
+    "Çevrimdışı Evcil Hayvan Bakım Kaydı",
+    "Bakıcı Talimatları ve Raporları"
+  ],
+  "screenshot_captions": [
+    "Bugünün bakımı",
+    "Besleme",
+    "Sağlık",
+    "İlaç",
+    "Bakım ve temizlik",
+    "Bir bakım komutu yazın veya söyleyin",
+    "Bu cihazda saklanır",
+    "Evcil hayvan bakıcısı raporu"
+  ],
+  "privacy_policy_draft": {
+    "notice": "Evcil hayvan kayıtları bu cihazda saklanır. Yüklü konuşma tanıma ve metin okuma hizmetleri, sesli okutmayı seçtiğiniz kayıtlar dahil ses ve metinleri kendi sağlayıcılarının koşullarına göre işleyebilir. Pawverio mikrofon kayıtlarını saklamaz. Kayıtları dışa aktarıp aktarmamayı siz seçersiniz.",
+    "export_notice": "Bu dosya özel sağlık ve iletişim bilgileri içerebilir. Devam edilsin mi?",
+    "data_deletion": "Tüm evcil hayvan verilerini sil",
+    "medical_notice": "Veterinerinizin talimatlarını kaydedin. Pawverio diyet, doz veya tedavi önermez.",
+    "publication_blockers": [
+      "Publisher legal identity and support contact",
+      "Review actual SDK data processing and Amazon privacy labels",
+      "Data subject request handling and applicable legal review"
+    ]
+  }
+}

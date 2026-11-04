@@ -1,0 +1,154 @@
+{
+  "en-GB": {
+    "nav_today": "Today",
+    "nav_pets": "Pets",
+    "nav_health": "Health",
+    "voice_title": "Care with your voice",
+    "sitter_mode": "Pet sitter report",
+    "privacy_body": "Pet records are stored on this device. Installed speech recognition and text-to-speech services may process audio and text, including records you choose to have read aloud, under their provider’s terms. Pawverio does not save microphone recordings. You choose whether to export records."
+  },
+  "en-US": {
+    "nav_today": "Today",
+    "nav_pets": "Pets",
+    "nav_health": "Health",
+    "voice_title": "Care with your voice",
+    "sitter_mode": "Pet sitter report",
+    "privacy_body": "Pet records are stored on this device. Installed speech recognition and text-to-speech services may process audio and text, including records you choose to have read aloud, under their provider’s terms. Pawverio does not save microphone recordings. You choose whether to export records."
+  },
+  "en-AU": {
+    "nav_today": "Today",
+    "nav_pets": "Pets",
+    "nav_health": "Health",
+    "voice_title": "Care with your voice",
+    "sitter_mode": "Pet sitter report",
+    "privacy_body": "Pet records are stored on this device. Installed speech recognition and text-to-speech services may process audio and text, including records you choose to have read aloud, under their provider’s terms. Pawverio does not save microphone recordings. You choose whether to export records."
+  },
+  "es-ES": {
+    "nav_today": "Hoy",
+    "nav_pets": "Mascotas",
+    "nav_health": "Salud",
+    "voice_title": "Cuida con tu voz",
+    "sitter_mode": "Informe para cuidadores",
+    "privacy_body": "Los registros se guardan en este dispositivo. Los servicios instalados de reconocimiento de voz y texto a voz pueden procesar audio y texto, incluidos los registros que elijas escuchar en voz alta, según las condiciones de su proveedor. Pawverio no guarda grabaciones del micrófono. Tú decides si exportas los registros."
+  },
+  "es-419": {
+    "nav_today": "Hoy",
+    "nav_pets": "Mascotas",
+    "nav_health": "Salud",
+    "voice_title": "Cuida con tu voz",
+    "sitter_mode": "Informe para cuidadores",
+    "privacy_body": "Los registros se guardan en este dispositivo. Los servicios instalados de reconocimiento de voz y texto a voz pueden procesar audio y texto, incluidos los registros que elijas escuchar en voz alta, según las condiciones de su proveedor. Pawverio no guarda grabaciones del micrófono. Tú decides si exportas los registros."
+  },
+  "fr-FR": {
+    "nav_today": "Aujourd’hui",
+    "nav_pets": "Animaux",
+    "nav_health": "Santé",
+    "voice_title": "Prenez soin d’eux à la voix",
+    "sitter_mode": "Rapport de garde",
+    "privacy_body": "Les dossiers des animaux sont enregistrés sur cet appareil. Les services installés de reconnaissance et de synthèse vocales peuvent traiter l’audio et le texte, y compris les dossiers que vous choisissez de faire lire à voix haute, selon les conditions de leur fournisseur. Pawverio ne conserve aucun enregistrement du microphone. Vous choisissez d’exporter ou non les dossiers."
+  },
+  "fr-CA": {
+    "nav_today": "Aujourd’hui",
+    "nav_pets": "Animaux",
+    "nav_health": "Santé",
+    "voice_title": "Prenez soin d’eux à la voix",
+    "sitter_mode": "Rapport de garde",
+    "privacy_body": "Les dossiers des animaux sont enregistrés sur cet appareil. Les services installés de reconnaissance et de synthèse vocales peuvent traiter l’audio et le texte, y compris les dossiers que vous choisissez de faire lire à voix haute, selon les conditions de leur fournisseur. Pawverio ne conserve aucun enregistrement du microphone. Vous choisissez d’exporter ou non les dossiers."
+  },
+  "de-DE": {
+    "nav_today": "Heute",
+    "nav_pets": "Haustiere",
+    "nav_health": "Gesundheit",
+    "voice_title": "Pflege per Sprachbefehl",
+    "sitter_mode": "Betreuungsbericht",
+    "privacy_body": "Tierdaten werden auf diesem Gerät gespeichert. Installierte Spracherkennungs- und Vorlesedienste können Audio und Text, einschließlich der von dir zum Vorlesen ausgewählten Daten, gemäß den Bedingungen ihres Anbieters verarbeiten. Pawverio speichert keine Mikrofonaufnahmen. Du entscheidest, ob du Daten exportierst."
+  },
+  "it-IT": {
+    "nav_today": "Oggi",
+    "nav_pets": "Animali",
+    "nav_health": "Salute",
+    "voice_title": "Prenditi cura con la voce",
+    "sitter_mode": "Rapporto per pet sitter",
+    "privacy_body": "I dati degli animali sono salvati su questo dispositivo. I servizi installati di riconoscimento e sintesi vocale possono elaborare audio e testo, compresi i dati che scegli di far leggere ad alta voce, secondo i termini del loro fornitore. Pawverio non salva registrazioni del microfono. Decidi tu se esportare i dati."
+  },
+  "pt-BR": {
+    "nav_today": "Hoje",
+    "nav_pets": "Pets",
+    "nav_health": "Saúde",
+    "voice_title": "Cuide com sua voz",
+    "sitter_mode": "Relatório para cuidador",
+    "privacy_body": "Os registros dos pets são salvos neste dispositivo. Os serviços instalados de reconhecimento e síntese de voz podem processar áudio e texto, incluindo os registros que você escolher ouvir em voz alta, conforme os termos do fornecedor desses serviços. O Pawverio não salva gravações do microfone. Você decide se deseja exportar os registros."
+  },
+  "pt-PT": {
+    "nav_today": "Hoje",
+    "nav_pets": "Animais",
+    "nav_health": "Saúde",
+    "voice_title": "Cuide com a sua voz",
+    "sitter_mode": "Relatório para cuidador",
+    "privacy_body": "Os registos dos animais são guardados neste dispositivo. Os serviços instalados de reconhecimento e síntese de voz podem processar áudio e texto, incluindo os registos que escolher ouvir em voz alta, nos termos do fornecedor desses serviços. O Pawverio não guarda gravações do microfone. O utilizador decide se pretende exportar os registos."
+  },
+  "nl-NL": {
+    "nav_today": "Vandaag",
+    "nav_pets": "Huisdieren",
+    "nav_health": "Gezondheid",
+    "voice_title": "Verzorgen met je stem",
+    "sitter_mode": "Oppasrapport",
+    "privacy_body": "Huisdiergegevens worden op dit apparaat opgeslagen. Geïnstalleerde spraakherkennings- en voorleesdiensten kunnen audio en tekst verwerken, waaronder gegevens die je laat voorlezen, volgens de voorwaarden van hun aanbieder. Pawverio bewaart geen microfoonopnamen. Jij beslist of je gegevens exporteert."
+  },
+  "pl-PL": {
+    "nav_today": "Dzisiaj",
+    "nav_pets": "Zwierzęta",
+    "nav_health": "Zdrowie",
+    "voice_title": "Opieka za pomocą głosu",
+    "sitter_mode": "Raport dla opiekuna",
+    "privacy_body": "Dane zwierząt są zapisywane na tym urządzeniu. Zainstalowane usługi rozpoznawania mowy i syntezy mowy mogą przetwarzać dźwięk i tekst, w tym dane wybrane do odczytania na głos, zgodnie z warunkami ich dostawcy. Pawverio nie zapisuje nagrań z mikrofonu. Samodzielnie decydujesz o eksporcie danych."
+  },
+  "sv-SE": {
+    "nav_today": "Idag",
+    "nav_pets": "Husdjur",
+    "nav_health": "Hälsa",
+    "voice_title": "Omsorg med din röst",
+    "sitter_mode": "Rapport till djurvakt",
+    "privacy_body": "Husdjursuppgifter sparas på den här enheten. Installerade tjänster för taligenkänning och talsyntes kan behandla ljud och text, inklusive uppgifter som du väljer att få upplästa, enligt leverantörens villkor. Pawverio sparar inga mikrofoninspelningar. Du väljer om uppgifterna ska exporteras."
+  },
+  "ja-JP": {
+    "nav_today": "今日",
+    "nav_pets": "ペット",
+    "nav_health": "健康",
+    "voice_title": "声でお世話",
+    "sitter_mode": "ペットシッターレポート",
+    "privacy_body": "ペットの記録はこの端末に保存されます。端末にインストールされた音声認識・読み上げサービスは、読み上げを選択した記録を含む音声やテキストを、サービス提供元の規約に従って処理する場合があります。Pawverioはマイクの録音を保存しません。記録を書き出すかどうかはご自身で選択できます。"
+  },
+  "hi-IN": {
+    "nav_today": "आज",
+    "nav_pets": "पालतू",
+    "nav_health": "स्वास्थ्य",
+    "voice_title": "अपनी आवाज़ से देखभाल करें",
+    "sitter_mode": "पालतू देखभालकर्ता की रिपोर्ट",
+    "privacy_body": "पालतू के रिकॉर्ड इस डिवाइस पर सहेजे जाते हैं। इंस्टॉल की गई आवाज़ पहचान और टेक्स्ट-टू-स्पीच सेवाएँ अपने प्रदाता की शर्तों के अनुसार ऑडियो और टेक्स्ट को प्रोसेस कर सकती हैं, जिसमें वे रिकॉर्ड भी शामिल हैं जिन्हें आप सुनने के लिए चुनते हैं। Pawverio माइक्रोफ़ोन की रिकॉर्डिंग नहीं सहेजता। रिकॉर्ड निर्यात करना आपकी पसंद है।"
+  },
+  "ar": {
+    "nav_today": "اليوم",
+    "nav_pets": "الحيوانات الأليفة",
+    "nav_health": "الصحة",
+    "voice_title": "الرعاية بصوتك",
+    "sitter_mode": "تقرير جليس الحيوان الأليف",
+    "privacy_body": "تُحفظ سجلات الحيوانات الأليفة على هذا الجهاز. قد تعالج خدمات التعرف على الكلام وتحويل النص إلى كلام المثبتة الصوت والنص، بما في ذلك السجلات التي تختار قراءتها بصوت عالٍ، وفق شروط مقدم تلك الخدمات. لا يحفظ Pawverio تسجيلات الميكروفون. أنت تختار ما إذا كنت تريد تصدير السجلات."
+  },
+  "tr-TR": {
+    "nav_today": "Bugün",
+    "nav_pets": "Evcil hayvanlar",
+    "nav_health": "Sağlık",
+    "voice_title": "Sesinizle bakım",
+    "sitter_mode": "Evcil hayvan bakıcısı raporu",
+    "privacy_body": "Evcil hayvan kayıtları bu cihazda saklanır. Yüklü konuşma tanıma ve metin okuma hizmetleri, sesli okutmayı seçtiğiniz kayıtlar dahil ses ve metinleri kendi sağlayıcılarının koşullarına göre işleyebilir. Pawverio mikrofon kayıtlarını saklamaz. Kayıtları dışa aktarıp aktarmamayı siz seçersiniz."
+  },
+  "id-ID": {
+    "nav_today": "Hari ini",
+    "nav_pets": "Hewan",
+    "nav_health": "Kesehatan",
+    "voice_title": "Merawat dengan suara",
+    "sitter_mode": "Laporan penitipan hewan",
+    "privacy_body": "Catatan hewan disimpan di perangkat ini. Layanan pengenalan suara dan pembacaan teks yang terpasang dapat memproses audio dan teks, termasuk catatan yang Anda pilih untuk dibacakan, sesuai ketentuan penyedia layanan tersebut. Pawverio tidak menyimpan rekaman mikrofon. Anda memilih apakah akan mengekspor catatan."
+  }
+}

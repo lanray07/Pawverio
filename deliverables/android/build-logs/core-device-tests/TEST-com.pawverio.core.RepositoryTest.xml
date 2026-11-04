@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<testsuite name="com.pawverio.core.RepositoryTest" tests="14" failures="0" errors="0" skipped="0" time="4.758" timestamp="2026-11-04T13:43:47" hostname="localhost">
+  <properties>
+    <property name="device" value="KFTRWI - 9" />
+    <property name="flavor" value="" />
+    <property name="project" value=":core" />
+  </properties>
+  <testcase name="invalidBackupLeavesExistingDatabaseUntouched" classname="com.pawverio.core.RepositoryTest" time="0.159" />
+  <testcase name="medicationExpiryStopsAtUserEndWithoutCreatingUnprescribedOccurrenceAndUndoWorks" classname="com.pawverio.core.RepositoryTest" time="0.183" />
+  <testcase name="snoozeDoesNotChangeMedicationSchedule" classname="com.pawverio.core.RepositoryTest" time="0.239" />
+  <testcase name="indonesianCommandsResolveWithTheNativeAndroidLocaleAlias" classname="com.pawverio.core.RepositoryTest" time="0.034" />
+  <testcase name="feedingHistoryUndoAndDoubleCompletionProtection" classname="com.pawverio.core.RepositoryTest" time="0.295" />
+  <testcase name="concurrentCompletionCreatesOnlyOneOccurrence" classname="com.pawverio.core.RepositoryTest" time="0.131" />
+  <testcase name="medicationDueOutsideUserDatesIsRejectedWithoutChangingPrescription" classname="com.pawverio.core.RepositoryTest" time="0.114" />
+  <testcase name="portableBackupMergesAndSurvivesRestart" classname="com.pawverio.core.RepositoryTest" time="0.428" />
+  <testcase name="invalidWeightRejectedWithoutDatabaseWrite" classname="com.pawverio.core.RepositoryTest" time="0.058" />
+  <testcase name="petsEditPreservesChildrenAndRestartPersistsData" classname="com.pawverio.core.RepositoryTest" time="0.256" />
+  <testcase name="healthEditsAndWeightOrderingArePersistent" classname="com.pawverio.core.RepositoryTest" time="0.31" />
+  <testcase name="pauseResumeAndTaskDeletePreserveHistory" classname="com.pawverio.core.RepositoryTest" time="0.229" />
+  <testcase name="healthWeightHouseholdWalkAndDeletionPersist" classname="com.pawverio.core.RepositoryTest" time="0.342" />
+  <testcase name="manualWalkDatePersistsAndFutureCompletionIsRejected" classname="com.pawverio.core.RepositoryTest" time="0.056" />
+</testsuite>

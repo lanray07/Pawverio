@@ -1,0 +1,10 @@
+{
+  "Pawverio": "Brand name: never translate",
+  "Pawverio Premium": "Product name: never translate",
+  "pet": "Companion animal, not an affectionate nickname for a person",
+  "feeding": "User-recorded feeding care; never recommend quantities",
+  "dosage": "Veterinarian-prescribed dosage entered by the user; never calculate or recommend",
+  "snooze": "Delay the reminder by 15 minutes, not a change to prescribed care",
+  "household": "People sharing care on this device; no cross-device synchronisation claim",
+  "offline": "Local pet data works without network; speech and purchases depend on services"
+}

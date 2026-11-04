@@ -1,0 +1,292 @@
+{
+  "provenance": "AI-authored drafts, pending native review",
+  "numeric_durations": "Use numeric digits; English spoken numbers have limited parser support. No localized spoken-number claim.",
+  "test_pet_name": "Max",
+  "locales": {
+    "en-GB": {
+      "examples": {
+        "feeding_status": "Has Max been fed today?",
+        "complete_feeding": "Mark Max as fed.",
+        "next_vet": "When is Max’s next vet appointment?",
+        "medications": "Show medication reminders.",
+        "add_grooming": "Add a grooming reminder.",
+        "read_today": "Read today’s pet-care tasks.",
+        "vaccinations": "Show Max’s vaccination history.",
+        "log_walk": "Log a 20 minute walk for Max."
+      },
+      "recognition": "NOT TESTED",
+      "tts": "NOT TESTED",
+      "human_review": "PENDING"
+    },
+    "en-US": {
+      "examples": {
+        "feeding_status": "Has Max been fed today?",
+        "complete_feeding": "Mark Max as fed.",
+        "next_vet": "When is Max’s next vet appointment?",
+        "medications": "Show medication reminders.",
+        "add_grooming": "Add a grooming reminder.",
+        "read_today": "Read today’s pet-care tasks.",
+        "vaccinations": "Show Max’s vaccination history.",
+        "log_walk": "Log a 20 minute walk for Max."
+      },
+      "recognition": "NOT TESTED",
+      "tts": "NOT TESTED",
+      "human_review": "PENDING"
+    },
+    "en-AU": {
+      "examples": {
+        "feeding_status": "Has Max been fed today?",
+        "complete_feeding": "Mark Max as fed.",
+        "next_vet": "When is Max’s next vet appointment?",
+        "medications": "Show medication reminders.",
+        "add_grooming": "Add a grooming reminder.",
+        "read_today": "Read today’s pet-care tasks.",
+        "vaccinations": "Show Max’s vaccination history.",
+        "log_walk": "Log a 20 minute walk for Max."
+      },
+      "recognition": "NOT TESTED",
+      "tts": "NOT TESTED",
+      "human_review": "PENDING"
+    },
+    "es-ES": {
+      "examples": {
+        "feeding_status": "¿Max ha comido hoy?",
+        "complete_feeding": "Marcar a Max como alimentado.",
+        "next_vet": "¿Cuándo tiene Max cita con el veterinario?",
+        "medications": "Mostrar medicamentos.",
+        "add_grooming": "Añadir recordatorio de aseo.",
+        "read_today": "Leer los cuidados de hoy.",
+        "vaccinations": "Mostrar las vacunas de Max.",
+        "log_walk": "Registrar un paseo de 20 minutos con Max."
+      },
+      "recognition": "NOT TESTED",
+      "tts": "NOT TESTED",
+      "human_review": "PENDING"
+    },
+    "es-419": {
+      "examples": {
+        "feeding_status": "¿Max ha comido hoy?",
+        "complete_feeding": "Marcar a Max como alimentado.",
+        "next_vet": "¿Cuándo tiene Max cita con el veterinario?",
+        "medications": "Mostrar medicamentos.",
+        "add_grooming": "Añadir recordatorio de aseo.",
+        "read_today": "Leer los cuidados de hoy.",
+        "vaccinations": "Mostrar las vacunas de Max.",
+        "log_walk": "Registrar un paseo de 20 minutos con Max."
+      },
+      "recognition": "NOT TESTED",
+      "tts": "NOT TESTED",
+      "human_review": "PENDING"
+    },
+    "fr-FR": {
+      "examples": {
+        "feeding_status": "Max a été nourri aujourd’hui ?",
+        "complete_feeding": "Marquer Max comme nourri.",
+        "next_vet": "Quand est le prochain rendez-vous vétérinaire de Max ?",
+        "medications": "Afficher les médicaments.",
+        "add_grooming": "Ajouter un rappel de toilettage.",
+        "read_today": "Lire les soins d’aujourd’hui.",
+        "vaccinations": "Afficher les vaccinations de Max.",
+        "log_walk": "Enregistrer une promenade de 20 minutes pour Max."
+      },
+      "recognition": "NOT TESTED",
+      "tts": "NOT TESTED",
+      "human_review": "PENDING"
+    },
+    "fr-CA": {
+      "examples": {
+        "feeding_status": "Max a été nourri aujourd’hui ?",
+        "complete_feeding": "Marquer Max comme nourri.",
+        "next_vet": "Quand est le prochain rendez-vous vétérinaire de Max ?",
+        "medications": "Afficher les médicaments.",
+        "add_grooming": "Ajouter un rappel de toilettage.",
+        "read_today": "Lire les soins d’aujourd’hui.",
+        "vaccinations": "Afficher les vaccinations de Max.",
+        "log_walk": "Enregistrer une promenade de 20 minutes pour Max."
+      },
+      "recognition": "NOT TESTED",
+      "tts": "NOT TESTED",
+      "human_review": "PENDING"
+    },
+    "de-DE": {
+      "examples": {
+        "feeding_status": "Hat Max heute Futter bekommen?",
+        "complete_feeding": "Markiere Max als gefüttert.",
+        "next_vet": "Wann ist Max beim Tierarzt?",
+        "medications": "Zeige Medikamente.",
+        "add_grooming": "Pflege hinzufügen.",
+        "read_today": "Lies die Aufgaben für heute.",
+        "vaccinations": "Zeige Max die Impfungen.",
+        "log_walk": "Protokolliere einen Spaziergang von 20 Minuten mit Max."
+      },
+      "recognition": "NOT TESTED",
+      "tts": "NOT TESTED",
+      "human_review": "PENDING"
+    },
+    "it-IT": {
+      "examples": {
+        "feeding_status": "Max ha mangiato oggi?",
+        "complete_feeding": "Segna il pasto di Max.",
+        "next_vet": "Quando va Max dal veterinario?",
+        "medications": "Mostra i farmaci.",
+        "add_grooming": "Aggiungi un promemoria di toelettatura.",
+        "read_today": "Leggi le attività di oggi.",
+        "vaccinations": "Mostra i vaccini di Max.",
+        "log_walk": "Registra una passeggiata di 20 minuti con Max."
+      },
+      "recognition": "NOT TESTED",
+      "tts": "NOT TESTED",
+      "human_review": "PENDING"
+    },
+    "pt-BR": {
+      "examples": {
+        "feeding_status": "Max já comeu hoje?",
+        "complete_feeding": "Marcar Max como alimentado.",
+        "next_vet": "Quando é a consulta de Max com o veterinário?",
+        "medications": "Mostrar medicamentos.",
+        "add_grooming": "Adicionar lembrete de higiene.",
+        "read_today": "Ler os cuidados de hoje.",
+        "vaccinations": "Mostrar as vacinas de Max.",
+        "log_walk": "Registrar um passeio de 20 minutos com Max."
+      },
+      "recognition": "NOT TESTED",
+      "tts": "NOT TESTED",
+      "human_review": "PENDING"
+    },
+    "pt-PT": {
+      "examples": {
+        "feeding_status": "Max já comeu hoje?",
+        "complete_feeding": "Marcar Max como alimentado.",
+        "next_vet": "Quando é a consulta de Max com o veterinário?",
+        "medications": "Mostrar medicamentos.",
+        "add_grooming": "Adicionar lembrete de higiene.",
+        "read_today": "Ler os cuidados de hoje.",
+        "vaccinations": "Mostrar as vacinas de Max.",
+        "log_walk": "Registrar um passeio de 20 minutos com Max."
+      },
+      "recognition": "NOT TESTED",
+      "tts": "NOT TESTED",
+      "human_review": "PENDING"
+    },
+    "nl-NL": {
+      "examples": {
+        "feeding_status": "Heeft Max vandaag eten gekregen?",
+        "complete_feeding": "Markeer Max als gevoerd.",
+        "next_vet": "Wanneer gaat Max naar de dierenarts?",
+        "medications": "Toon medicatie.",
+        "add_grooming": "Voeg verzorging toe.",
+        "read_today": "Lees de taken van vandaag.",
+        "vaccinations": "Toon de vaccinaties van Max.",
+        "log_walk": "Registreer een wandeling van 20 minuten met Max."
+      },
+      "recognition": "NOT TESTED",
+      "tts": "NOT TESTED",
+      "human_review": "PENDING"
+    },
+    "pl-PL": {
+      "examples": {
+        "feeding_status": "Czy Max został nakarmiony?",
+        "complete_feeding": "Oznacz Max jako nakarmiony.",
+        "next_vet": "Kiedy Max idzie do weterynarza?",
+        "medications": "Pokaż leki.",
+        "add_grooming": "Dodaj przypomnienie o pielęgnacji.",
+        "read_today": "Przeczytaj dzisiejsze zadania.",
+        "vaccinations": "Pokaż szczepienia Max.",
+        "log_walk": "Zapisz spacer z Max przez 20 minut."
+      },
+      "recognition": "NOT TESTED",
+      "tts": "NOT TESTED",
+      "human_review": "PENDING"
+    },
+    "sv-SE": {
+      "examples": {
+        "feeding_status": "Har Max matats idag?",
+        "complete_feeding": "Markera Max som matad.",
+        "next_vet": "När är Max nästa veterinärbesök?",
+        "medications": "Visa mediciner.",
+        "add_grooming": "Lägg till en påminnelse om pälsvård.",
+        "read_today": "Läs dagens uppgifter.",
+        "vaccinations": "Visa Max vaccinationer.",
+        "log_walk": "Logga en promenad på 20 minuter med Max."
+      },
+      "recognition": "NOT TESTED",
+      "tts": "NOT TESTED",
+      "human_review": "PENDING"
+    },
+    "ja-JP": {
+      "examples": {
+        "feeding_status": "Maxは今日ごはんを食べましたか？",
+        "complete_feeding": "Maxの食事を完了として記録。",
+        "next_vet": "Maxの次の動物病院はいつ？",
+        "medications": "薬を表示。",
+        "add_grooming": "お手入れの予定を追加。",
+        "read_today": "今日のお世話を読んで。",
+        "vaccinations": "Maxの予防接種を表示。",
+        "log_walk": "Maxの散歩20分を記録。"
+      },
+      "recognition": "NOT TESTED",
+      "tts": "NOT TESTED",
+      "human_review": "PENDING"
+    },
+    "hi-IN": {
+      "examples": {
+        "feeding_status": "क्या Max ने भोजन खाया?",
+        "complete_feeding": "Max का भोजन दर्ज करें।",
+        "next_vet": "Max की पशु चिकित्सक से अगली मुलाकात कब है?",
+        "medications": "दवा दिखाएं।",
+        "add_grooming": "ग्रूमिंग का रिमाइंडर जोड़ें।",
+        "read_today": "आज के काम पढ़ें।",
+        "vaccinations": "Max के टीकाकरण दिखाएं।",
+        "log_walk": "Max की 20 मिनट की सैर दर्ज करें।"
+      },
+      "recognition": "NOT TESTED",
+      "tts": "NOT TESTED",
+      "human_review": "PENDING"
+    },
+    "ar": {
+      "examples": {
+        "feeding_status": "هل أكل Max اليوم؟",
+        "complete_feeding": "سجل إطعام Max.",
+        "next_vet": "متى موعد Max مع الطبيب البيطري؟",
+        "medications": "اعرض الأدوية.",
+        "add_grooming": "أضف تذكير العناية.",
+        "read_today": "اقرأ مهام اليوم.",
+        "vaccinations": "اعرض التطعيمات لحيوان Max.",
+        "log_walk": "سجل نزهة لمدة 20 دقيقة لحيوان Max."
+      },
+      "recognition": "NOT TESTED",
+      "tts": "NOT TESTED",
+      "human_review": "PENDING"
+    },
+    "tr-TR": {
+      "examples": {
+        "feeding_status": "Max beslendi mi?",
+        "complete_feeding": "Max için mama kaydet.",
+        "next_vet": "Max için veteriner randevusu ne zaman?",
+        "medications": "İlaç hatırlatıcılarını göster.",
+        "add_grooming": "Bakım hatırlatıcısı ekle.",
+        "read_today": "Bugünün görevlerini oku.",
+        "vaccinations": "Max için aşı kayıtlarını göster.",
+        "log_walk": "Max için 20 dakika yürüyüş kaydet."
+      },
+      "recognition": "NOT TESTED",
+      "tts": "NOT TESTED",
+      "human_review": "PENDING"
+    },
+    "id-ID": {
+      "examples": {
+        "feeding_status": "Apakah Max sudah makan hari ini?",
+        "complete_feeding": "Tandai Max diberi makan.",
+        "next_vet": "Kapan janji Max dengan dokter hewan?",
+        "medications": "Tampilkan obat.",
+        "add_grooming": "Tambahkan pengingat perawatan.",
+        "read_today": "Bacakan tugas hari ini.",
+        "vaccinations": "Tampilkan vaksinasi Max.",
+        "log_walk": "Catat jalan-jalan 20 menit dengan Max."
+      },
+      "recognition": "NOT TESTED",
+      "tts": "NOT TESTED",
+      "human_review": "PENDING"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+# Pawverio release readiness
+
+**BLOCKED — NOT READY FOR SUBMISSION.** No app-store publishing/submission has occurred.
+
+Verified checklist rate: **35/46 = 76.09%**. PASS35; FAIL0; BLOCKED9; NOT TESTED2. This counts the user's46 mandatory checklist items, with scope/evidence in ACCEPTANCE_CRITERIA.csv; it is not a claim that the entire product is production ready.
+
+## Implemented and verified
+
+Kotlin/Compose native Android project; custom teal/ivory/sage design, adaptive navigation, light/dark themes, no mandatory Google services/account. Room pet/task/history/health/weight/household persistence; transactional completion/undo; calendar recurrence with original medication anchors; reminders, pause/resume/snooze and end bounds. Optional profile photos/private documents; sitter text/PDF export; record JSON export and authenticated encrypted record backup/merge restore; settings/data deletion; native device-lock controls; push-to-talk/TTS controllers and typed command fallback; real Amazon SDK integration with store-supplied price and unavailable-store handling.
+
+Evidence:178 core JVM +15 platform JVM tests;14 core +11 platform physical Fire tests;3 actual aeroplane-mode Compose journeys;1 Spanish dialog-locale regression;2 private-attachment boundary tests;11 localization pipeline tests. Final app builds and Android lint succeeded. Earlier failed logs are retained as diagnosis history, superseded by the final logs and copied XML. The locale regression captured a Spanish dashboard with English dialog contents, then verified the fix reapplying locale inside dialog slots.
+
+19×179 translated resource strings, CLDR forms/placeholders and independent Android-resource expectations. All translations remain AI-authored drafts pending human review. 304 screenshot compositions and their real app-source PNGs are inventoried;19 target locales×8screens×2layouts when complete. The phone layout was captured in an app-only native360×640dp viewport on Fire; this does not certify phone hardware. Metadata19 locale drafts and original branding/assets are included. See screenshot and brand manifests.
+
+Debug APK:android/debug/Pawverio-debug.apk. Release variant:android/release/Pawverio-release-unsigned.apk (**unsigned**, not an installable/submission-ready signed artifact). SHA256s:RELEASE_STATUS.json and FILE_CHECKSUMS.csv.
+
+## Required before submission
+
+1. Configure the Amazon app authentication public key and entitlement SKU, perform real product/purchase/cancel/failure/refund/account/restore tests, and resolve the receipt-verification policy. Unit policy checks do not substitute for store testing.
+2. Supply owner production signing, sign the release and test that exact artifact. No existing unrelated signing key was used.
+3. KFTRWI/API28 has no Android recognition service. Test real speech on a compatible device/engine. Installed IVONA advertises English only; other16 requested locale voices are unsupported. Audible output/pronunciation and live recognition remain unverified. Text/touch commands work.
+4. Approve native translations, long-text/form layouts, Arabic screen-reader order, localized screenshot spelling/readability and listing-locale selectors in the actual Amazon console. No locale is certified/approved merely because strings or images exist.
+5. Add the actual publisher/support/privacy contacts and publish a reviewed policy; review Amazon/voice-provider processing disclosures, licensing, dependency security and applicable legal requirements. No compliance certification is claimed.
+6. Complete accessibility (including VoiceView), app-lock credential/background/recovery, full picker/photo/backup-UI workflows, performance, additional Fire/Android devices and OS versions, background sleep/reboot/time-zone reminder delivery, release regression and store/device eligibility checks.
+
+## Known limitations
+
+WorkManager is inexact; quiet hours defer reminders; no exact delivery or universal Fire/voice support is promised. No cross-device household synchronization. Backups contain records only, excluding photos/documents, app settings/sitter preference contacts and purchase data, disclosed in UI; media needs separate export. JSON restore merges IDs and does not import filesystem paths. App-private Room/media rely on OS storage protection; optional app lock is not database encryption. Process-interrupted imports may leave private orphan files until later cleanup; logical deletion is not forensic erasure. Notification channel names follow manual app language selection or current device language in automatic mode. Store screenshot/listing drafts need human approval. No crash telemetry, advertising, location tracking, backend, website or automatic record cloud uploads were added.
+
+## Recommended next improvements
+
+Finish the release blockers first. Then validate onboarding with real multi-pet households, evaluate the one-time price with actual willingness-to-pay data, refine field-specific validation/success feedback, improve media-inclusive encrypted backups, and expand compatibility only from measured evidence. Follow RELEASE_INSTRUCTIONS.md. GitHub push is source delivery, not authorization to publish to Amazon.

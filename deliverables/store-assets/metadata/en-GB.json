@@ -1,0 +1,59 @@
+{
+  "locale": "en-GB",
+  "status": "DRAFT_NOT_APPROVED",
+  "human_review": "PENDING",
+  "functional_claim_review": "PENDING_END_TO_END_VERIFICATION",
+  "display_title": "Pawverio – Pet Care & Daily Planner",
+  "short_description": "Plan feeding, walks and everyday care. Keep pet health records together on your device.",
+  "long_description": "Give every pet a calmer routine. Create a profile, plan care and record what has been done. Keep feeding notes, walk logs, grooming reminders and veterinary appointments in one place.\n\nStart free with one pet, essential care reminders and veterinary records.\n\nPremium adds more pets, medication and vaccination records, weight history, household assignments and pet sitter exports.\n\nPremium is an optional one-time purchase. The Amazon store shows the current local price. Restore purchases from Settings. Existing health records remain accessible.\n\nSpeak a care command or type it instead. Speech recognition and spoken responses depend on the language services available on your device; offline voice is not guaranteed.\n\nNo account is required. Pet records are stored locally. Exports are your choice. There are no advertising SDKs or automatic location tracking.\n\nPawverio is an organiser. It does not diagnose conditions or recommend diets, medication doses or treatments. Record your vet’s instructions.\n\nFirst release: local pet profiles, care planning, health records and optional voice interaction.",
+  "product_feature_bullets": [
+    "Feeding · Walking · Grooming",
+    "Veterinary appointment · Medication · Vaccination",
+    "Weight journal · Household care",
+    "Pet sitter report · Export PDF",
+    "Stored on this device"
+  ],
+  "keywords": [
+    "Feeding",
+    "Walking",
+    "Grooming",
+    "Veterinary appointment",
+    "Medication",
+    "Vaccination",
+    "Weight journal",
+    "Pet sitter report"
+  ],
+  "release_notes": "First release: local pet profiles, care planning, health records and optional voice interaction.",
+  "support_copy": "For support, include your app version, device model and a description of the issue. Do not send private pet health records. A verified publisher support address must be added before release.",
+  "screenshot_headlines": [
+    "Pet Care & Daily Planner",
+    "Pet Feeding Reminders",
+    "Vet Appointments & Health Records",
+    "Pet Medication Tracker",
+    "Pet Grooming & Care Schedule",
+    "Voice-Powered Pet Care Planner",
+    "Offline Pet Care Tracker",
+    "Pet Sitter Instructions & Reports"
+  ],
+  "screenshot_captions": [
+    "Today’s care",
+    "Feeding",
+    "Health",
+    "Medication",
+    "Grooming",
+    "Type or speak a care command",
+    "Stored on this device",
+    "Pet sitter report"
+  ],
+  "privacy_policy_draft": {
+    "notice": "Pet records are stored on this device. Installed speech recognition and text-to-speech services may process audio and text, including records you choose to have read aloud, under their provider’s terms. Pawverio does not save microphone recordings. You choose whether to export records.",
+    "export_notice": "This file may include private health and contact details. Continue?",
+    "data_deletion": "Delete all pet data",
+    "medical_notice": "Record instructions from your vet. Pawverio does not recommend diets, dosages or treatments.",
+    "publication_blockers": [
+      "Publisher legal identity and support contact",
+      "Review actual SDK data processing and Amazon privacy labels",
+      "Data subject request handling and applicable legal review"
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+<title>Pawverio original brand artwork</title>
+<ellipse cx="512.0" cy="565.0" rx="382.0" ry="355.0" fill="#9AB7A5" stroke="none" stroke-width="1"/>
+<polygon points="263,473 257,194 446,361" fill="#286B70"/>
+<polygon points="580,361 765,194 760,473" fill="#286B70"/>
+<polygon points="292,397 292,260 389,360" fill="#D98A78"/>
+<polygon points="635,360 732,260 730,397" fill="#D98A78"/>
+<ellipse cx="512.5" cy="562.5" rx="252.5" ry="237.5" fill="#FAF7F0" stroke="none" stroke-width="1"/>
+<ellipse cx="408.0" cy="509.0" rx="17.0" ry="22.0" fill="#2B3335" stroke="none" stroke-width="1"/>
+<ellipse cx="617.0" cy="509.0" rx="17.0" ry="22.0" fill="#2B3335" stroke="none" stroke-width="1"/>
+<ellipse cx="512.0" cy="599.0" rx="40.0" ry="31.0" fill="#286B70" stroke="none" stroke-width="1"/>
+<polyline points="511,627 511,659 463,678" fill="none" stroke="#286B70" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="511,659 559,678" fill="none" stroke="#286B70" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="285,580 393,595" fill="none" stroke="#286B70" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="633,595 741,580" fill="none" stroke="#286B70" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="285,626 393,641" fill="none" stroke="#286B70" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="633,641 741,626" fill="none" stroke="#286B70" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

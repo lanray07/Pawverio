@@ -1,0 +1,59 @@
+{
+  "locale": "pt-BR",
+  "status": "DRAFT_NOT_APPROVED",
+  "human_review": "PENDING",
+  "functional_claim_review": "PENDING_END_TO_END_VERIFICATION",
+  "display_title": "Pawverio – Cuidados e agenda pet",
+  "short_description": "Organize alimentação, passeios e cuidados. Guarde os registros de saúde dos pets no seu dispositivo.",
+  "long_description": "Uma rotina mais tranquila para cada pet. Crie um perfil, planeje os cuidados e registre as tarefas concluídas. Alimentação, passeios, higiene e consultas veterinárias em um só lugar.\n\nComece grátis com um pet, lembretes essenciais e registros veterinários.\n\nPremium inclui mais pets, medicamentos e vacinas, histórico de peso, tarefas da família e relatórios para cuidadores.\n\nPremium é uma compra única opcional. A loja Amazon mostra o preço local atual. Restaure compras nas configurações. Os registros de saúde existentes continuam acessíveis.\n\nFale um comando de cuidado ou digite. O reconhecimento e as respostas por voz dependem dos serviços de idioma do dispositivo; a voz offline não é garantida.\n\nNão exige conta. Os registros ficam no dispositivo. Você escolhe o que exportar. Sem SDK de publicidade ou rastreamento automático de localização.\n\nPawverio é uma ferramenta de organização. Não faz diagnósticos nem recomenda dietas, dosagens ou tratamentos. Registre as instruções do veterinário.\n\nPrimeira versão: perfis locais, planejamento de cuidados, registros de saúde e interação por voz opcional.",
+  "product_feature_bullets": [
+    "Alimentação · Passeio · Higiene",
+    "Consulta veterinária · Medicamento · Vacinação",
+    "Diário de peso · Cuidados da família",
+    "Relatório para cuidador · Exportar PDF",
+    "Salvo neste dispositivo"
+  ],
+  "keywords": [
+    "Alimentação",
+    "Passeio",
+    "Higiene",
+    "Consulta veterinária",
+    "Medicamento",
+    "Vacinação",
+    "Diário de peso",
+    "Relatório para cuidador"
+  ],
+  "release_notes": "Primeira versão: perfis locais, planejamento de cuidados, registros de saúde e interação por voz opcional.",
+  "support_copy": "Para suporte, informe a versão do aplicativo, o modelo do dispositivo e o problema. Não envie registros de saúde privados. Um contato de suporte verificado do editor deve ser adicionado antes da publicação.",
+  "screenshot_headlines": [
+    "Agenda de cuidados dos pets",
+    "Lembretes de alimentação",
+    "Consultas veterinárias e saúde",
+    "Registro de medicamentos dos pets",
+    "Agenda de higiene e cuidados",
+    "Cuidados dos pets com sua voz",
+    "Registro de cuidados offline",
+    "Instruções e relatórios para cuidadores"
+  ],
+  "screenshot_captions": [
+    "Cuidados de hoje",
+    "Alimentação",
+    "Saúde",
+    "Medicamento",
+    "Higiene",
+    "Digite ou fale um comando de cuidado",
+    "Salvo neste dispositivo",
+    "Relatório para cuidador"
+  ],
+  "privacy_policy_draft": {
+    "notice": "Os registros dos pets são salvos neste dispositivo. Os serviços instalados de reconhecimento e síntese de voz podem processar áudio e texto, incluindo os registros que você escolher ouvir em voz alta, conforme os termos do fornecedor desses serviços. O Pawverio não salva gravações do microfone. Você decide se deseja exportar os registros.",
+    "export_notice": "Este arquivo pode incluir dados privados de saúde e contato. Continuar?",
+    "data_deletion": "Excluir todos os dados dos pets",
+    "medical_notice": "Registre as instruções do veterinário. O Pawverio não recomenda dietas, dosagens ou tratamentos.",
+    "publication_blockers": [
+      "Publisher legal identity and support contact",
+      "Review actual SDK data processing and Amazon privacy labels",
+      "Data subject request handling and applicable legal review"
+    ]
+  }
+}

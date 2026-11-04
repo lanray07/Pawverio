@@ -1,0 +1,10 @@
+# Keep packaged evidence byte-identical so FILE_CHECKSUMS.csv is portable.
+* text=auto eol=lf
+/deliverables/** -text
+/localization/** -text
+*.bat text eol=crlf
+*.png binary
+*.jpg binary
+*.jar binary
+*.apk binary
+*.zip binary

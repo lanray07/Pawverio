@@ -1,0 +1,165 @@
+> Task :core:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :core:preBuild UP-TO-DATE
+> Task :core:preDebugBuild UP-TO-DATE
+> Task :core:generateDebugResValues UP-TO-DATE
+> Task :core:generateDebugResources UP-TO-DATE
+> Task :core:packageDebugResources UP-TO-DATE
+> Task :core:parseDebugLocalResources UP-TO-DATE
+> Task :core:generateDebugRFile UP-TO-DATE
+> Task :core:kspDebugKotlin UP-TO-DATE
+> Task :core:javaPreCompileDebug UP-TO-DATE
+> Task :core:preDebugAndroidTestBuild UP-TO-DATE
+> Task :core:writeDebugAarMetadata UP-TO-DATE
+> Task :core:checkDebugAndroidTestAarMetadata UP-TO-DATE
+> Task :core:compileDebugLibraryResources UP-TO-DATE
+> Task :core:generateDebugAndroidTestResValues UP-TO-DATE
+> Task :core:mapDebugAndroidTestSourceSetPaths UP-TO-DATE
+> Task :core:generateDebugAndroidTestResources UP-TO-DATE
+> Task :core:mergeDebugAndroidTestResources UP-TO-DATE
+> Task :core:extractDeepLinksDebug UP-TO-DATE
+> Task :core:processDebugManifest UP-TO-DATE
+> Task :core:processDebugAndroidTestManifest UP-TO-DATE
+> Task :core:processDebugAndroidTestResources UP-TO-DATE
+> Task :core:javaPreCompileDebugAndroidTest UP-TO-DATE
+> Task :core:mergeDebugAndroidTestShaders UP-TO-DATE
+> Task :core:compileDebugAndroidTestShaders NO-SOURCE
+> Task :core:generateDebugAndroidTestAssets UP-TO-DATE
+> Task :core:mergeDebugShaders UP-TO-DATE
+> Task :core:compileDebugShaders NO-SOURCE
+> Task :core:generateDebugAssets UP-TO-DATE
+> Task :core:packageDebugAssets UP-TO-DATE
+> Task :core:mergeDebugAndroidTestAssets UP-TO-DATE
+> Task :core:compressDebugAndroidTestAssets UP-TO-DATE
+> Task :core:desugarDebugAndroidTestFileDependencies UP-TO-DATE
+> Task :core:checkDebugAndroidTestDuplicateClasses UP-TO-DATE
+> Task :core:compileDebugKotlin
+> Task :core:mergeExtDexDebugAndroidTest
+> Task :core:compileDebugJavaWithJavac UP-TO-DATE
+> Task :core:bundleLibCompileToJarDebug UP-TO-DATE
+> Task :core:bundleLibRuntimeToJarDebug UP-TO-DATE
+> Task :core:processDebugJavaRes UP-TO-DATE
+> Task :core:bundleLibRuntimeToDirDebug UP-TO-DATE
+> Task :core:mergeDebugJniLibFolders UP-TO-DATE
+> Task :core:mergeDebugNativeLibs NO-SOURCE
+
+> Task :core:kspDebugAndroidTestKotlin
+e: java.lang.IllegalStateException: Storage for [D:\App Projects\Pawverio\core\build\kspCaches\debugAndroidTest\symbolLookups\file-to-id.tab] is already registered
+	at org.jetbrains.kotlin.com.intellij.util.io.FilePageCache.registerPagedFileStorage(FilePageCache.java:410)
+	at org.jetbrains.kotlin.com.intellij.util.io.PagedFileStorage.<init>(PagedFileStorage.java:72)
+	at org.jetbrains.kotlin.com.intellij.util.io.ResizeableMappedFile.<init>(ResizeableMappedFile.java:55)
+	at org.jetbrains.kotlin.com.intellij.util.io.PersistentBTreeEnumerator.<init>(PersistentBTreeEnumerator.java:128)
+	at org.jetbrains.kotlin.com.intellij.util.io.PersistentEnumerator.createDefaultEnumerator(PersistentEnumerator.java:52)
+	at org.jetbrains.kotlin.com.intellij.util.io.PersistentMapImpl.<init>(PersistentMapImpl.java:165)
+	at org.jetbrains.kotlin.com.intellij.util.io.PersistentMapImpl.<init>(PersistentMapImpl.java:140)
+	at org.jetbrains.kotlin.com.intellij.util.io.PersistentMapBuilder.buildImplementation(PersistentMapBuilder.java:88)
+	at org.jetbrains.kotlin.com.intellij.util.io.PersistentMapBuilder.build(PersistentMapBuilder.java:71)
+	at org.jetbrains.kotlin.com.intellij.util.io.PersistentHashMap.<init>(PersistentHashMap.java:45)
+	at org.jetbrains.kotlin.com.intellij.util.io.PersistentHashMap.<init>(PersistentHashMap.java:71)
+	at org.jetbrains.kotlin.incremental.storage.LazyStorage.createMap(LazyStorage.kt:62)
+	at org.jetbrains.kotlin.incremental.storage.LazyStorage.getStorageIfExists(LazyStorage.kt:53)
+	at org.jetbrains.kotlin.incremental.storage.LazyStorage.get(LazyStorage.kt:76)
+	at org.jetbrains.kotlin.incremental.storage.PersistentStorageWrapper.get(PersistentStorage.kt:92)
+	at org.jetbrains.kotlin.incremental.LookupStorage.removeLookupsFrom(LookupStorage.kt:131)
+	at org.jetbrains.kotlin.incremental.BuildUtilKt.update(buildUtil.kt:132)
+	at com.google.devtools.ksp.LookupStorageWrapperImpl.update(IncrementalContext.kt:231)
+	at com.google.devtools.ksp.common.IncrementalContextBase.updateLookupCache(IncrementalContextBase.kt:133)
+	at com.google.devtools.ksp.common.IncrementalContextBase.updateCaches(IncrementalContextBase.kt:365)
+	at com.google.devtools.ksp.common.IncrementalContextBase.access$updateCaches(IncrementalContextBase.kt:62)
+	at com.google.devtools.ksp.common.IncrementalContextBase$updateCachesAndOutputs$1.invoke(IncrementalContextBase.kt:476)
+	at com.google.devtools.ksp.common.IncrementalContextBase$updateCachesAndOutputs$1.invoke(IncrementalContextBase.kt:428)
+	at com.google.devtools.ksp.common.IncrementalContextBase.closeFilesOnException(IncrementalContextBase.kt:408)
+	at com.google.devtools.ksp.common.IncrementalContextBase.updateCachesAndOutputs(IncrementalContextBase.kt:428)
+	at com.google.devtools.ksp.AbstractKotlinSymbolProcessingExtension.doAnalysis(KotlinSymbolProcessingExtension.kt:376)
+	at org.jetbrains.kotlin.cli.jvm.compiler.TopDownAnalyzerFacadeForJVM.analyzeFilesWithJavaIntegration(TopDownAnalyzerFacadeForJVM.kt:112)
+	at org.jetbrains.kotlin.cli.jvm.compiler.TopDownAnalyzerFacadeForJVM.analyzeFilesWithJavaIntegration$default(TopDownAnalyzerFacadeForJVM.kt:75)
+	at org.jetbrains.kotlin.cli.jvm.compiler.KotlinToJVMBytecodeCompiler.analyze$lambda$12(KotlinToJVMBytecodeCompiler.kt:373)
+	at org.jetbrains.kotlin.cli.common.messages.AnalyzerWithCompilerReport.analyzeAndReport(AnalyzerWithCompilerReport.kt:112)
+	at org.jetbrains.kotlin.cli.jvm.compiler.KotlinToJVMBytecodeCompiler.analyze(KotlinToJVMBytecodeCompiler.kt:364)
+	at org.jetbrains.kotlin.cli.jvm.compiler.KotlinToJVMBytecodeCompiler.runFrontendAndGenerateIrUsingClassicFrontend(KotlinToJVMBytecodeCompiler.kt:195)
+	at org.jetbrains.kotlin.cli.jvm.compiler.KotlinToJVMBytecodeCompiler.compileModules$cli(KotlinToJVMBytecodeCompiler.kt:106)
+	at org.jetbrains.kotlin.cli.jvm.K2JVMCompiler.doExecute(K2JVMCompiler.kt:170)
+	at org.jetbrains.kotlin.cli.jvm.K2JVMCompiler.doExecute(K2JVMCompiler.kt:43)
+	at org.jetbrains.kotlin.cli.common.CLICompiler.execImpl(CLICompiler.kt:103)
+	at org.jetbrains.kotlin.cli.common.CLICompiler.execImpl(CLICompiler.kt:49)
+	at org.jetbrains.kotlin.cli.common.CLITool.exec(CLITool.kt:101)
+	at org.jetbrains.kotlin.daemon.CompileServiceImpl.compile(CompileServiceImpl.kt:1555)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.rmi/sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:360)
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:712)
+	at java.rmi/sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:587)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:828)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:705)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:704)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+	Suppressed: java.lang.Exception: Storage[D:\App Projects\Pawverio\core\build\kspCaches\debugAndroidTest\symbolLookups\file-to-id.tab] registration stack trace
+		at org.jetbrains.kotlin.com.intellij.util.io.FilePageCache.registerPagedFileStorage(FilePageCache.java:437)
+		at org.jetbrains.kotlin.com.intellij.util.io.PagedFileStorage.<init>(PagedFileStorage.java:72)
+		at org.jetbrains.kotlin.com.intellij.util.io.ResizeableMappedFile.<init>(ResizeableMappedFile.java:55)
+		at org.jetbrains.kotlin.com.intellij.util.io.PersistentBTreeEnumerator.<init>(PersistentBTreeEnumerator.java:128)
+		at org.jetbrains.kotlin.com.intellij.util.io.PersistentEnumerator.createDefaultEnumerator(PersistentEnumerator.java:52)
+		at org.jetbrains.kotlin.com.intellij.util.io.PersistentMapImpl.<init>(PersistentMapImpl.java:165)
+		at org.jetbrains.kotlin.com.intellij.util.io.PersistentMapImpl.<init>(PersistentMapImpl.java:140)
+		at org.jetbrains.kotlin.com.intellij.util.io.PersistentMapBuilder.buildImplementation(PersistentMapBuilder.java:88)
+		at org.jetbrains.kotlin.com.intellij.util.io.PersistentMapBuilder.build(PersistentMapBuilder.java:71)
+		at org.jetbrains.kotlin.com.intellij.util.io.PersistentHashMap.<init>(PersistentHashMap.java:45)
+		at org.jetbrains.kotlin.com.intellij.util.io.PersistentHashMap.<init>(PersistentHashMap.java:71)
+		at org.jetbrains.kotlin.incremental.storage.LazyStorage.createMap(LazyStorage.kt:62)
+		at org.jetbrains.kotlin.incremental.storage.LazyStorage.getStorageOrCreateNew(LazyStorage.kt:59)
+		at org.jetbrains.kotlin.incremental.storage.LazyStorage.set(LazyStorage.kt:80)
+		at org.jetbrains.kotlin.incremental.storage.PersistentStorageWrapper.set(PersistentStorage.kt:96)
+		at org.jetbrains.kotlin.incremental.LookupStorage.addFileIfNeeded(LookupStorage.kt:164)
+		at org.jetbrains.kotlin.incremental.LookupStorage.addAll$lambda$4(LookupStorage.kt:117)
+		at org.jetbrains.kotlin.utils.CollectionsKt.keysToMap(collections.kt:117)
+		at org.jetbrains.kotlin.incremental.LookupStorage.addAll(LookupStorage.kt:117)
+		at org.jetbrains.kotlin.incremental.BuildUtilKt.update(buildUtil.kt:134)
+		... 39 more
+
+
+> Task :core:kspDebugAndroidTestKotlin FAILED
+> Task :core:mergeLibDexDebugAndroidTest FAILED
+w: Detected multiple Kotlin daemon sessions at 
+
+FAILURE: Build completed with 2 failures.
+
+1: Task failed with an exception.
+-----------
+* What went wrong:
+Execution failed for task ':core:kspDebugAndroidTestKotlin'.
+> A failure occurred while executing org.jetbrains.kotlin.compilerRunner.GradleCompilerRunnerWithWorkers$GradleKotlinCompilerWorkAction
+   > Internal compiler error. See log for more details
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+==============================================================================
+
+2: Task failed with an exception.
+-----------
+* What went wrong:
+Execution failed for task ':core:mergeLibDexDebugAndroidTest'.
+> Unable to delete directory 'D:\App Projects\Pawverio\core\build\intermediates\dex\debugAndroidTest\mergeLibDexDebugAndroidTest'
+    New files were found. This might happen because a process is still writing to the target directory.
+    - D:\App Projects\Pawverio\core\build\intermediates\dex\debugAndroidTest\mergeLibDexDebugAndroidTest\15
+    - D:\App Projects\Pawverio\core\build\intermediates\dex\debugAndroidTest\mergeLibDexDebugAndroidTest\14
+    - D:\App Projects\Pawverio\core\build\intermediates\dex\debugAndroidTest\mergeLibDexDebugAndroidTest\14\classes.dex
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+==============================================================================
+
+BUILD FAILED in 1m 18s
+36 actionable tasks: 4 executed, 32 up-to-date

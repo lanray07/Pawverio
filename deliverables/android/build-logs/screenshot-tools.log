@@ -1,0 +1,11 @@
+Collecting playwright
+  Downloading playwright-1.64.1-py3-none-win_amd64.whl (38.8 MB)
+     ---------------------------------------- 38.8/38.8 MB 7.4 MB/s eta 0:00:00
+Collecting greenlet<4.0.0,>=3.1.1
+  Downloading greenlet-3.5.6-cp310-cp310-win_amd64.whl (322 kB)
+     -------------------------------------- 322.9/322.9 kB 6.7 MB/s eta 0:00:00
+Collecting pyee<15,>=13
+  Downloading pyee-13.0.1-py3-none-any.whl (15 kB)
+Requirement already satisfied: typing-extensions in c:\users\user\appdata\local\programs\python\python310\lib\site-packages (from pyee<15,>=13->playwright) (4.16.0)
+Installing collected packages: pyee, greenlet, playwright
+Successfully installed greenlet-3.5.6 playwright-1.64.1 pyee-13.0.1

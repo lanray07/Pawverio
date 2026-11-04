@@ -1,0 +1,20 @@
+app_locale,proposed_listing_selector,evidence,draft_metadata,approved_listing_locale,human_review,console_selection
+en-GB,en-GB,Documented language; verify exact console selector,deliverables/store-assets/metadata/en-GB.json,False,PENDING,NOT TESTED
+en-US,en-US,Documented language; verify exact console selector,deliverables/store-assets/metadata/en-US.json,False,PENDING,NOT TESTED
+en-AU,en-AU,Documented language; verify exact console selector,deliverables/store-assets/metadata/en-AU.json,False,PENDING,NOT TESTED
+es-ES,es-ES,Documented language; verify exact console selector,deliverables/store-assets/metadata/es-ES.json,False,PENDING,NOT TESTED
+es-419,es-MX,Spanish Mexico shown in documentation console screenshot; verify current console,deliverables/store-assets/metadata/es-419.json,False,PENDING,NOT TESTED
+fr-FR,fr-FR,Documented language; verify exact console selector,deliverables/store-assets/metadata/fr-FR.json,False,PENDING,NOT TESTED
+fr-CA,fr,French documented; separate French Canada listing not documented,deliverables/store-assets/metadata/fr-CA.json,False,PENDING,NOT TESTED
+de-DE,de-DE,Documented language; verify exact console selector,deliverables/store-assets/metadata/de-DE.json,False,PENDING,NOT TESTED
+it-IT,it-IT,Documented language; verify exact console selector,deliverables/store-assets/metadata/it-IT.json,False,PENDING,NOT TESTED
+pt-BR,pt-BR,Documented language; verify exact console selector,deliverables/store-assets/metadata/pt-BR.json,False,PENDING,NOT TESTED
+pt-PT,pt-PT,Documented language; verify exact console selector,deliverables/store-assets/metadata/pt-PT.json,False,PENDING,NOT TESTED
+nl-NL,nl-NL,Documented language; verify exact console selector,deliverables/store-assets/metadata/nl-NL.json,False,PENDING,NOT TESTED
+pl-PL,pl-PL,Documented language; verify exact console selector,deliverables/store-assets/metadata/pl-PL.json,False,PENDING,NOT TESTED
+sv-SE,sv-SE,Documented language; verify exact console selector,deliverables/store-assets/metadata/sv-SE.json,False,PENDING,NOT TESTED
+ja-JP,ja-JP,Documented language; verify exact console selector,deliverables/store-assets/metadata/ja-JP.json,False,PENDING,NOT TESTED
+hi-IN,English fallback,Requested language not in documented listing options,deliverables/store-assets/metadata/hi-IN.json,False,PENDING,NOT TESTED
+ar,English fallback,Requested language not in documented listing options,deliverables/store-assets/metadata/ar.json,False,PENDING,NOT TESTED
+tr-TR,English fallback,Requested language not in documented listing options,deliverables/store-assets/metadata/tr-TR.json,False,PENDING,NOT TESTED
+id-ID,English fallback,Requested language not in documented listing options,deliverables/store-assets/metadata/id-ID.json,False,PENDING,NOT TESTED

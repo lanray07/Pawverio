@@ -1,0 +1,59 @@
+{
+  "locale": "id-ID",
+  "status": "DRAFT_NOT_APPROVED",
+  "human_review": "PENDING",
+  "functional_claim_review": "PENDING_END_TO_END_VERIFICATION",
+  "display_title": "Pawverio – Perawatan Hewan & Agenda Harian",
+  "short_description": "Rencanakan makan, jalan-jalan, dan perawatan. Simpan catatan kesehatan hewan di perangkat Anda.",
+  "long_description": "Rutinitas lebih tenang untuk setiap hewan. Buat profil, rencanakan perawatan, dan catat tugas yang selesai. Catatan makanan, jalan-jalan, perawatan, dan janji dokter hewan di satu tempat.\n\nMulai gratis dengan satu hewan, pengingat dasar, dan catatan dokter hewan.\n\nPremium menambahkan lebih banyak hewan, catatan obat dan vaksinasi, riwayat berat, tugas keluarga, dan laporan pengasuh.\n\nPremium adalah pembelian sekali bayar opsional. Toko Amazon menampilkan harga lokal saat ini. Pulihkan pembelian dari Pengaturan. Catatan kesehatan yang ada tetap dapat diakses.\n\nUcapkan perintah perawatan atau ketik. Pengenalan dan tanggapan suara bergantung pada layanan bahasa perangkat; suara offline tidak dijamin.\n\nTidak perlu akun. Catatan disimpan secara lokal. Anda memilih apa yang diekspor. Tanpa SDK iklan atau pelacakan lokasi otomatis.\n\nPawverio adalah alat pengaturan. Aplikasi tidak mendiagnosis atau menyarankan diet, dosis, maupun pengobatan. Catat petunjuk dokter hewan.\n\nRilis pertama: profil lokal, rencana perawatan, catatan kesehatan, dan interaksi suara opsional.",
+  "product_feature_bullets": [
+    "Pemberian makan · Jalan-jalan · Perawatan",
+    "Janji dokter hewan · Obat · Vaksinasi",
+    "Jurnal berat badan · Perawatan keluarga",
+    "Laporan penitipan hewan · Ekspor PDF",
+    "Disimpan di perangkat ini"
+  ],
+  "keywords": [
+    "Pemberian makan",
+    "Jalan-jalan",
+    "Perawatan",
+    "Janji dokter hewan",
+    "Obat",
+    "Vaksinasi",
+    "Jurnal berat badan",
+    "Laporan penitipan hewan"
+  ],
+  "release_notes": "Rilis pertama: profil lokal, rencana perawatan, catatan kesehatan, dan interaksi suara opsional.",
+  "support_copy": "Untuk bantuan, sertakan versi aplikasi, model perangkat, dan masalah. Jangan kirim catatan kesehatan pribadi. Alamat dukungan penerbit yang terverifikasi harus ditambahkan sebelum rilis.",
+  "screenshot_headlines": [
+    "Perawatan Hewan dan Agenda Harian",
+    "Pengingat Makan Hewan",
+    "Janji Dokter Hewan dan Catatan Kesehatan",
+    "Pencatatan Obat Hewan",
+    "Jadwal Kebersihan dan Perawatan",
+    "Rencanakan Perawatan dengan Suara",
+    "Catatan Perawatan Hewan Offline",
+    "Petunjuk dan Laporan Pengasuh"
+  ],
+  "screenshot_captions": [
+    "Perawatan hari ini",
+    "Pemberian makan",
+    "Kesehatan",
+    "Obat",
+    "Perawatan",
+    "Ketik atau ucapkan perintah perawatan",
+    "Disimpan di perangkat ini",
+    "Laporan penitipan hewan"
+  ],
+  "privacy_policy_draft": {
+    "notice": "Catatan hewan disimpan di perangkat ini. Layanan pengenalan suara dan pembacaan teks yang terpasang dapat memproses audio dan teks, termasuk catatan yang Anda pilih untuk dibacakan, sesuai ketentuan penyedia layanan tersebut. Pawverio tidak menyimpan rekaman mikrofon. Anda memilih apakah akan mengekspor catatan.",
+    "export_notice": "File ini mungkin berisi informasi kesehatan dan kontak pribadi. Lanjutkan?",
+    "data_deletion": "Hapus semua data hewan",
+    "medical_notice": "Catat petunjuk dokter hewan. Pawverio tidak menyarankan diet, dosis, atau pengobatan.",
+    "publication_blockers": [
+      "Publisher legal identity and support contact",
+      "Review actual SDK data processing and Amazon privacy labels",
+      "Data subject request handling and applicable legal review"
+    ]
+  }
+}

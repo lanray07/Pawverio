@@ -1,0 +1,2 @@
+11-04 12:16:27.327 25140 25157 I TestRunner: started: absentAmazonPublicKeyDoesNotStartStoreOrBlockOfflineApplication(com.pawverio.platform.PlatformDeviceTest)
+11-04 12:16:27.343 25140 25157 I TestRunner: finished: absentAmazonPublicKeyDoesNotStartStoreOrBlockOfflineApplication(com.pawverio.platform.PlatformDeviceTest)

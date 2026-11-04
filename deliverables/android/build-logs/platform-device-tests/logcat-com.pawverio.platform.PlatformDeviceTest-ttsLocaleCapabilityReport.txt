@@ -1,0 +1,25 @@
+11-04 12:16:27.531 25140 25157 I TestRunner: started: ttsLocaleCapabilityReport(com.pawverio.platform.PlatformDeviceTest)
+11-04 12:16:27.543 25140 25140 I TextToSpeech: Sucessfully bound to com.ivona.tts.oem
+11-04 12:16:27.544 25140 25140 I TextToSpeech: Connected to ComponentInfo{com.ivona.tts.oem/com.ivona.ttslib.ics.IVONATextToSpeechService}
+11-04 12:16:27.594 25140 25165 I TextToSpeech: Set up connection to ComponentInfo{com.ivona.tts.oem/com.ivona.ttslib.ics.IVONATextToSpeechService}
+11-04 12:16:27.595 25140 25157 I System.out: TTS initialization=0
+11-04 12:16:27.599 25140 25157 I System.out: TTS en-GB availability=1
+11-04 12:16:27.601 25140 25157 I System.out: TTS en-US availability=0
+11-04 12:16:27.604 25140 25157 I System.out: TTS en-AU availability=0
+11-04 12:16:27.606 25140 25157 I System.out: TTS es-ES availability=-2
+11-04 12:16:27.607 25140 25157 I System.out: TTS es-419 availability=-2
+11-04 12:16:27.608 25140 25157 I System.out: TTS fr-FR availability=-2
+11-04 12:16:27.609 25140 25157 I System.out: TTS fr-CA availability=-2
+11-04 12:16:27.610 25140 25157 I System.out: TTS de-DE availability=-2
+11-04 12:16:27.611 25140 25157 I System.out: TTS it-IT availability=-2
+11-04 12:16:27.613 25140 25157 I System.out: TTS pt-BR availability=-2
+11-04 12:16:27.615 25140 25157 I System.out: TTS pt-PT availability=-2
+11-04 12:16:27.616 25140 25157 I System.out: TTS nl-NL availability=-2
+11-04 12:16:27.618 25140 25157 I System.out: TTS pl-PL availability=-2
+11-04 12:16:27.620 25140 25157 I System.out: TTS sv-SE availability=-2
+11-04 12:16:27.621 25140 25157 I System.out: TTS ja-JP availability=-2
+11-04 12:16:27.623 25140 25157 I System.out: TTS hi-IN availability=-2
+11-04 12:16:27.624 25140 25157 I System.out: TTS ar availability=-2
+11-04 12:16:27.626 25140 25157 I System.out: TTS tr-TR availability=-2
+11-04 12:16:27.628 25140 25157 I System.out: TTS id-ID availability=-2
+11-04 12:16:27.646 25140 25157 I TestRunner: finished: ttsLocaleCapabilityReport(com.pawverio.platform.PlatformDeviceTest)

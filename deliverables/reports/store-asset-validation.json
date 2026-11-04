@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "metadata_drafts": 19,
+  "composition_pngs": 304,
+  "manifest_rows": 304,
+  "errors": [],
+  "remaining_review": "Native language and visual clipping review; claims; final Amazon console listing locale/device/country selectors. Sizes verified from Amazon appstore-details documentation in marketplace-research.md."
+}

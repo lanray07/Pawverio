@@ -1,0 +1,26 @@
+{"references": 143, "missing_ids": [], "literal_text_candidates": 0}
+{"result": "PASS", "errors": [], "locales": 19, "strings_per_locale": 179}
+{"status": "PASS", "metadata_drafts": 19, "composition_pngs": 145, "manifest_rows": 145, "errors": [], "remaining_review": "Native language and visual clipping review; claims; final Amazon console listing locale/device/country selectors. Sizes verified from Amazon appstore-details documentation in marketplace-research.md."}
+{"static_checks": "PASS", "source_files": 90, "inventoried_files": 672, "errors": []}
+{
+  "release_status": "BLOCKED",
+  "mandatory_criteria": 46,
+  "status_counts": {
+    "PASS": 28,
+    "FAIL": 0,
+    "BLOCKED": 9,
+    "NOT TESTED": 9
+  },
+  "verified_acceptance_rate_percent": 60.87,
+  "screenshot_compositions": 145,
+  "expected_screenshot_compositions": 304,
+  "missing_screenshot_compositions": 159,
+  "capture_blocker": "Fire tablet PIN-locked; unlock request pending. Seven stale frames were rejected; phone viewport captures not yet executed.",
+  "approved_locales": [],
+  "human_review_pending_locales": 19,
+  "debug_sha256": "9661a7dde1d13ddf432502f61403119f4589686ee57857109402bd5b08afe560",
+  "unsigned_release_sha256": "2e3a1dc246c06b264b328beba6c83c3f7f0e25c6e542bf675bd6891297454be7",
+  "dialog_locale_regression_pass": true,
+  "production_signing": "BLOCKED: owner signing key not supplied",
+  "amazon_store_tests": "BLOCKED: authentication/product/test configuration unavailable"
+}

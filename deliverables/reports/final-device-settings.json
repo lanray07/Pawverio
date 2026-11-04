@@ -1,0 +1,12 @@
+{
+  "serial_tested": "G001KT0620330AWU",
+  "physical_size": "1200x1920",
+  "physical_density": 240,
+  "display_overrides": false,
+  "airplane_mode_on": 0,
+  "wifi_on": 1,
+  "accelerometer_rotation": 1,
+  "user_rotation": 0,
+  "stay_on_while_plugged_in": 0,
+  "restored_to_pre_test_values": true
+}

@@ -1,0 +1,59 @@
+{
+  "locale": "it-IT",
+  "status": "DRAFT_NOT_APPROVED",
+  "human_review": "PENDING",
+  "functional_claim_review": "PENDING_END_TO_END_VERIFICATION",
+  "display_title": "Pawverio – Cura e agenda per animali",
+  "short_description": "Organizza pasti, passeggiate e cure. Conserva i dati sanitari degli animali sul tuo dispositivo.",
+  "long_description": "Una routine più serena per ogni animale. Crea un profilo, pianifica le cure e registra le attività completate. Pasti, passeggiate, toelettatura e visite veterinarie in un unico posto.\n\nInizia gratis con un animale, promemoria essenziali e documenti veterinari.\n\nPremium aggiunge più animali, farmaci e vaccini, cronologia del peso, incarichi familiari e rapporti per pet sitter.\n\nPremium è un acquisto unico facoltativo. Lo store Amazon mostra il prezzo locale attuale. Ripristina gli acquisti dalle impostazioni. I dati sanitari esistenti restano accessibili.\n\nPronuncia un comando di cura o scrivilo. Riconoscimento e risposte vocali dipendono dai servizi linguistici del dispositivo; la voce offline non è garantita.\n\nNessun account necessario. I dati sono salvati sul dispositivo. Decidi tu cosa esportare. Nessun SDK pubblicitario e nessun rilevamento automatico della posizione.\n\nPawverio è uno strumento organizzativo. Non formula diagnosi né consiglia diete, dosaggi o trattamenti. Annota le istruzioni del veterinario.\n\nPrima versione: profili locali, pianificazione delle cure, dati sanitari e interazione vocale facoltativa.",
+  "product_feature_bullets": [
+    "Alimentazione · Passeggiata · Toelettatura",
+    "Visita veterinaria · Farmaco · Vaccinazione",
+    "Diario del peso · Cure in famiglia",
+    "Rapporto per pet sitter · Esporta PDF",
+    "Salvato su questo dispositivo"
+  ],
+  "keywords": [
+    "Alimentazione",
+    "Passeggiata",
+    "Toelettatura",
+    "Visita veterinaria",
+    "Farmaco",
+    "Vaccinazione",
+    "Diario del peso",
+    "Rapporto per pet sitter"
+  ],
+  "release_notes": "Prima versione: profili locali, pianificazione delle cure, dati sanitari e interazione vocale facoltativa.",
+  "support_copy": "Per assistenza, indica versione dell’app, modello del dispositivo e problema. Non inviare dati sanitari privati. Prima della pubblicazione va aggiunto un recapito verificato dell’editore.",
+  "screenshot_headlines": [
+    "Cura e agenda per animali",
+    "Promemoria per i pasti",
+    "Visite veterinarie e dati sanitari",
+    "Registro dei farmaci per animali",
+    "Agenda di toelettatura e cure",
+    "Organizza le cure con la voce",
+    "Registro delle cure offline",
+    "Istruzioni e rapporti per pet sitter"
+  ],
+  "screenshot_captions": [
+    "Cure di oggi",
+    "Alimentazione",
+    "Salute",
+    "Farmaco",
+    "Toelettatura",
+    "Scrivi o pronuncia un comando di cura",
+    "Salvato su questo dispositivo",
+    "Rapporto per pet sitter"
+  ],
+  "privacy_policy_draft": {
+    "notice": "I dati degli animali sono salvati su questo dispositivo. I servizi installati di riconoscimento e sintesi vocale possono elaborare audio e testo, compresi i dati che scegli di far leggere ad alta voce, secondo i termini del loro fornitore. Pawverio non salva registrazioni del microfono. Decidi tu se esportare i dati.",
+    "export_notice": "Questo file può includere dati sanitari e recapiti privati. Continuare?",
+    "data_deletion": "Elimina tutti i dati degli animali",
+    "medical_notice": "Annota le istruzioni del veterinario. Pawverio non consiglia diete, dosaggi o trattamenti.",
+    "publication_blockers": [
+      "Publisher legal identity and support contact",
+      "Review actual SDK data processing and Amazon privacy labels",
+      "Data subject request handling and applicable legal review"
+    ]
+  }
+}

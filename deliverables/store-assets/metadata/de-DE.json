@@ -1,0 +1,59 @@
+{
+  "locale": "de-DE",
+  "status": "DRAFT_NOT_APPROVED",
+  "human_review": "PENDING",
+  "functional_claim_review": "PENDING_END_TO_END_VERIFICATION",
+  "display_title": "Pawverio – Haustierpflege & Tagesplaner",
+  "short_description": "Plane Fütterung, Spaziergänge und Pflege. Bewahre Gesundheitsdaten deiner Haustiere auf deinem Gerät auf.",
+  "long_description": "Eine entspanntere Routine für jedes Haustier. Erstelle ein Profil, plane die Pflege und halte erledigte Aufgaben fest. Fütterung, Spaziergänge, Fellpflege und Tierarzttermine an einem Ort.\n\nKostenlos starten mit einem Haustier, grundlegenden Pflegeerinnerungen und Tierarztunterlagen.\n\nPremium ergänzt weitere Haustiere, Medikamenten- und Impfunterlagen, Gewichtsverlauf, Haushaltsaufgaben und Betreuungsberichte.\n\nPremium ist ein optionaler Einmalkauf. Der Amazon-Store zeigt den aktuellen lokalen Preis. Käufe lassen sich in den Einstellungen wiederherstellen. Bestehende Gesundheitsdaten bleiben zugänglich.\n\nSprich einen Pflegebefehl oder gib ihn ein. Spracherkennung und Sprachausgabe hängen von den Sprachdiensten deines Geräts ab. Offline-Sprachbetrieb ist nicht garantiert.\n\nKein Konto erforderlich. Tierdaten werden lokal gespeichert. Du entscheidest über Exporte. Keine Werbe-SDKs und keine automatische Standortverfolgung.\n\nPawverio dient der Organisation. Es stellt keine Diagnosen und empfiehlt keine Ernährung, Dosierung oder Behandlung. Halte die Anweisungen deiner Tierarztpraxis fest.\n\nErste Version: lokale Haustierprofile, Pflegeplanung, Gesundheitsdaten und optionale Sprachbefehle.",
+  "product_feature_bullets": [
+    "Fütterung · Spaziergang · Fellpflege",
+    "Tierarzttermin · Medikament · Impfung",
+    "Gewichtstagebuch · Pflege im Haushalt",
+    "Betreuungsbericht · PDF exportieren",
+    "Auf diesem Gerät gespeichert"
+  ],
+  "keywords": [
+    "Fütterung",
+    "Spaziergang",
+    "Fellpflege",
+    "Tierarzttermin",
+    "Medikament",
+    "Impfung",
+    "Gewichtstagebuch",
+    "Betreuungsbericht"
+  ],
+  "release_notes": "Erste Version: lokale Haustierprofile, Pflegeplanung, Gesundheitsdaten und optionale Sprachbefehle.",
+  "support_copy": "Nenne bei Supportanfragen die App-Version, das Gerätemodell und das Problem. Sende keine privaten Gesundheitsdaten. Vor Veröffentlichung muss eine bestätigte Supportadresse des Herausgebers ergänzt werden.",
+  "screenshot_headlines": [
+    "Haustierpflege und Tagesplaner",
+    "Erinnerungen ans Füttern",
+    "Tierarzttermine und Gesundheitsdaten",
+    "Medikamente für Haustiere im Blick",
+    "Fellpflege und Pflegeroutinen",
+    "Haustierpflege per Sprachbefehl",
+    "Haustierpflege offline festhalten",
+    "Hinweise und Berichte für die Betreuung"
+  ],
+  "screenshot_captions": [
+    "Heutige Pflege",
+    "Fütterung",
+    "Gesundheit",
+    "Medikament",
+    "Fellpflege",
+    "Pflegebefehl eingeben oder sprechen",
+    "Auf diesem Gerät gespeichert",
+    "Betreuungsbericht"
+  ],
+  "privacy_policy_draft": {
+    "notice": "Tierdaten werden auf diesem Gerät gespeichert. Installierte Spracherkennungs- und Vorlesedienste können Audio und Text, einschließlich der von dir zum Vorlesen ausgewählten Daten, gemäß den Bedingungen ihres Anbieters verarbeiten. Pawverio speichert keine Mikrofonaufnahmen. Du entscheidest, ob du Daten exportierst.",
+    "export_notice": "Diese Datei kann private Gesundheits- und Kontaktdaten enthalten. Fortfahren?",
+    "data_deletion": "Alle Haustierdaten löschen",
+    "medical_notice": "Notiere die Anweisungen deiner Tierarztpraxis. Pawverio empfiehlt keine Ernährung, Dosierung oder Behandlung.",
+    "publication_blockers": [
+      "Publisher legal identity and support contact",
+      "Review actual SDK data processing and Amazon privacy labels",
+      "Data subject request handling and applicable legal review"
+    ]
+  }
+}

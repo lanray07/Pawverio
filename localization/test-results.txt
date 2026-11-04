@@ -1,0 +1,19 @@
+test_all_catalogs_complete_and_placeholders_preserved (__main__.LocalizationTests) ... ok
+test_android_escaping_prevents_markup_and_quote_corruption (__main__.LocalizationTests) ... ok
+test_api_credentials_required (__main__.LocalizationTests) ... ok
+test_api_protects_placeholders_and_reuses_cache (__main__.LocalizationTests) ... ok
+test_api_rejects_insecure_endpoint_before_request (__main__.LocalizationTests) ... ok
+test_api_rejects_lost_placeholder_without_poisoning_cache (__main__.LocalizationTests) ... ok
+test_cardinal_plural_categories_follow_cldr (__main__.LocalizationTests) ... ok
+test_locale_resource_values_match_expected_catalog_not_english_fallback (__main__.LocalizationTests) ... ok
+test_required_locales_are_distinct_from_store_languages (__main__.LocalizationTests) ... ok
+test_resource_qualifiers_include_bcp47_region (__main__.LocalizationTests) ... ok
+test_review_digest_is_recorded (__main__.LocalizationTests) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 0.126s
+
+OK
+Wrote 1 machine-translated strings; review required.
+Wrote 1 machine-translated strings; review required.
+Recorded reviewer declaration; device/layout checks remain separate.

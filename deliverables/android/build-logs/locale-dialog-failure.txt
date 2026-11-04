@@ -1,0 +1,278 @@
+Printing with useUnmergedTree = 'false'
+Node #928 at (l=0.0, t=36.0, r=1200.0, b=1848.0)px
+ |-Node #930 at (l=0.0, t=36.0, r=1200.0, b=1848.0)px
+   IsTraversalGroup = 'true'
+    |-Node #986 at (l=0.0, t=36.0, r=1200.0, b=1848.0)px
+      IsTraversalGroup = 'true'
+       |-Node #1061 at (l=0.0, t=132.0, r=1200.0, b=1728.0)px
+       | IsTraversalGroup = 'true'
+       | VerticalScrollAxisRange = 'ScrollAxisRange(value=0.0, maxValue=100.0, reverseScrolling=false)'
+       | CollectionInfo = 'androidx.compose.ui.semantics.CollectionInfo@9ddd18'
+       | Actions = [ScrollBy, ScrollByOffset, IndexForKey, ScrollToIndex, GetScrollViewportLength]
+       |  |-Node #1063 at (l=36.0, t=156.0, r=121.0, b=216.0)px
+       |  | Text = '[Hoy]'
+       |  | Actions = [SetTextSubstitution, ShowTextSubstitution, ClearTextSubstitution, GetTextLayoutResult]
+       |  |-Node #1065 at (l=36.0, t=240.0, r=1164.0, b=483.0)px
+       |  | IsTraversalGroup = 'true'
+       |  |  |-Node #1069 at (l=78.0, t=282.0, r=404.0, b=312.0)px
+       |  |  | Text = '[miércoles, 4 de noviembre de 2026]'
+       |  |  | Actions = [SetTextSubstitution, ShowTextSubstitution, ClearTextSubstitution, GetTextLayoutResult]
+       |  |  |-Node #1071 at (l=78.0, t=333.0, r=987.0, b=441.0)px
+       |  |    Text = '[Cada mascota. Cada rutina. Cuidados con cariño.]'
+       |  |    Actions = [SetTextSubstitution, ShowTextSubstitution, ClearTextSubstitution, GetTextLayoutResult]
+       |  |-Node #1074 at (l=36.0, t=513.0, r=330.0, b=555.0)px
+       |  | Text = '[Perfil de la mascota]'
+       |  | Actions = [SetTextSubstitution, ShowTextSubstitution, ClearTextSubstitution, GetTextLayoutResult]
+       |  |-Node #1075 at (l=36.0, t=561.0, r=744.0, b=717.0)px
+       |  | IsTraversalGroup = 'true'
+       |  | HorizontalScrollAxisRange = 'ScrollAxisRange(value=0.0, maxValue=0.0, reverseScrolling=false)'
+       |  | Actions = [ScrollBy, ScrollByOffset]
+       |  |  |-Node #1076 at (l=36.0, t=561.0, r=381.0, b=717.0)px
+       |  |  | Focused = 'false'
+       |  |  | Text = '[Bella, Perro, 12,8 kg]'
+       |  |  | Actions = [OnClick, RequestFocus, SetTextSubstitution, ShowTextSubstitution, ClearTextSubstitution, GetTextLayoutResult]
+       |  |  | MergeDescendants = 'true'
+       |  |  |-Node #1085 at (l=399.0, t=561.0, r=744.0, b=717.0)px
+       |  |    Focused = 'false'
+       |  |    Text = '[Luna, Gato, 4,2 kg]'
+       |  |    Actions = [OnClick, RequestFocus, SetTextSubstitution, ShowTextSubstitution, ClearTextSubstitution, GetTextLayoutResult]
+       |  |    MergeDescendants = 'true'
+       |  |-Node #1095 at (l=36.0, t=747.0, r=282.0, b=789.0)px
+       |  | Text = '[Cuidados de hoy]'
+       |  | Actions = [SetTextSubstitution, ShowTextSubstitution, ClearTextSubstitution, GetTextLayoutResult]
+       |  |-Node #1096 at (l=36.0, t=795.0, r=212.0, b=819.0)px
+       |  | Text = '[4 tareas de cuidado]'
+       |  | Actions = [SetTextSubstitution, ShowTextSubstitution, ClearTextSubstitution, GetTextLayoutResult]
+       |  |-Node #1097 at (l=36.0, t=819.0, r=703.0, b=891.0)px
+       |  | IsTraversalGroup = 'true'
+       |  | HorizontalScrollAxisRange = 'ScrollAxisRange(value=0.0, maxValue=0.0, reverseScrolling=false)'
+       |  | Actions = [ScrollBy, ScrollByOffset]
+       |  |  |-Node #1098 at (l=36.0, t=831.0, r=122.0, b=879.0)px
+       |  |  | Focused = 'false'
+       |  |  | Selected = 'true'
+       |  |  | Role = 'Checkbox'
+       |  |  | Text = '[Hoy]'
+       |  |  | Actions = [OnClick, RequestFocus, SetTextSubstitution, ShowTextSubstitution, ClearTextSubstitution, GetTextLayoutResult]
+       |  |  | MergeDescendants = 'true'
+       |  |  |-Node #1102 at (l=134.0, t=831.0, r=306.0, b=879.0)px
+       |  |  | Focused = 'false'
+       |  |  | Selected = 'false'
+       |  |  | Role = 'Checkbox'
+       |  |  | Text = '[Alimentación]'
+       |  |  | Actions = [OnClick, RequestFocus, SetTextSubstitution, ShowTextSubstitution, ClearTextSubstitution, GetTextLayoutResult]
+       |  |  | MergeDescendants = 'true'
+       |  |  |-Node #1106 at (l=318.0, t=831.0, r=425.0, b=879.0)px
+       |  |  | Focused = 'false'
+       |  |  | Selected = 'false'
+       |  |  | Role = 'Checkbox'
+       |  |  | Text = '[Paseo]'
+       |  |  | Actions = [OnClick, RequestFocus, SetTextSubstitution, ShowTextSubstitution, ClearTextSubstitution, GetTextLayoutResult]
+       |  |  | MergeDescendants = 'true'
+       |  |  |-Node #1110 at (l=437.0, t=831.0, r=534.0, b=879.0)px
+       |  |  | Focused = 'false'
+       |  |  | Selected = 'false'
+       |  |  | Role = 'Checkbox'
+       |  |  | Text = '[Aseo]'
+       |  |  | Actions = [OnClick, RequestFocus, SetTextSubstitution, ShowTextSubstitution, ClearTextSubstitution, GetTextLayoutResult]
+       |  |  | MergeDescendants = 'true'
+       |  |  |-Node #1114 at (l=546.0, t=831.0, r=703.0, b=879.0)px
+       |  |    Focused = 'false'
+       |  |    Selected = 'false'
+       |  |    Role = 'Checkbox'
+       |  |    Text = '[Medicación]'
+       |  |    Actions = [OnClick, RequestFocus, SetTextSubstitution, ShowTextSubstitution, ClearTextSubstitution, GetTextLayoutResult]
+       |  |    MergeDescendants = 'true'
+       |  |-Node #1119 at (l=36.0, t=915.0, r=1164.0, b=1107.0)px
+       |  | Focused = 'false'
+       |  | Text = '[Alimentación, Bella · 4 nov. 2026 13:43]'
+       |  | Actions = [OnClick, RequestFocus, SetTextSubstitution, ShowTextSubstitution, ClearTextSubstitution, GetTextLayoutResult]
+       |  | MergeDescendants = 'true'
+       |  |  |-Node #1127 at (l=1074.0, t=945.0, r=1134.0, b=1005.0)px
+       |  |  | Role = 'Button'
+       |  |  | Focused = 'false'
+       |  |  | ContentDescription = '[Marcar como completada]'
+       |  |  | Actions = [OnClick, RequestFocus]
+       |  |  | MergeDescendants = 'true'
+       |  |  |-Node #1130 at (l=60.0, t=1017.0, r=162.0, b=1077.0)px
+       |  |  | Focused = 'false'
+       |  |  | Role = 'Button'
+       |  |  | Text = '[Pausar]'
+       |  |  | Actions = [OnClick, RequestFocus, SetTextSubstitution, ShowTextSubstitution, ClearTextSubstitution, GetTextLayoutResult]
+       |  |  | MergeDescendants = 'true'
+       |  |  |-Node #1133 at (l=162.0, t=1017.0, r=400.0, b=1077.0)px
+       |  |    Focused = 'false'
+       |  |    Role = 'Button'
+       |  |    Text = '[Posponer 15 minutos]'
+       |  |    Actions = [OnClick, RequestFocus, SetTextSubstitution, ShowTextSubstitution, ClearTextSubstitution, GetTextLayoutResult]
+       |  |    MergeDescendants = 'true'
+       |  |-Node #1137 at (l=36.0, t=1131.0, r=1164.0, b=1323.0)px
+       |  | Focused = 'false'
+       |  | Text = '[Paseo, Bella · 4 nov. 2026 14:43]'
+       |  | Actions = [OnClick, RequestFocus, SetTextSubstitution, ShowTextSubstitution, ClearTextSubstitution, GetTextLayoutResult]
+       |  | MergeDescendants = 'true'
+       |  |  |-Node #1145 at (l=1074.0, t=1161.0, r=1134.0, b=1221.0)px
+       |  |  | Role = 'Button'
+       |  |  | Focused = 'false'
+       |  |  | ContentDescription = '[Marcar como completada]'
+       |  |  | Actions = [OnClick, RequestFocus]
+       |  |  | MergeDescendants = 'true'
+       |  |  |-Node #1148 at (l=60.0, t=1233.0, r=162.0, b=1293.0)px
+       |  |  | Focused = 'false'
+       |  |  | Role = 'Button'
+       |  |  | Text = '[Pausar]'
+       |  |  | Actions = [OnClick, RequestFocus, SetTextSubstitution, ShowTextSubstitution, ClearTextSubstitution, GetTextLayoutResult]
+       |  |  | MergeDescendants = 'true'
+       |  |  |-Node #1151 at (l=162.0, t=1233.0, r=400.0, b=1293.0)px
+       |  |    Focused = 'false'
+       |  |    Role = 'Button'
+       |  |    Text = '[Posponer 15 minutos]'
+       |  |    Actions = [OnClick, RequestFocus, SetTextSubstitution, ShowTextSubstitution, ClearTextSubstitution, GetTextLayoutResult]
+       |  |    MergeDescendants = 'true'
+       |  |-Node #1155 at (l=36.0, t=1347.0, r=1164.0, b=1539.0)px
+       |  | Focused = 'false'
+       |  | Text = '[Medicación, Bella · 4 nov. 2026 15:43]'
+       |  | Actions = [OnClick, RequestFocus, SetTextSubstitution, ShowTextSubstitution, ClearTextSubstitution, GetTextLayoutResult]
+       |  | MergeDescendants = 'true'
+       |  |  |-Node #1163 at (l=1074.0, t=1377.0, r=1134.0, b=1437.0)px
+       |  |  | Role = 'Button'
+       |  |  | Focused = 'false'
+       |  |  | ContentDescription = '[Marcar como completada]'
+       |  |  | Actions = [OnClick, RequestFocus]
+       |  |  | MergeDescendants = 'true'
+       |  |  |-Node #1166 at (l=60.0, t=1449.0, r=162.0, b=1509.0)px
+       |  |  | Focused = 'false'
+       |  |  | Role = 'Button'
+       |  |  | Text = '[Pausar]'
+       |  |  | Actions = [OnClick, RequestFocus, SetTextSubstitution, ShowTextSubstitution, ClearTextSubstitution, GetTextLayoutResult]
+       |  |  | MergeDescendants = 'true'
+       |  |  |-Node #1169 at (l=162.0, t=1449.0, r=400.0, b=1509.0)px
+       |  |    Focused = 'false'
+       |  |    Role = 'Button'
+       |  |    Text = '[Posponer 15 minutos]'
+       |  |    Actions = [OnClick, RequestFocus, SetTextSubstitution, ShowTextSubstitution, ClearTextSubstitution, GetTextLayoutResult]
+       |  |    MergeDescendants = 'true'
+       |  |-Node #1173 at (l=36.0, t=1563.0, r=1164.0, b=1755.0)px
+       |    Focused = 'false'
+       |    Text = '[Aseo, Bella · 4 nov. 2026 16:43]'
+       |    Actions = [OnClick, RequestFocus, SetTextSubstitution, ShowTextSubstitution, ClearTextSubstitution, GetTextLayoutResult]
+       |    MergeDescendants = 'true'
+       |     |-Node #1181 at (l=1074.0, t=1593.0, r=1134.0, b=1653.0)px
+       |     | Role = 'Button'
+       |     | Focused = 'false'
+       |     | ContentDescription = '[Marcar como completada]'
+       |     | Actions = [OnClick, RequestFocus]
+       |     | MergeDescendants = 'true'
+       |     |-Node #1184 at (l=60.0, t=1665.0, r=162.0, b=1725.0)px
+       |     | Focused = 'false'
+       |     | Role = 'Button'
+       |     | Text = '[Pausar]'
+       |     | Actions = [OnClick, RequestFocus, SetTextSubstitution, ShowTextSubstitution, ClearTextSubstitution, GetTextLayoutResult]
+       |     | MergeDescendants = 'true'
+       |     |-Node #1187 at (l=162.0, t=1665.0, r=400.0, b=1725.0)px
+       |       Focused = 'false'
+       |       Role = 'Button'
+       |       Text = '[Posponer 15 minutos]'
+       |       Actions = [OnClick, RequestFocus, SetTextSubstitution, ShowTextSubstitution, ClearTextSubstitution, GetTextLayoutResult]
+       |       MergeDescendants = 'true'
+       |-Node #989 at (l=0.0, t=36.0, r=1200.0, b=132.0)px
+       | IsTraversalGroup = 'true'
+       |  |-Node #994 at (l=24.0, t=50.0, r=179.0, b=94.0)px
+       |  | Text = '[Pawverio]'
+       |  | Actions = [SetTextSubstitution, ShowTextSubstitution, ClearTextSubstitution, GetTextLayoutResult]
+       |  |-Node #995 at (l=24.0, t=94.0, r=262.0, b=118.0)px
+       |  | Text = '[Guardado en este dispositivo]'
+       |  | Actions = [SetTextSubstitution, ShowTextSubstitution, ClearTextSubstitution, GetTextLayoutResult]
+       |  |-Node #998 at (l=1056.0, t=54.0, r=1116.0, b=114.0)px
+       |  | Role = 'Button'
+       |  | Focused = 'false'
+       |  | ContentDescription = '[Abrir asistente de voz]'
+       |  | Actions = [OnClick, RequestFocus]
+       |  | MergeDescendants = 'true'
+       |  |-Node #1000 at (l=1128.0, t=54.0, r=1188.0, b=114.0)px
+       |    Role = 'Button'
+       |    Focused = 'false'
+       |    ContentDescription = '[Informe para cuidadores]'
+       |    Actions = [OnClick, RequestFocus]
+       |    MergeDescendants = 'true'
+       |-Node #1013 at (l=0.0, t=1728.0, r=1200.0, b=1848.0)px
+       | IsTraversalGroup = 'true'
+       |  |-Node #1014 at (l=0.0, t=1728.0, r=1200.0, b=1848.0)px
+       |    [SelectableGroup]
+       |     |-Node #1015 at (l=0.0, t=1728.0, r=231.0, b=1848.0)px
+       |     | Role = 'Tab'
+       |     | Focused = 'false'
+       |     | Selected = 'true'
+       |     | Text = '[Hoy]'
+       |     | Actions = [OnClick, RequestFocus, SetTextSubstitution, ShowTextSubstitution, ClearTextSubstitution, GetTextLayoutResult]
+       |     | MergeDescendants = 'true'
+       |     |-Node #1024 at (l=243.0, t=1728.0, r=474.0, b=1848.0)px
+       |     | Role = 'Tab'
+       |     | Focused = 'false'
+       |     | Selected = 'false'
+       |     | Text = '[Mascotas]'
+       |     | Actions = [OnClick, RequestFocus, SetTextSubstitution, ShowTextSubstitution, ClearTextSubstitution, GetTextLayoutResult]
+       |     | MergeDescendants = 'true'
+       |     |-Node #1033 at (l=486.0, t=1728.0, r=716.0, b=1848.0)px
+       |     | Role = 'Tab'
+       |     | Focused = 'false'
+       |     | Selected = 'false'
+       |     | Text = '[Salud]'
+       |     | Actions = [OnClick, RequestFocus, SetTextSubstitution, ShowTextSubstitution, ClearTextSubstitution, GetTextLayoutResult]
+       |     | MergeDescendants = 'true'
+       |     |-Node #1042 at (l=728.0, t=1728.0, r=958.0, b=1848.0)px
+       |     | Role = 'Tab'
+       |     | Focused = 'false'
+       |     | Selected = 'false'
+       |     | Text = '[Historial]'
+       |     | Actions = [OnClick, RequestFocus, SetTextSubstitution, ShowTextSubstitution, ClearTextSubstitution, GetTextLayoutResult]
+       |     | MergeDescendants = 'true'
+       |     |-Node #1051 at (l=970.0, t=1728.0, r=1200.0, b=1848.0)px
+       |       Role = 'Tab'
+       |       Focused = 'false'
+       |       Selected = 'false'
+       |       Text = '[Ajustes]'
+       |       Actions = [OnClick, RequestFocus, SetTextSubstitution, ShowTextSubstitution, ClearTextSubstitution, GetTextLayoutResult]
+       |       MergeDescendants = 'true'
+       |-Node #1004 at (l=846.0, t=1620.0, r=1176.0, b=1704.0)px
+         Focused = 'false'
+         Role = 'Button'
+         Actions = [OnClick, RequestFocus]
+         MergeDescendants = 'true'
+Printing with useUnmergedTree = 'false'
+Node #929 at (l=0.0, t=0.0, r=840.0, b=630.0)px
+ |-Node #956 at (l=0.0, t=0.0, r=840.0, b=630.0)px
+   [IsDialog]
+    |-Node #957 at (l=0.0, t=0.0, r=840.0, b=630.0)px
+      PaneTitle = 'Dialogue'
+       |-Node #958 at (l=0.0, t=0.0, r=840.0, b=630.0)px
+         IsTraversalGroup = 'true'
+          |-Node #961 at (l=36.0, t=36.0, r=360.0, b=84.0)px
+          | Text = '[Care with your voice]'
+          | Actions = [SetTextSubstitution, ShowTextSubstitution, ClearTextSubstitution, GetTextLayoutResult]
+          |-Node #964 at (l=36.0, t=108.0, r=804.0, b=204.0)px
+          | Text = '[Pet records are stored on this device. Installed speech recognition and text-to-speech services may process audio and text, including records you choose to have read aloud, under their provider’s terms. Pawverio does not save microphone recordings. You choose whether to export records.]'
+          | Actions = [SetTextSubstitution, ShowTextSubstitution, ClearTextSubstitution, GetTextLayoutResult]
+          |-Node #965 at (l=36.0, t=222.0, r=456.0, b=318.0)px
+          | EditableText = ''
+          | TextSelectionRange = 'TextRange(0, 0)'
+          | IsEditable = 'true'
+          | ImeAction = 'Default'
+          | Focused = 'false'
+          | Text = '[Type or speak a care command]'
+          | Actions = [GetTextLayoutResult, SetText, InsertTextAtCursor, SetSelection, PerformImeAction, OnClick, OnLongClick, PasteText, RequestFocus, SetTextSubstitution, ShowTextSubstitution, ClearTextSubstitution]
+          | MergeDescendants = 'true'
+          |-Node #975 at (l=36.0, t=336.0, r=804.0, b=396.0)px
+          | Text = '[Speech recognition is unavailable on this device. You can type a command or use the care screens.]'
+          | Actions = [SetTextSubstitution, ShowTextSubstitution, ClearTextSubstitution, GetTextLayoutResult]
+          |-Node #976 at (l=36.0, t=420.0, r=228.0, b=480.0)px
+          | Focused = 'false'
+          | Role = 'Button'
+          | Text = '[Tap to speak]'
+          | Actions = [OnClick, RequestFocus, SetTextSubstitution, ShowTextSubstitution, ClearTextSubstitution, GetTextLayoutResult]
+          | MergeDescendants = 'true'
+          |-Node #982 at (l=631.0, t=528.0, r=804.0, b=588.0)px
+            Focused = 'false'
+            Role = 'Button'
+            Text = '[Run command]'
+            Actions = [OnClick, RequestFocus, SetTextSubstitution, ShowTextSubstitution, ClearTextSubstitution, GetTextLayoutResult]
+            MergeDescendants = 'true'

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.pawverio.platform.ReminderRecurrenceTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-11-04T13:22:25.394Z" hostname="DESKTOP-MAKK9CA" time="0.008">
+  <properties/>
+  <testcase name="overdueRecurrenceSkipsPastOccurrencesWithoutChangingAnchorTime" classname="com.pawverio.platform.ReminderRecurrenceTest" time="0.002"/>
+  <testcase name="dailyAnchorKeepsWallClockAcrossDaylightSavingChange" classname="com.pawverio.platform.ReminderRecurrenceTest" time="0.006"/>
+  <testcase name="snoozeDoesNotShiftNextDailyMedicationTime" classname="com.pawverio.platform.ReminderRecurrenceTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,10 @@
+11-04 12:16:28.881 25140 25157 I TestRunner: started: authenticatedBackupRoundTripOnFireRuntime(com.pawverio.platform.PlatformDeviceTest)
+11-04 12:16:29.197   636   727 E WifiVendorHal: getWifiLinkLayerStats(l.937) failed {.code = ERROR_NOT_SUPPORTED, .description = }
+11-04 12:16:30.817  1836  1836 W EventDeliveryGuaranteeRequest: Not connected to CSM service, will retry. Request (42). Retry number (411).
+11-04 12:16:30.818  1836  1836 I SPCH-QueueRequest: Retrying request (42) with a delay of (256000) ms
+11-04 12:16:30.818  1836  1836 W EventDeliveryGuaranteeRequest: Not connected to CSM service, will retry. Request (37). Retry number (666).
+11-04 12:16:30.818  1836  1836 I SPCH-QueueRequest: Retrying request (37) with a delay of (256000) ms
+11-04 12:16:30.932   464   464 I thermal_repeater: socket -1
+11-04 12:16:32.207   636   727 E WifiVendorHal: getWifiLinkLayerStats(l.937) failed {.code = ERROR_NOT_SUPPORTED, .description = }
+11-04 12:16:35.231   636   727 E WifiVendorHal: getWifiLinkLayerStats(l.937) failed {.code = ERROR_NOT_SUPPORTED, .description = }
+11-04 12:16:35.348 25140 25157 I TestRunner: finished: authenticatedBackupRoundTripOnFireRuntime(com.pawverio.platform.PlatformDeviceTest)

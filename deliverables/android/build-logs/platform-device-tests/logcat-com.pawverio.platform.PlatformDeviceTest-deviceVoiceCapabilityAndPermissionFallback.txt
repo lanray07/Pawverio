@@ -1,0 +1,5 @@
+11-04 12:16:27.102 25140 25157 I TestRunner: started: deviceVoiceCapabilityAndPermissionFallback(com.pawverio.platform.PlatformDeviceTest)
+11-04 12:16:27.112 25140 25157 I System.out: DEVICE model=KFTRWI; api=28; recognitionAvailable=false
+11-04 12:16:27.158 25140 25140 I TextToSpeech: Sucessfully bound to com.ivona.tts.oem
+11-04 12:16:27.163 25140 25140 W TextToSpeech: stop failed: not bound to TTS engine
+11-04 12:16:27.172 25140 25157 I TestRunner: finished: deviceVoiceCapabilityAndPermissionFallback(com.pawverio.platform.PlatformDeviceTest)

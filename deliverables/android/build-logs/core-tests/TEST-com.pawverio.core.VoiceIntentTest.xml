@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.pawverio.core.VoiceIntentTest" tests="12" skipped="0" failures="0" errors="0" timestamp="2026-11-04T13:42:52.014Z" hostname="DESKTOP-MAKK9CA" time="0.015">
+  <properties/>
+  <testcase name="eachRequestedLocaleHasMedicationVocabulary" classname="com.pawverio.core.VoiceIntentTest" time="0.006"/>
+  <testcase name="frenchSmartApostropheAndFeminineForms" classname="com.pawverio.core.VoiceIntentTest" time="0.001"/>
+  <testcase name="frenchMedicationQuery" classname="com.pawverio.core.VoiceIntentTest" time="0.001"/>
+  <testcase name="feedingActionResolvesPet" classname="com.pawverio.core.VoiceIntentTest" time="0.0"/>
+  <testcase name="feedingQueryIsReadOnly" classname="com.pawverio.core.VoiceIntentTest" time="0.0"/>
+  <testcase name="petNamesMatchWholeWords" classname="com.pawverio.core.VoiceIntentTest" time="0.001"/>
+  <testcase name="unknownLanguageDoesNotExecuteEnglish" classname="com.pawverio.core.VoiceIntentTest" time="0.0"/>
+  <testcase name="spokenWalkDuration" classname="com.pawverio.core.VoiceIntentTest" time="0.002"/>
+  <testcase name="japanesePetNameCanBeFollowedByParticle" classname="com.pawverio.core.VoiceIntentTest" time="0.001"/>
+  <testcase name="ambiguousPetDoesNotMutate" classname="com.pawverio.core.VoiceIntentTest" time="0.0"/>
+  <testcase name="spanishFeminineForms" classname="com.pawverio.core.VoiceIntentTest" time="0.001"/>
+  <testcase name="feedingActionRequiresPet" classname="com.pawverio.core.VoiceIntentTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

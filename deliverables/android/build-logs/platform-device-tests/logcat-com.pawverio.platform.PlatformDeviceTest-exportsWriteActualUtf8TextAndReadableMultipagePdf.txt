@@ -1,0 +1,3 @@
+11-04 12:16:27.775 25140 25157 I TestRunner: started: exportsWriteActualUtf8TextAndReadableMultipagePdf(com.pawverio.platform.PlatformDeviceTest)
+11-04 12:16:28.619 25140 25157 I System.out: PDF pages=4
+11-04 12:16:28.621 25140 25157 I TestRunner: finished: exportsWriteActualUtf8TextAndReadableMultipagePdf(com.pawverio.platform.PlatformDeviceTest)

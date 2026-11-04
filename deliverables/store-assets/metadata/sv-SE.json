@@ -1,0 +1,59 @@
+{
+  "locale": "sv-SE",
+  "status": "DRAFT_NOT_APPROVED",
+  "human_review": "PENDING",
+  "functional_claim_review": "PENDING_END_TO_END_VERIFICATION",
+  "display_title": "Pawverio – Husdjursvård & dagsplanerare",
+  "short_description": "Planera mat, promenader och skötsel. Samla husdjurets hälsouppgifter på din enhet.",
+  "long_description": "En lugnare rutin för varje husdjur. Skapa en profil, planera omsorgen och registrera utförda uppgifter. Matning, promenader, pälsvård och veterinärbesök på ett ställe.\n\nBörja gratis med ett husdjur, grundläggande påminnelser och veterinärjournaler.\n\nPremium ger fler husdjur, läkemedel och vaccinationer, vikthistorik, hushållsuppgifter och rapporter till djurvakter.\n\nPremium är ett valfritt engångsköp. Amazon-butiken visar aktuellt lokalt pris. Återställ köp i Inställningar. Befintliga hälsouppgifter är fortfarande tillgängliga.\n\nSäg ett skötselkommando eller skriv det. Taligenkänning och talade svar beror på enhetens språktjänster. Röstfunktioner offline garanteras inte.\n\nInget konto krävs. Uppgifterna sparas lokalt. Du väljer vad du exporterar. Inga reklam-SDK:er eller automatisk platsspårning.\n\nPawverio är ett organisationsverktyg. Det ställer inga diagnoser och rekommenderar inga dieter, doser eller behandlingar. Anteckna veterinärens instruktioner.\n\nFörsta versionen: lokala profiler, skötselplanering, hälsouppgifter och valfri röststyrning.",
+  "product_feature_bullets": [
+    "Matning · Promenad · Pälsvård",
+    "Veterinärbesök · Läkemedel · Vaccination",
+    "Viktdagbok · Hushållets omsorg",
+    "Rapport till djurvakt · Exportera PDF",
+    "Sparat på den här enheten"
+  ],
+  "keywords": [
+    "Matning",
+    "Promenad",
+    "Pälsvård",
+    "Veterinärbesök",
+    "Läkemedel",
+    "Vaccination",
+    "Viktdagbok",
+    "Rapport till djurvakt"
+  ],
+  "release_notes": "Första versionen: lokala profiler, skötselplanering, hälsouppgifter och valfri röststyrning.",
+  "support_copy": "Ange appversion, enhetsmodell och problembeskrivning när du kontaktar support. Skicka inga privata hälsouppgifter. En verifierad supportadress måste läggas till före publicering.",
+  "screenshot_headlines": [
+    "Husdjursvård och dagsplanerare",
+    "Påminnelser om matning",
+    "Veterinärbesök och hälsouppgifter",
+    "Håll koll på husdjurets medicin",
+    "Schema för pälsvård och skötsel",
+    "Planera omsorgen med rösten",
+    "Registrera husdjursvård offline",
+    "Instruktioner och rapporter till djurvakt"
+  ],
+  "screenshot_captions": [
+    "Dagens omsorg",
+    "Matning",
+    "Hälsa",
+    "Läkemedel",
+    "Pälsvård",
+    "Skriv eller säg ett skötselkommando",
+    "Sparat på den här enheten",
+    "Rapport till djurvakt"
+  ],
+  "privacy_policy_draft": {
+    "notice": "Husdjursuppgifter sparas på den här enheten. Installerade tjänster för taligenkänning och talsyntes kan behandla ljud och text, inklusive uppgifter som du väljer att få upplästa, enligt leverantörens villkor. Pawverio sparar inga mikrofoninspelningar. Du väljer om uppgifterna ska exporteras.",
+    "export_notice": "Filen kan innehålla privata hälso- och kontaktuppgifter. Fortsätta?",
+    "data_deletion": "Radera alla husdjursdata",
+    "medical_notice": "Anteckna veterinärens instruktioner. Pawverio rekommenderar inga dieter, doser eller behandlingar.",
+    "publication_blockers": [
+      "Publisher legal identity and support contact",
+      "Review actual SDK data processing and Amazon privacy labels",
+      "Data subject request handling and applicable legal review"
+    ]
+  }
+}

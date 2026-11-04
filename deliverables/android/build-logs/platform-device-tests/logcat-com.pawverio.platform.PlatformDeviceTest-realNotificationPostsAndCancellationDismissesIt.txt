@@ -1,0 +1,5 @@
+11-04 12:16:28.626 25140 25157 I TestRunner: started: realNotificationPostsAndCancellationDismissesIt(com.pawverio.platform.PlatformDeviceTest)
+11-04 12:16:28.802  1836  1836 W EventDeliveryGuaranteeRequest: Not connected to CSM service, will retry. Request (50). Retry number (226).
+11-04 12:16:28.803  1836  1836 I SPCH-QueueRequest: Retrying request (50) with a delay of (256000) ms
+11-04 12:16:28.830   636   636 W TelecomManager: Telecom Service not found.
+11-04 12:16:28.845 25140 25157 I TestRunner: finished: realNotificationPostsAndCancellationDismissesIt(com.pawverio.platform.PlatformDeviceTest)

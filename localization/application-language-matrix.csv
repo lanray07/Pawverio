@@ -1,0 +1,20 @@
+locale,resource_directory,catalog_entries,human_review,layout_review,rtl_required,advertised_fully_supported
+en-GB,values-b+en+GB,179,PENDING,NOT TESTED,False,False
+en-US,values-b+en+US,179,PENDING,NOT TESTED,False,False
+en-AU,values-b+en+AU,179,PENDING,NOT TESTED,False,False
+es-ES,values-b+es+ES,179,PENDING,NOT TESTED,False,False
+es-419,values-b+es+419,179,PENDING,NOT TESTED,False,False
+fr-FR,values-b+fr+FR,179,PENDING,NOT TESTED,False,False
+fr-CA,values-b+fr+CA,179,PENDING,NOT TESTED,False,False
+de-DE,values-b+de+DE,179,PENDING,NOT TESTED,False,False
+it-IT,values-b+it+IT,179,PENDING,NOT TESTED,False,False
+pt-BR,values-b+pt+BR,179,PENDING,NOT TESTED,False,False
+pt-PT,values-b+pt+PT,179,PENDING,NOT TESTED,False,False
+nl-NL,values-b+nl+NL,179,PENDING,NOT TESTED,False,False
+pl-PL,values-b+pl+PL,179,PENDING,NOT TESTED,False,False
+sv-SE,values-b+sv+SE,179,PENDING,NOT TESTED,False,False
+ja-JP,values-b+ja+JP,179,PENDING,NOT TESTED,False,False
+hi-IN,values-b+hi+IN,179,PENDING,NOT TESTED,False,False
+ar,values-b+ar,179,PENDING,NOT TESTED,True,False
+tr-TR,values-b+tr+TR,179,PENDING,NOT TESTED,False,False
+id-ID,values-in-rID,179,PENDING,NOT TESTED,False,False

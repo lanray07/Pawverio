@@ -1,0 +1,59 @@
+{
+  "locale": "es-ES",
+  "status": "DRAFT_NOT_APPROVED",
+  "human_review": "PENDING",
+  "functional_claim_review": "PENDING_END_TO_END_VERIFICATION",
+  "display_title": "Pawverio – Cuidados y agenda de mascotas",
+  "short_description": "Organiza comidas, paseos y cuidados. Guarda los registros de salud de tus mascotas en tu dispositivo.",
+  "long_description": "Una rutina más tranquila para cada mascota. Crea un perfil, planifica los cuidados y registra lo que se ha hecho. Reúne notas de comida, paseos, aseo y citas veterinarias.\n\nEmpieza gratis con una mascota, recordatorios esenciales y registros veterinarios.\n\nPremium añade más mascotas, registros de medicación y vacunas, historial de peso, tareas del hogar e informes para cuidadores.\n\nPremium es una compra única opcional. La tienda Amazon muestra el precio local actual. Restaura las compras en Ajustes. Los registros de salud existentes siguen accesibles.\n\nDi un comando de cuidado o escríbelo. El reconocimiento y las respuestas de voz dependen de los servicios de idioma del dispositivo; no se garantiza la voz sin conexión.\n\nNo necesitas cuenta. Los registros se guardan localmente. Tú eliges qué exportar. Sin SDK de publicidad ni seguimiento automático de ubicación.\n\nPawverio es una herramienta de organización. No diagnostica ni recomienda dietas, dosis o tratamientos. Registra las instrucciones de tu veterinario.\n\nPrimera versión: perfiles locales, planificación de cuidados, registros de salud e interacción de voz opcional.",
+  "product_feature_bullets": [
+    "Alimentación · Paseo · Aseo",
+    "Cita veterinaria · Medicación · Vacunación",
+    "Diario de peso · Cuidados del hogar",
+    "Informe para cuidadores · Exportar PDF",
+    "Guardado en este dispositivo"
+  ],
+  "keywords": [
+    "Alimentación",
+    "Paseo",
+    "Aseo",
+    "Cita veterinaria",
+    "Medicación",
+    "Vacunación",
+    "Diario de peso",
+    "Informe para cuidadores"
+  ],
+  "release_notes": "Primera versión: perfiles locales, planificación de cuidados, registros de salud e interacción de voz opcional.",
+  "support_copy": "Para obtener ayuda, indica la versión de la aplicación, el modelo del dispositivo y el problema. No envíes registros de salud privados. Debe añadirse una dirección de soporte verificada del editor antes de publicar.",
+  "screenshot_headlines": [
+    "Agenda de cuidados para mascotas",
+    "Recordatorios de comida para mascotas",
+    "Citas veterinarias y registros de salud",
+    "Seguimiento de medicación de mascotas",
+    "Agenda de aseo y cuidados",
+    "Organiza los cuidados con tu voz",
+    "Cuidados de mascotas sin conexión",
+    "Instrucciones e informes para cuidadores"
+  ],
+  "screenshot_captions": [
+    "Cuidados de hoy",
+    "Alimentación",
+    "Salud",
+    "Medicación",
+    "Aseo",
+    "Escribe o di un comando de cuidado",
+    "Guardado en este dispositivo",
+    "Informe para cuidadores"
+  ],
+  "privacy_policy_draft": {
+    "notice": "Los registros se guardan en este dispositivo. Los servicios instalados de reconocimiento de voz y texto a voz pueden procesar audio y texto, incluidos los registros que elijas escuchar en voz alta, según las condiciones de su proveedor. Pawverio no guarda grabaciones del micrófono. Tú decides si exportas los registros.",
+    "export_notice": "Este archivo puede incluir datos privados de salud y contacto. ¿Continuar?",
+    "data_deletion": "Eliminar todos los datos de mascotas",
+    "medical_notice": "Registra las instrucciones de tu veterinario. Pawverio no recomienda dietas, dosis ni tratamientos.",
+    "publication_blockers": [
+      "Publisher legal identity and support contact",
+      "Review actual SDK data processing and Amazon privacy labels",
+      "Data subject request handling and applicable legal review"
+    ]
+  }
+}

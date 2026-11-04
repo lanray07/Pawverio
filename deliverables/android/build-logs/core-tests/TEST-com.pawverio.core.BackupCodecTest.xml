@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.pawverio.core.BackupCodecTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2026-11-04T13:42:51.606Z" hostname="DESKTOP-MAKK9CA" time="0.133">
+  <properties/>
+  <testcase name="rejectsUnknownCareKind" classname="com.pawverio.core.BackupCodecTest" time="0.084"/>
+  <testcase name="foreignPathFieldsCannotAccessLocalStorage" classname="com.pawverio.core.BackupCodecTest" time="0.003"/>
+  <testcase name="rejectsNegativeWeight" classname="com.pawverio.core.BackupCodecTest" time="0.002"/>
+  <testcase name="roundTripPreservesRecordsButNeverImportsFilePaths" classname="com.pawverio.core.BackupCodecTest" time="0.002"/>
+  <testcase name="rejectsExcessiveNestingBeforeJsonParsing" classname="com.pawverio.core.BackupCodecTest" time="0.006"/>
+  <testcase name="rejectsFutureFormat" classname="com.pawverio.core.BackupCodecTest" time="0.002"/>
+  <testcase name="rejectsDuplicateIds" classname="com.pawverio.core.BackupCodecTest" time="0.002"/>
+  <testcase name="rejectsOversizedInput" classname="com.pawverio.core.BackupCodecTest" time="0.028"/>
+  <testcase name="rejectsMissingPet" classname="com.pawverio.core.BackupCodecTest" time="0.002"/>
+  <testcase name="rejectsFractionalRecurrence" classname="com.pawverio.core.BackupCodecTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,59 @@
+{
+  "locale": "pl-PL",
+  "status": "DRAFT_NOT_APPROVED",
+  "human_review": "PENDING",
+  "functional_claim_review": "PENDING_END_TO_END_VERIFICATION",
+  "display_title": "Pawverio – Opieka i planer zwierząt",
+  "short_description": "Planuj karmienie, spacery i pielęgnację. Przechowuj dokumentację zdrowotną zwierząt na urządzeniu.",
+  "long_description": "Spokojniejsza rutyna dla każdego zwierzęcia. Utwórz profil, zaplanuj opiekę i zapisuj ukończone zadania. Karmienie, spacery, pielęgnacja i wizyty weterynaryjne w jednym miejscu.\n\nZacznij bezpłatnie z jednym zwierzęciem, podstawowymi przypomnieniami i dokumentacją weterynaryjną.\n\nPremium dodaje więcej zwierząt, leki i szczepienia, historię wagi, zadania domowników i raporty dla opiekunów.\n\nPremium to opcjonalny zakup jednorazowy. Sklep Amazon pokazuje aktualną cenę lokalną. Przywróć zakupy w ustawieniach. Istniejąca dokumentacja zdrowotna pozostaje dostępna.\n\nWypowiedz polecenie opieki lub je wpisz. Rozpoznawanie mowy i odpowiedzi głosowe zależą od usług językowych urządzenia. Działanie głosu offline nie jest gwarantowane.\n\nKonto nie jest wymagane. Dane są przechowywane lokalnie. Samodzielnie wybierasz eksport. Bez reklamowych SDK i automatycznego śledzenia lokalizacji.\n\nPawverio służy do organizacji. Nie stawia diagnoz ani nie zaleca diet, dawek czy leczenia. Zapisuj zalecenia weterynarza.\n\nPierwsza wersja: lokalne profile, planowanie opieki, dokumentacja zdrowotna i opcjonalne sterowanie głosem.",
+  "product_feature_bullets": [
+    "Karmienie · Spacer · Pielęgnacja",
+    "Wizyta weterynaryjna · Lek · Szczepienie",
+    "Dziennik wagi · Opieka domowników",
+    "Raport dla opiekuna · Eksportuj PDF",
+    "Zapisane na tym urządzeniu"
+  ],
+  "keywords": [
+    "Karmienie",
+    "Spacer",
+    "Pielęgnacja",
+    "Wizyta weterynaryjna",
+    "Lek",
+    "Szczepienie",
+    "Dziennik wagi",
+    "Raport dla opiekuna"
+  ],
+  "release_notes": "Pierwsza wersja: lokalne profile, planowanie opieki, dokumentacja zdrowotna i opcjonalne sterowanie głosem.",
+  "support_copy": "Kontaktując się z pomocą, podaj wersję aplikacji, model urządzenia i opis problemu. Nie wysyłaj prywatnej dokumentacji zdrowotnej. Przed publikacją należy dodać zweryfikowany adres wsparcia wydawcy.",
+  "screenshot_headlines": [
+    "Opieka nad zwierzętami i planer",
+    "Przypomnienia o karmieniu",
+    "Wizyty weterynaryjne i zdrowie",
+    "Rejestr leków dla zwierząt",
+    "Harmonogram pielęgnacji i opieki",
+    "Planuj opiekę głosem",
+    "Rejestr opieki bez internetu",
+    "Instrukcje i raporty dla opiekunów"
+  ],
+  "screenshot_captions": [
+    "Dzisiejsza opieka",
+    "Karmienie",
+    "Zdrowie",
+    "Lek",
+    "Pielęgnacja",
+    "Wpisz lub wypowiedz polecenie opieki",
+    "Zapisane na tym urządzeniu",
+    "Raport dla opiekuna"
+  ],
+  "privacy_policy_draft": {
+    "notice": "Dane zwierząt są zapisywane na tym urządzeniu. Zainstalowane usługi rozpoznawania mowy i syntezy mowy mogą przetwarzać dźwięk i tekst, w tym dane wybrane do odczytania na głos, zgodnie z warunkami ich dostawcy. Pawverio nie zapisuje nagrań z mikrofonu. Samodzielnie decydujesz o eksporcie danych.",
+    "export_notice": "Ten plik może zawierać prywatne dane zdrowotne i kontaktowe. Kontynuować?",
+    "data_deletion": "Usuń wszystkie dane zwierząt",
+    "medical_notice": "Zapisuj zalecenia weterynarza. Pawverio nie zaleca diet, dawek ani leczenia.",
+    "publication_blockers": [
+      "Publisher legal identity and support contact",
+      "Review actual SDK data processing and Amazon privacy labels",
+      "Data subject request handling and applicable legal review"
+    ]
+  }
+}

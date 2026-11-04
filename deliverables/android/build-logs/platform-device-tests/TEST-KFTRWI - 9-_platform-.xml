@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<testsuite name="com.pawverio.platform.PlatformDeviceTest" tests="11" failures="0" errors="0" skipped="0" time="10.949" timestamp="2026-11-04T13:43:23" hostname="localhost">
+  <properties>
+    <property name="device" value="KFTRWI - 9" />
+    <property name="flavor" value="" />
+    <property name="project" value=":platform" />
+  </properties>
+  <testcase name="deviceVoiceCapabilityAndPermissionFallback" classname="com.pawverio.platform.PlatformDeviceTest" time="0.051" />
+  <testcase name="expiredMedicationEndDateSuppressesDeliveryAndRecurrence" classname="com.pawverio.platform.PlatformDeviceTest" time="0.028" />
+  <testcase name="absentAmazonPublicKeyDoesNotStartStoreOrBlockOfflineApplication" classname="com.pawverio.platform.PlatformDeviceTest" time="0.025" />
+  <testcase name="scheduledWorkPersistsAndCancelledGenerationCannotRevive" classname="com.pawverio.platform.PlatformDeviceTest" time="0.027" />
+  <testcase name="ttsLocaleCapabilityReport" classname="com.pawverio.platform.PlatformDeviceTest" time="0.022" />
+  <testcase name="reminderLanguageSupportsManualChoiceAndTracksAutomaticDeviceLanguage" classname="com.pawverio.platform.PlatformDeviceTest" time="0.028" />
+  <testcase name="deletingAppReminderDataClearsPersistedWorkAndGenerationFingerprints" classname="com.pawverio.platform.PlatformDeviceTest" time="0.023" />
+  <testcase name="exportsWriteActualUtf8TextAndReadableMultipagePdf" classname="com.pawverio.platform.PlatformDeviceTest" time="0.259" />
+  <testcase name="realNotificationPostsAndCancellationDismissesIt" classname="com.pawverio.platform.PlatformDeviceTest" time="0.146" />
+  <testcase name="disabledNotificationsWorkerCompletesWithoutPosting" classname="com.pawverio.platform.PlatformDeviceTest" time="0.029" />
+  <testcase name="authenticatedBackupRoundTripOnFireRuntime" classname="com.pawverio.platform.PlatformDeviceTest" time="6.456" />
+</testsuite>

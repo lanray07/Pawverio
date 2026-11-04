@@ -1,0 +1,25 @@
+{
+  "ar": {
+    "zero": "%1$d مهمة رعاية",
+    "one": "%1$d مهمة رعاية",
+    "two": "%1$d مهمتا رعاية",
+    "few": "%1$d مهام رعاية",
+    "many": "%1$d مهمة رعاية",
+    "other": "%1$d مهمة رعاية"
+  },
+  "es-ES": {"one":"%1$d tarea de cuidado","many":"%1$d tareas de cuidado","other":"%1$d tareas de cuidado"},
+  "es-419": {"one":"%1$d tarea de cuidado","many":"%1$d tareas de cuidado","other":"%1$d tareas de cuidado"},
+  "fr-FR": {"one":"%1$d soin","many":"%1$d soins","other":"%1$d soins"},
+  "fr-CA": {"one":"%1$d soin","many":"%1$d soins","other":"%1$d soins"},
+  "it-IT": {"one":"%1$d attività di cura","many":"%1$d attività di cura","other":"%1$d attività di cura"},
+  "pt-BR": {"one":"%1$d tarefa de cuidado","many":"%1$d tarefas de cuidado","other":"%1$d tarefas de cuidado"},
+  "pt-PT": {"one":"%1$d tarefa de cuidado","many":"%1$d tarefas de cuidado","other":"%1$d tarefas de cuidado"},
+  "ja-JP": {"other":"お世話%1$d件"},
+  "id-ID": {"other":"%1$d tugas perawatan"},
+  "pl-PL": {
+    "one": "%1$d zadanie opieki",
+    "few": "%1$d zadania opieki",
+    "many": "%1$d zadań opieki",
+    "other": "%1$d zadania opieki"
+  }
+}

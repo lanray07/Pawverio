@@ -1,0 +1,59 @@
+{
+  "locale": "nl-NL",
+  "status": "DRAFT_NOT_APPROVED",
+  "human_review": "PENDING",
+  "functional_claim_review": "PENDING_END_TO_END_VERIFICATION",
+  "display_title": "Pawverio – Huisdierzorg & dagplanner",
+  "short_description": "Plan eten, wandelen en verzorging. Bewaar de gezondheidsgegevens van je huisdier op je apparaat.",
+  "long_description": "Een rustigere routine voor elk huisdier. Maak een profiel, plan de verzorging en leg voltooide taken vast. Eten, wandelen, verzorging en dierenartsafspraken op één plek.\n\nBegin gratis met één huisdier, basisherinneringen en dierenartsgegevens.\n\nPremium biedt meer huisdieren, medicatie en vaccinaties, gewichtsverloop, huishoudelijke taken en oppasrapporten.\n\nPremium is een optionele eenmalige aankoop. De Amazon-winkel toont de actuele lokale prijs. Herstel aankopen via Instellingen. Bestaande gezondheidsgegevens blijven toegankelijk.\n\nSpreek een verzorgingsopdracht of typ deze. Spraakherkenning en gesproken antwoorden hangen af van de taaldiensten op je apparaat; offline spraak is niet gegarandeerd.\n\nGeen account nodig. Gegevens worden lokaal opgeslagen. Jij kiest wat je exporteert. Geen advertentie-SDK’s en geen automatische locatiebepaling.\n\nPawverio is een hulpmiddel voor organisatie. Het stelt geen diagnoses en adviseert geen diëten, doseringen of behandelingen. Noteer de instructies van je dierenarts.\n\nEerste versie: lokale profielen, zorgplanning, gezondheidsgegevens en optionele spraakbediening.",
+  "product_feature_bullets": [
+    "Voeren · Wandelen · Verzorging",
+    "Dierenartsafspraak · Medicatie · Vaccinatie",
+    "Gewichtsdagboek · Verzorging in het huishouden",
+    "Oppasrapport · PDF exporteren",
+    "Op dit apparaat opgeslagen"
+  ],
+  "keywords": [
+    "Voeren",
+    "Wandelen",
+    "Verzorging",
+    "Dierenartsafspraak",
+    "Medicatie",
+    "Vaccinatie",
+    "Gewichtsdagboek",
+    "Oppasrapport"
+  ],
+  "release_notes": "Eerste versie: lokale profielen, zorgplanning, gezondheidsgegevens en optionele spraakbediening.",
+  "support_copy": "Vermeld voor hulp de appversie, het apparaatmodel en het probleem. Stuur geen privégezondheidsgegevens. Vóór publicatie moet een geverifieerd supportadres worden toegevoegd.",
+  "screenshot_headlines": [
+    "Huisdierzorg en dagplanner",
+    "Herinneringen voor eten",
+    "Dierenartsafspraken en gezondheid",
+    "Medicatie voor huisdieren bijhouden",
+    "Planning voor verzorging",
+    "Huisdierzorg met je stem",
+    "Huisdierzorg offline bijhouden",
+    "Instructies en rapporten voor de oppas"
+  ],
+  "screenshot_captions": [
+    "Verzorging vandaag",
+    "Voeren",
+    "Gezondheid",
+    "Medicatie",
+    "Verzorging",
+    "Typ of spreek een verzorgingsopdracht",
+    "Op dit apparaat opgeslagen",
+    "Oppasrapport"
+  ],
+  "privacy_policy_draft": {
+    "notice": "Huisdiergegevens worden op dit apparaat opgeslagen. Geïnstalleerde spraakherkennings- en voorleesdiensten kunnen audio en tekst verwerken, waaronder gegevens die je laat voorlezen, volgens de voorwaarden van hun aanbieder. Pawverio bewaart geen microfoonopnamen. Jij beslist of je gegevens exporteert.",
+    "export_notice": "Dit bestand kan privégezondheidsgegevens en contactgegevens bevatten. Doorgaan?",
+    "data_deletion": "Alle huisdiergegevens verwijderen",
+    "medical_notice": "Leg instructies van je dierenarts vast. Pawverio adviseert geen diëten, doseringen of behandelingen.",
+    "publication_blockers": [
+      "Publisher legal identity and support contact",
+      "Review actual SDK data processing and Amazon privacy labels",
+      "Data subject request handling and applicable legal review"
+    ]
+  }
+}

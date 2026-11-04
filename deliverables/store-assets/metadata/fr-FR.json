@@ -1,0 +1,59 @@
+{
+  "locale": "fr-FR",
+  "status": "DRAFT_NOT_APPROVED",
+  "human_review": "PENDING",
+  "functional_claim_review": "PENDING_END_TO_END_VERIFICATION",
+  "display_title": "Pawverio – Soins et agenda animalier",
+  "short_description": "Organisez repas, promenades et soins. Gardez les dossiers de santé de vos animaux sur votre appareil.",
+  "long_description": "Offrez une routine plus sereine à chaque animal. Créez un profil, planifiez les soins et notez ce qui a été fait. Rassemblez repas, promenades, toilettage et rendez-vous vétérinaires.\n\nCommencez gratuitement avec un animal, les rappels essentiels et les dossiers vétérinaires.\n\nPremium ajoute davantage d’animaux, les médicaments et vaccins, le suivi du poids, les tâches du foyer et les rapports de garde.\n\nPremium est un achat unique facultatif. La boutique Amazon affiche le prix local actuel. Restaurez les achats dans les réglages. Les dossiers de santé existants restent accessibles.\n\nDictez une commande de soin ou saisissez-la. La reconnaissance et les réponses vocales dépendent des services linguistiques de votre appareil. Le fonctionnement vocal hors ligne n’est pas garanti.\n\nAucun compte requis. Les dossiers restent sur l’appareil. Vous choisissez les exports. Aucun SDK publicitaire ni suivi automatique de localisation.\n\nPawverio est un outil d’organisation. Il ne pose aucun diagnostic et ne recommande aucun régime, dosage ou traitement. Consignez les instructions de votre vétérinaire.\n\nPremière version : profils locaux, planification des soins, dossiers de santé et commandes vocales facultatives.",
+  "product_feature_bullets": [
+    "Repas · Promenade · Toilettage",
+    "Rendez-vous vétérinaire · Médicament · Vaccination",
+    "Journal du poids · Soins du foyer",
+    "Rapport de garde · Exporter en PDF",
+    "Enregistré sur cet appareil"
+  ],
+  "keywords": [
+    "Repas",
+    "Promenade",
+    "Toilettage",
+    "Rendez-vous vétérinaire",
+    "Médicament",
+    "Vaccination",
+    "Journal du poids",
+    "Rapport de garde"
+  ],
+  "release_notes": "Première version : profils locaux, planification des soins, dossiers de santé et commandes vocales facultatives.",
+  "support_copy": "Pour obtenir de l’aide, indiquez la version de l’application, le modèle de l’appareil et le problème rencontré. N’envoyez pas de dossiers de santé privés. Une adresse d’assistance vérifiée de l’éditeur doit être ajoutée avant publication.",
+  "screenshot_headlines": [
+    "Soins et agenda pour animaux",
+    "Rappels des repas de vos animaux",
+    "Rendez-vous vétérinaires et santé",
+    "Suivi des médicaments de vos animaux",
+    "Toilettage et soins planifiés",
+    "Organisez les soins à la voix",
+    "Suivi des soins hors ligne",
+    "Consignes et rapports de garde"
+  ],
+  "screenshot_captions": [
+    "Soins du jour",
+    "Repas",
+    "Santé",
+    "Médicament",
+    "Toilettage",
+    "Saisissez ou dictez une commande de soin",
+    "Enregistré sur cet appareil",
+    "Rapport de garde"
+  ],
+  "privacy_policy_draft": {
+    "notice": "Les dossiers des animaux sont enregistrés sur cet appareil. Les services installés de reconnaissance et de synthèse vocales peuvent traiter l’audio et le texte, y compris les dossiers que vous choisissez de faire lire à voix haute, selon les conditions de leur fournisseur. Pawverio ne conserve aucun enregistrement du microphone. Vous choisissez d’exporter ou non les dossiers.",
+    "export_notice": "Ce fichier peut contenir des données de santé et des coordonnées privées. Continuer ?",
+    "data_deletion": "Supprimer toutes les données des animaux",
+    "medical_notice": "Consignez les instructions de votre vétérinaire. Pawverio ne recommande aucun régime, dosage ou traitement.",
+    "publication_blockers": [
+      "Publisher legal identity and support contact",
+      "Review actual SDK data processing and Amazon privacy labels",
+      "Data subject request handling and applicable legal review"
+    ]
+  }
+}

@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "D:\App Projects\Pawverio\scripts\capture_screenshots.py", line 31, in <module>
+    if __name__=='__main__':main()
+  File "D:\App Projects\Pawverio\scripts\capture_screenshots.py", line 25, in main
+    if result.returncode or 'FAILURES' in result.stdout or 'OK (1 test)' not in result.stdout:raise RuntimeError(f'{variant} capture failed; see capture log')
+RuntimeError: fire-tablet capture failed; see capture log

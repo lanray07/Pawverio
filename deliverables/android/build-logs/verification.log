@@ -1,0 +1,189 @@
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :app:mergeDebugNativeDebugMetadata NO-SOURCE
+> Task :app:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :app:generateDebugBuildConfig UP-TO-DATE
+> Task :core:preBuild UP-TO-DATE
+> Task :core:preDebugBuild UP-TO-DATE
+> Task :core:writeDebugAarMetadata UP-TO-DATE
+> Task :platform:preBuild UP-TO-DATE
+> Task :platform:preDebugBuild UP-TO-DATE
+> Task :platform:writeDebugAarMetadata UP-TO-DATE
+> Task :app:checkDebugAarMetadata UP-TO-DATE
+> Task :app:generateDebugResValues UP-TO-DATE
+> Task :core:generateDebugResValues UP-TO-DATE
+> Task :core:generateDebugResources UP-TO-DATE
+> Task :core:packageDebugResources UP-TO-DATE
+> Task :platform:generateDebugResValues UP-TO-DATE
+> Task :platform:generateDebugResources UP-TO-DATE
+> Task :platform:packageDebugResources UP-TO-DATE
+> Task :app:mapDebugSourceSetPaths
+> Task :app:generateDebugResources
+> Task :app:mergeDebugResources
+> Task :app:packageDebugResources
+> Task :app:createDebugCompatibleScreenManifests UP-TO-DATE
+> Task :app:extractDeepLinksDebug UP-TO-DATE
+> Task :core:extractDeepLinksDebug UP-TO-DATE
+> Task :core:processDebugManifest UP-TO-DATE
+> Task :platform:extractDeepLinksDebug UP-TO-DATE
+> Task :platform:processDebugManifest UP-TO-DATE
+> Task :app:parseDebugLocalResources
+> Task :app:processDebugMainManifest UP-TO-DATE
+> Task :app:processDebugManifest UP-TO-DATE
+> Task :app:processDebugManifestForPackage UP-TO-DATE
+> Task :core:compileDebugLibraryResources UP-TO-DATE
+> Task :core:parseDebugLocalResources UP-TO-DATE
+> Task :core:generateDebugRFile UP-TO-DATE
+> Task :platform:compileDebugLibraryResources UP-TO-DATE
+> Task :platform:parseDebugLocalResources UP-TO-DATE
+> Task :platform:generateDebugRFile UP-TO-DATE
+> Task :core:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :core:kspDebugKotlin
+> Task :app:processDebugResources
+> Task :core:javaPreCompileDebug UP-TO-DATE
+> Task :platform:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :platform:compileDebugKotlin
+> Task :platform:javaPreCompileDebug UP-TO-DATE
+> Task :platform:compileDebugJavaWithJavac NO-SOURCE
+> Task :platform:bundleLibCompileToJarDebug
+> Task :app:javaPreCompileDebug UP-TO-DATE
+> Task :app:mergeDebugShaders UP-TO-DATE
+> Task :app:compileDebugShaders NO-SOURCE
+> Task :app:generateDebugAssets UP-TO-DATE
+> Task :core:mergeDebugShaders UP-TO-DATE
+> Task :core:compileDebugShaders NO-SOURCE
+> Task :core:generateDebugAssets UP-TO-DATE
+> Task :core:packageDebugAssets UP-TO-DATE
+> Task :platform:mergeDebugShaders UP-TO-DATE
+> Task :platform:compileDebugShaders NO-SOURCE
+> Task :platform:generateDebugAssets UP-TO-DATE
+> Task :platform:packageDebugAssets UP-TO-DATE
+> Task :app:mergeDebugAssets UP-TO-DATE
+> Task :app:compressDebugAssets UP-TO-DATE
+> Task :platform:bundleLibRuntimeToJarDebug
+> Task :core:compileDebugKotlin
+> Task :core:compileDebugJavaWithJavac
+> Task :core:bundleLibRuntimeToJarDebug
+> Task :core:bundleLibCompileToJarDebug
+> Task :app:desugarDebugFileDependencies UP-TO-DATE
+> Task :core:processDebugJavaRes UP-TO-DATE
+> Task :platform:processDebugJavaRes UP-TO-DATE
+> Task :app:checkDebugDuplicateClasses UP-TO-DATE
+
+> Task :app:compileDebugKotlin
+e: file:///D:/App%20Projects/Pawverio/app/src/main/java/com/pawverio/app/Editors.kt:25:5 Inapplicable candidate(s): fun AlertDialog(onDismissRequest: () -> Unit, confirmButton: @Composable() ComposableFunction0<Unit>, modifier: Modifier = ..., dismissButton: @Composable() ComposableFunction0<Unit>? = ..., icon: @Composable() ComposableFunction0<Unit>? = ..., title: @Composable() ComposableFunction0<Unit>? = ..., text: @Composable() ComposableFunction0<Unit>? = ..., shape: Shape = ..., containerColor: Color = ..., iconContentColor: Color = ..., titleContentColor: Color = ..., textContentColor: Color = ..., tonalElevation: Dp = ..., properties: DialogProperties = ...): Unit
+e: file:///D:/App%20Projects/Pawverio/app/src/main/java/com/pawverio/app/Editors.kt:25:49 @Composable invocations can only happen from the context of a @Composable function
+e: file:///D:/App%20Projects/Pawverio/app/src/main/java/com/pawverio/app/Editors.kt:25:54 @Composable invocations can only happen from the context of a @Composable function
+e: file:///D:/App%20Projects/Pawverio/app/src/main/java/com/pawverio/app/Editors.kt:25:84 @Composable invocations can only happen from the context of a @Composable function
+e: file:///D:/App%20Projects/Pawverio/app/src/main/java/com/pawverio/app/Editors.kt:25:151 @Composable invocations can only happen from the context of a @Composable function
+e: file:///D:/App%20Projects/Pawverio/app/src/main/java/com/pawverio/app/Editors.kt:25:255 @Composable invocations can only happen from the context of a @Composable function
+e: file:///D:/App%20Projects/Pawverio/app/src/main/java/com/pawverio/app/Editors.kt:25:347 @Composable invocations can only happen from the context of a @Composable function
+e: file:///D:/App%20Projects/Pawverio/app/src/main/java/com/pawverio/app/Editors.kt:25:538 Syntax error: Unexpected tokens (use ';' to separate expressions on the same line).
+e: file:///D:/App%20Projects/Pawverio/app/src/main/java/com/pawverio/app/Editors.kt:26:2 Syntax error: Expecting ','.
+e: file:///D:/App%20Projects/Pawverio/app/src/main/java/com/pawverio/app/Editors.kt:27:1 Anonymous functions with names are prohibited.
+e: file:///D:/App%20Projects/Pawverio/app/src/main/java/com/pawverio/app/Editors.kt:27:13 Modifier 'internal' is not applicable to 'local function'.
+e: file:///D:/App%20Projects/Pawverio/app/src/main/java/com/pawverio/app/Editors.kt:27:173 Syntax error: Expecting ','.
+e: file:///D:/App%20Projects/Pawverio/app/src/main/java/com/pawverio/app/Editors.kt:28:1 Anonymous functions with names are prohibited.
+e: file:///D:/App%20Projects/Pawverio/app/src/main/java/com/pawverio/app/Editors.kt:28:13 Modifier 'private' is not applicable to 'local function'.
+e: file:///D:/App%20Projects/Pawverio/app/src/main/java/com/pawverio/app/Editors.kt:28:514 Syntax error: Expecting ','.
+e: file:///D:/App%20Projects/Pawverio/app/src/main/java/com/pawverio/app/Editors.kt:29:1 Anonymous functions with names are prohibited.
+e: file:///D:/App%20Projects/Pawverio/app/src/main/java/com/pawverio/app/Editors.kt:29:13 Modifier 'private' is not applicable to 'local function'.
+e: file:///D:/App%20Projects/Pawverio/app/src/main/java/com/pawverio/app/Editors.kt:29:150 Syntax error: Expecting ','.
+e: file:///D:/App%20Projects/Pawverio/app/src/main/java/com/pawverio/app/Editors.kt:30:1 Anonymous functions with names are prohibited.
+e: file:///D:/App%20Projects/Pawverio/app/src/main/java/com/pawverio/app/Editors.kt:30:13 Modifier 'private' is not applicable to 'local function'.
+e: file:///D:/App%20Projects/Pawverio/app/src/main/java/com/pawverio/app/Editors.kt:30:468 Syntax error: Expecting ','.
+e: file:///D:/App%20Projects/Pawverio/app/src/main/java/com/pawverio/app/Editors.kt:31:1 Anonymous functions with names are prohibited.
+e: file:///D:/App%20Projects/Pawverio/app/src/main/java/com/pawverio/app/Editors.kt:31:13 Modifier 'internal' is not applicable to 'local function'.
+e: file:///D:/App%20Projects/Pawverio/app/src/main/java/com/pawverio/app/Editors.kt:31:811 Syntax error: Expecting ','.
+e: file:///D:/App%20Projects/Pawverio/app/src/main/java/com/pawverio/app/Editors.kt:32:1 Anonymous functions with names are prohibited.
+e: file:///D:/App%20Projects/Pawverio/app/src/main/java/com/pawverio/app/Editors.kt:32:13 Modifier 'internal' is not applicable to 'local function'.
+e: file:///D:/App%20Projects/Pawverio/app/src/main/java/com/pawverio/app/Editors.kt:35:118 Unresolved reference 'copyPrivate'.
+e: file:///D:/App%20Projects/Pawverio/app/src/main/java/com/pawverio/app/Editors.kt:39:2 Syntax error: Expecting ','.
+e: file:///D:/App%20Projects/Pawverio/app/src/main/java/com/pawverio/app/Editors.kt:40:1 Anonymous functions with names are prohibited.
+e: file:///D:/App%20Projects/Pawverio/app/src/main/java/com/pawverio/app/Editors.kt:40:13 Modifier 'internal' is not applicable to 'local function'.
+e: file:///D:/App%20Projects/Pawverio/app/src/main/java/com/pawverio/app/Editors.kt:45:2 Syntax error: Expecting ','.
+e: file:///D:/App%20Projects/Pawverio/app/src/main/java/com/pawverio/app/Editors.kt:46:1 Anonymous functions with names are prohibited.
+e: file:///D:/App%20Projects/Pawverio/app/src/main/java/com/pawverio/app/Editors.kt:46:13 Modifier 'internal' is not applicable to 'local function'.
+e: file:///D:/App%20Projects/Pawverio/app/src/main/java/com/pawverio/app/Editors.kt:48:123 Unresolved reference 'copyPrivate'.
+e: file:///D:/App%20Projects/Pawverio/app/src/main/java/com/pawverio/app/Editors.kt:50:2 Syntax error: Expecting ','.
+e: file:///D:/App%20Projects/Pawverio/app/src/main/java/com/pawverio/app/Editors.kt:51:1 Anonymous functions with names are prohibited.
+e: file:///D:/App%20Projects/Pawverio/app/src/main/java/com/pawverio/app/Editors.kt:51:13 Modifier 'internal' is not applicable to 'local function'.
+e: file:///D:/App%20Projects/Pawverio/app/src/main/java/com/pawverio/app/Editors.kt:51:445 Syntax error: Expecting ','.
+e: file:///D:/App%20Projects/Pawverio/app/src/main/java/com/pawverio/app/Editors.kt:52:1 Anonymous functions with names are prohibited.
+e: file:///D:/App%20Projects/Pawverio/app/src/main/java/com/pawverio/app/Editors.kt:52:13 Modifier 'internal' is not applicable to 'local function'.
+e: file:///D:/App%20Projects/Pawverio/app/src/main/java/com/pawverio/app/Editors.kt:53:1 Unresolved reference 'private'.
+e: file:///D:/App%20Projects/Pawverio/app/src/main/java/com/pawverio/app/Editors.kt:53:9 Anonymous functions with names are prohibited.
+e: file:///D:/App%20Projects/Pawverio/app/src/main/java/com/pawverio/app/Editors.kt:53:563 Syntax error: Expecting ')'.
+e: file:///D:/App%20Projects/Pawverio/app/src/main/java/com/pawverio/app/PawverioApp.kt:75:25 Cannot access 'com.amazon.device.iap.PurchasingListener' which is a supertype of 'com.pawverio.platform.AmazonBilling'. Check your module classpath for missing or conflicting dependencies.
+e: file:///D:/App%20Projects/Pawverio/app/src/main/java/com/pawverio/app/PawverioApp.kt:90:38 Cannot access 'com.amazon.device.iap.PurchasingListener' which is a supertype of 'com.pawverio.platform.AmazonBilling'. Check your module classpath for missing or conflicting dependencies.
+e: file:///D:/App%20Projects/Pawverio/app/src/main/java/com/pawverio/app/PawverioApp.kt:175:72 Argument type mismatch: actual type is 'androidx.compose.ui.Modifier', but 'kotlin.Function0<kotlin.Unit>' was expected.
+e: file:///D:/App%20Projects/Pawverio/app/src/main/java/com/pawverio/app/PawverioApp.kt:175:96 Argument already passed for this parameter.
+e: file:///D:/App%20Projects/Pawverio/app/src/main/java/com/pawverio/app/PawverioApp.kt:175:143 @Composable invocations can only happen from the context of a @Composable function
+e: file:///D:/App%20Projects/Pawverio/app/src/main/java/com/pawverio/app/PawverioApp.kt:185:426 Cannot access 'com.amazon.device.iap.PurchasingListener' which is a supertype of 'com.pawverio.platform.AmazonBilling'. Check your module classpath for missing or conflicting dependencies.
+e: file:///D:/App%20Projects/Pawverio/app/src/main/java/com/pawverio/app/PawverioApp.kt:197:18 Unresolved reference 'PetEditor'.
+e: file:///D:/App%20Projects/Pawverio/app/src/main/java/com/pawverio/app/PawverioApp.kt:197:65 Cannot infer type for this parameter. Please specify it explicitly.
+e: file:///D:/App%20Projects/Pawverio/app/src/main/java/com/pawverio/app/PawverioApp.kt:197:137 Cannot infer type for this parameter. Please specify it explicitly.
+e: file:///D:/App%20Projects/Pawverio/app/src/main/java/com/pawverio/app/PawverioApp.kt:199:19 Unresolved reference 'TaskEditor'.
+e: file:///D:/App%20Projects/Pawverio/app/src/main/java/com/pawverio/app/PawverioApp.kt:199:87 Cannot infer type for this parameter. Please specify it explicitly.
+e: file:///D:/App%20Projects/Pawverio/app/src/main/java/com/pawverio/app/PawverioApp.kt:199:103 Unresolved reference 'kind'.
+e: file:///D:/App%20Projects/Pawverio/app/src/main/java/com/pawverio/app/PawverioApp.kt:199:282 Cannot infer type for this parameter. Please specify it explicitly.
+e: file:///D:/App%20Projects/Pawverio/app/src/main/java/com/pawverio/app/PawverioApp.kt:199:320 Unresolved reference 'id'.
+e: file:///D:/App%20Projects/Pawverio/app/src/main/java/com/pawverio/app/PawverioApp.kt:199:351 Unresolved reference 'id'.
+e: file:///D:/App%20Projects/Pawverio/app/src/main/java/com/pawverio/app/PawverioApp.kt:200:21 Unresolved reference 'RecordEditor'.
+e: file:///D:/App%20Projects/Pawverio/app/src/main/java/com/pawverio/app/PawverioApp.kt:200:72 Cannot infer type for this parameter. Please specify it explicitly.
+e: file:///D:/App%20Projects/Pawverio/app/src/main/java/com/pawverio/app/PawverioApp.kt:200:92 Unresolved reference 'kind'.
+e: file:///D:/App%20Projects/Pawverio/app/src/main/java/com/pawverio/app/PawverioApp.kt:200:249 Unresolved reference 'id'.
+e: file:///D:/App%20Projects/Pawverio/app/src/main/java/com/pawverio/app/PawverioApp.kt:200:269 Unresolved reference 'nextDueDate'.
+e: file:///D:/App%20Projects/Pawverio/app/src/main/java/com/pawverio/app/PawverioApp.kt:200:294 Unresolved reference 'kind'.
+e: file:///D:/App%20Projects/Pawverio/app/src/main/java/com/pawverio/app/PawverioApp.kt:200:321 Unresolved reference 'date'.
+e: file:///D:/App%20Projects/Pawverio/app/src/main/java/com/pawverio/app/PawverioApp.kt:200:356 'operator' modifier is required on 'FirNamedFunctionSymbol kotlin/compareTo' in 'compareTo'.
+e: file:///D:/App%20Projects/Pawverio/app/src/main/java/com/pawverio/app/PawverioApp.kt:200:411 Unresolved reference 'id'.
+e: file:///D:/App%20Projects/Pawverio/app/src/main/java/com/pawverio/app/PawverioApp.kt:200:421 Unresolved reference 'title'.
+e: file:///D:/App%20Projects/Pawverio/app/src/main/java/com/pawverio/app/PawverioApp.kt:200:434 Unresolved reference 'provider'.
+e: file:///D:/App%20Projects/Pawverio/app/src/main/java/com/pawverio/app/PawverioApp.kt:200:466 Cannot infer type for this parameter. Please specify it explicitly.
+e: file:///D:/App%20Projects/Pawverio/app/src/main/java/com/pawverio/app/PawverioApp.kt:200:521 Unresolved reference 'id'.
+e: file:///D:/App%20Projects/Pawverio/app/src/main/java/com/pawverio/app/PawverioApp.kt:200:549 Unresolved reference 'id'.
+e: file:///D:/App%20Projects/Pawverio/app/src/main/java/com/pawverio/app/PawverioApp.kt:201:19 Unresolved reference 'EntryEditor'.
+e: file:///D:/App%20Projects/Pawverio/app/src/main/java/com/pawverio/app/PawverioApp.kt:201:138 Cannot infer type for this parameter. Please specify it explicitly.
+e: file:///D:/App%20Projects/Pawverio/app/src/main/java/com/pawverio/app/PawverioApp.kt:201:142 Cannot infer type for this parameter. Please specify it explicitly.
+e: file:///D:/App%20Projects/Pawverio/app/src/main/java/com/pawverio/app/PawverioApp.kt:201:195 Argument type mismatch: actual type is 'V?', but 'kotlin.String' was expected.
+e: file:///D:/App%20Projects/Pawverio/app/src/main/java/com/pawverio/app/PawverioApp.kt:201:195 Cannot infer type for this parameter. Please specify it explicitly.
+e: file:///D:/App%20Projects/Pawverio/app/src/main/java/com/pawverio/app/PawverioApp.kt:201:221 Cannot infer type for this parameter. Please specify it explicitly.
+e: file:///D:/App%20Projects/Pawverio/app/src/main/java/com/pawverio/app/PawverioApp.kt:201:221 Not enough information to infer type argument for 'V'.
+e: file:///D:/App%20Projects/Pawverio/app/src/main/java/com/pawverio/app/PawverioApp.kt:201:231 Cannot infer type for this parameter. Please specify it explicitly.
+e: file:///D:/App%20Projects/Pawverio/app/src/main/java/com/pawverio/app/PawverioApp.kt:201:231 Not enough information to infer type argument for 'T'.
+e: file:///D:/App%20Projects/Pawverio/app/src/main/java/com/pawverio/app/PawverioApp.kt:201:237 Cannot infer type for this parameter. Please specify it explicitly.
+e: file:///D:/App%20Projects/Pawverio/app/src/main/java/com/pawverio/app/PawverioApp.kt:201:256 Cannot infer type for this parameter. Please specify it explicitly.
+e: file:///D:/App%20Projects/Pawverio/app/src/main/java/com/pawverio/app/PawverioApp.kt:201:260 Cannot infer type for this parameter. Please specify it explicitly.
+e: file:///D:/App%20Projects/Pawverio/app/src/main/java/com/pawverio/app/PawverioApp.kt:201:287 Argument type mismatch: actual type is 'V?', but 'kotlin.String' was expected.
+e: file:///D:/App%20Projects/Pawverio/app/src/main/java/com/pawverio/app/PawverioApp.kt:201:287 Cannot infer type for this parameter. Please specify it explicitly.
+e: file:///D:/App%20Projects/Pawverio/app/src/main/java/com/pawverio/app/PawverioApp.kt:202:21 Unresolved reference 'EntryEditor'.
+e: file:///D:/App%20Projects/Pawverio/app/src/main/java/com/pawverio/app/PawverioApp.kt:202:135 Cannot infer type for this parameter. Please specify it explicitly.
+e: file:///D:/App%20Projects/Pawverio/app/src/main/java/com/pawverio/app/PawverioApp.kt:202:139 Cannot infer type for this parameter. Please specify it explicitly.
+e: file:///D:/App%20Projects/Pawverio/app/src/main/java/com/pawverio/app/PawverioApp.kt:202:180 Argument type mismatch: actual type is 'V?', but 'kotlin.String' was expected.
+e: file:///D:/App%20Projects/Pawverio/app/src/main/java/com/pawverio/app/PawverioApp.kt:202:180 Cannot infer type for this parameter. Please specify it explicitly.
+e: file:///D:/App%20Projects/Pawverio/app/src/main/java/com/pawverio/app/PawverioApp.kt:202:311 Argument type mismatch: actual type is 'V?', but 'kotlin.String' was expected.
+e: file:///D:/App%20Projects/Pawverio/app/src/main/java/com/pawverio/app/PawverioApp.kt:202:311 Cannot infer type for this parameter. Please specify it explicitly.
+e: file:///D:/App%20Projects/Pawverio/app/src/main/java/com/pawverio/app/PawverioApp.kt:202:327 Argument type mismatch: actual type is 'V?', but 'kotlin.String' was expected.
+e: file:///D:/App%20Projects/Pawverio/app/src/main/java/com/pawverio/app/PawverioApp.kt:202:327 Cannot infer type for this parameter. Please specify it explicitly.
+e: file:///D:/App%20Projects/Pawverio/app/src/main/java/com/pawverio/app/PawverioApp.kt:203:21 Unresolved reference 'SimpleEditor'.
+e: file:///D:/App%20Projects/Pawverio/app/src/main/java/com/pawverio/app/PawverioApp.kt:203:116 Cannot infer type for this parameter. Please specify it explicitly.
+e: file:///D:/App%20Projects/Pawverio/app/src/main/java/com/pawverio/app/PawverioApp.kt:203:177 Argument type mismatch: actual type is 'V?', but 'kotlin.String' was expected.
+e: file:///D:/App%20Projects/Pawverio/app/src/main/java/com/pawverio/app/PawverioApp.kt:203:177 Cannot infer type for this parameter. Please specify it explicitly.
+e: file:///D:/App%20Projects/Pawverio/app/src/main/java/com/pawverio/app/PawverioApp.kt:203:195 Argument type mismatch: actual type is 'V?', but 'kotlin.String' was expected.
+e: file:///D:/App%20Projects/Pawverio/app/src/main/java/com/pawverio/app/PawverioApp.kt:203:195 Cannot infer type for this parameter. Please specify it explicitly.
+e: file:///D:/App%20Projects/Pawverio/app/src/main/java/com/pawverio/app/PawverioApp.kt:204:27 Unresolved reference 'SimpleEditor'.
+e: file:///D:/App%20Projects/Pawverio/app/src/main/java/com/pawverio/app/PawverioApp.kt:204:193 Cannot infer type for this parameter. Please specify it explicitly.
+e: file:///D:/App%20Projects/Pawverio/app/src/main/java/com/pawverio/app/PawverioApp.kt:204:239 Cannot infer type for this parameter. Please specify it explicitly.
+e: file:///D:/App%20Projects/Pawverio/app/src/main/java/com/pawverio/app/PawverioApp.kt:204:275 Cannot infer type for this parameter. Please specify it explicitly.
+e: file:///D:/App%20Projects/Pawverio/app/src/main/java/com/pawverio/app/PawverioApp.kt:209:376 Cannot access 'com.amazon.device.iap.PurchasingListener' which is a supertype of 'com.pawverio.platform.AmazonBilling'. Check your module classpath for missing or conflicting dependencies.
+e: file:///D:/App%20Projects/Pawverio/app/src/main/java/com/pawverio/app/PawverioApp.kt:209:518 Cannot access 'com.amazon.device.iap.PurchasingListener' which is a supertype of 'com.pawverio.platform.AmazonBilling'. Check your module classpath for missing or conflicting dependencies.
+e: file:///D:/App%20Projects/Pawverio/app/src/main/java/com/pawverio/app/PawverioApp.kt:234:1509 Unresolved reference 'Field'.
+e: file:///D:/App%20Projects/Pawverio/app/src/main/java/com/pawverio/app/PawverioApp.kt:234:1558 Unresolved reference 'it'.
+e: file:///D:/App%20Projects/Pawverio/app/src/main/java/com/pawverio/app/PawverioApp.kt:234:1561 Unresolved reference 'it'.
+e: file:///D:/App%20Projects/Pawverio/app/src/main/java/com/pawverio/app/PawverioApp.kt:234:1645 Unresolved reference 'Field'.
+e: file:///D:/App%20Projects/Pawverio/app/src/main/java/com/pawverio/app/PawverioApp.kt:234:1688 Unresolved reference 'it'.
+e: file:///D:/App%20Projects/Pawverio/app/src/main/java/com/pawverio/app/PawverioApp.kt:234:1691 Unresolved reference 'it'.
+
+> Task :app:compileDebugKotlin FAILED
+> Task :app:mergeExtDexDebug

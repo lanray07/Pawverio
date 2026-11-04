@@ -1,0 +1,25 @@
+{
+  "result": "PASS",
+  "source_files_scanned": 90,
+  "apk_scan": [
+    {
+      "file": "deliverables\\android\\debug\\Pawverio-debug.apk",
+      "entries_scanned": 35
+    },
+    {
+      "file": "deliverables\\android\\release\\Pawverio-release-unsigned.apk",
+      "entries_scanned": 32
+    }
+  ],
+  "checks": [
+    "Known credential patterns in application/script sources and copied APK dex/config entries",
+    "Automatic Android cloud backup disabled",
+    "No declared app location permission"
+  ],
+  "limitations": [
+    "Pattern scanning does not prove absence of all secrets",
+    "No penetration test, dependency vulnerability audit or legal compliance assessment",
+    "Amazon receipt verification and sandbox purchasing require external configuration"
+  ],
+  "errors": []
+}

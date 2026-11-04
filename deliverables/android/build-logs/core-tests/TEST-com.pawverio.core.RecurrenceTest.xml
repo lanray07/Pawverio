@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.pawverio.core.RecurrenceTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2026-11-04T13:42:51.743Z" hostname="DESKTOP-MAKK9CA" time="0.021">
+  <properties/>
+  <testcase name="overdueTasksAdvanceWithoutFloodingPastReminders" classname="com.pawverio.core.RecurrenceTest" time="0.019"/>
+  <testcase name="dailyRecurrencePreservesClockAcrossSpringDst" classname="com.pawverio.core.RecurrenceTest" time="0.001"/>
+  <testcase name="rejectsZeroDays" classname="com.pawverio.core.RecurrenceTest" time="0.001"/>
+  <testcase name="weeklySchedulePreservesOriginalWeekday" classname="com.pawverio.core.RecurrenceTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
