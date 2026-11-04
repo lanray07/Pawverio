@@ -128,6 +128,7 @@ def main():
     for kind in ['feeding','walking','grooming','veterinary-record','medication','vaccination','voice','premium','empty-state','onboarding']:
         a=Art();feature(a,kind);a.save('pawverio-'+kind,(1024,256))
     a=Art();calendar(a);a.save('pawverio-logo-mark',(1024,512))
+    a=Art();calendar(a);a.save('pawverio-iap-icon',(512,114))
     # Editable brand lockup intentionally uses a live text element in SVG.
     a=Art();paw(a,512,300,.75);a.text((208,600),'Pawverio',TEAL,138);a.save('pawverio-wordmark',(1024,))
     # Publisher-editable, name-only Amazon promotional art and social banner.

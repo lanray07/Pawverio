@@ -14,10 +14,10 @@
   "capture_blocker": null,
   "approved_locales": [],
   "human_review_pending_locales": 19,
-  "debug_sha256": "5d6a234ea7bbeb2d2500ff7d50d15a11c371f3b40121b746a988b1dae21d30be",
-  "unsigned_release_sha256": "ad467ffad1787d8233eaf4dc2b4b5f3ba6f12643424a557544345ab09f77b8ad",
+  "debug_sha256": "b7201067f7b70d386fc1c7a3e441946c22dd5fc1383aec8dfdaed4572ad5f461",
+  "unsigned_release_sha256": "de3cff0fee09040b9af92078a133fc25447970601c220ff84fd12e8538602fa5",
   "dialog_locale_regression_pass": true,
   "production_signing": "PASS: dedicated owner-local RSA4096 identity; verified v2/v3 signatures",
-  "amazon_store_tests": "BLOCKED: app public key configured; real SKU/purchase/restore validation remains outstanding",
-  "signed_release_sha256": "9d5336de8cbbacaeba8146b90b420accc1d1aa32a101ea939d0244dc530a4c07"
+  "amazon_store_tests": "BLOCKED: app public key and matching SKU draft configured; live store and App Tester purchase/restore validation remain outstanding",
+  "signed_release_sha256": "b1165b9710e3d1341adfd50a8073d9f2425d330f162351f573df1269536e4d77"
 }

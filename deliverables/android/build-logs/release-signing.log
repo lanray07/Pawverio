@@ -15,4 +15,5 @@ Signer #1 key size (bits): 4096
 Signer #1 public key SHA-256 digest: 56f67e7cdb11141200fc347134e6696ff3c1b3c9156fb32eaab338a4e80dd659
 Signer #1 public key SHA-1 digest: 0ee4624dfc506fcbe7b913f6e6ca4bf7a1c119c9
 Signer #1 public key MD5 digest: e44fa6bfcbacc87c069c89a3884a584c
+{"status": "PASS", "libraries": 8}
 Signed release verified: D:\App Projects\Pawverio\deliverables\android\release\Pawverio-release-signed.apk

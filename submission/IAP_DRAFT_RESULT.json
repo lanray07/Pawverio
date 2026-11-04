@@ -1,0 +1,118 @@
+{
+  "date": "2026-11-04",
+  "status": "DRAFT_READY_TO_SUBMIT_NOT_SUBMITTED",
+  "sku": "pawverio.premium.lifetime",
+  "type": "ENTITLED",
+  "title": "Pawverio Premium",
+  "base_currency": "GBP",
+  "base_price": "4.99",
+  "regional_prices": {
+    "CA": [
+      "CAD",
+      "9.39"
+    ],
+    "DE": [
+      "EUR",
+      "5.98"
+    ],
+    "IN": [
+      "INR",
+      "635.12"
+    ],
+    "JP": [
+      "JPY",
+      "1062"
+    ],
+    "ES": [
+      "EUR",
+      "5.98"
+    ],
+    "AU": [
+      "AUD",
+      "9.62"
+    ],
+    "US": [
+      "USD",
+      "6.70"
+    ],
+    "MX": [
+      "MXN",
+      "126.17"
+    ],
+    "GB": [
+      "GBP",
+      "4.99"
+    ],
+    "IT": [
+      "EUR",
+      "5.98"
+    ],
+    "BR": [
+      "BRL",
+      "36.79"
+    ],
+    "FR": [
+      "EUR",
+      "5.98"
+    ]
+  },
+  "price_source": "Amazon console automatic calculation from GBP base; saved draft, not a live offer",
+  "locales_verified_after_reload": [
+    {
+      "locale": "en-US",
+      "title_matches": true,
+      "description_matches": true
+    },
+    {
+      "locale": "en-AU",
+      "title_matches": true,
+      "description_matches": true
+    },
+    {
+      "locale": "en-GB",
+      "title_matches": true,
+      "description_matches": true
+    },
+    {
+      "locale": "de-DE",
+      "title_matches": true,
+      "description_matches": true
+    },
+    {
+      "locale": "es-ES",
+      "title_matches": true,
+      "description_matches": true
+    },
+    {
+      "locale": "fr-FR",
+      "title_matches": true,
+      "description_matches": true
+    },
+    {
+      "locale": "it-IT",
+      "title_matches": true,
+      "description_matches": true
+    },
+    {
+      "locale": "ja-JP",
+      "title_matches": true,
+      "description_matches": true
+    },
+    {
+      "locale": "pt-BR",
+      "title_matches": true,
+      "description_matches": true
+    }
+  ],
+  "translation_review": "AI_AUTHORED_DRAFT_PENDING_NATIVE_REVIEW",
+  "submission_performed": false,
+  "devtest_blocker": "Amazon documented requirement for submitted live IAP items conflicts with owner instruction to keep all drafts unsubmitted",
+  "catalog_export": "submission/amazon.sdktester.json; actual Amazon-generated draft catalog",
+  "catalog_validation": "PASS: scripts/validate_iap_catalog.py",
+  "app_tester_environment": "Installed on connected KFTRWI; overlay permission already allowed; debug.amazon.sandboxmode=none. No device permission or sandbox changes were made pending owner authorisation.",
+  "artwork_verification": "PASS: all 18 persisted Amazon icons downloaded after reload and pixel-matched to transparent 512px/114px source PNGs",
+  "artwork_sources": [
+    "deliverables/brand-assets/pawverio-iap-icon-512.png",
+    "deliverables/brand-assets/pawverio-iap-icon-114.png"
+  ]
+}

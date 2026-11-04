@@ -48,6 +48,7 @@ class EntitlementReceiptLedger(private val expectedSku: String) {
     private val canceledByReceipt = mutableMapOf<String, Boolean>()
     val premium: Boolean get() = canceledByReceipt.values.any { canceled -> !canceled }
     fun isActive(receiptId: String): Boolean = canceledByReceipt[receiptId] == false
+    val activeReceiptIds: List<String> get() = canceledByReceipt.filterValues { !it }.keys.toList()
 
     fun mergePage(facts: Iterable<EntitlementReceiptFact>) {
         facts.filter { it.sku == expectedSku && it.entitlement && it.receiptId.isNotBlank() }
@@ -64,8 +65,36 @@ class EntitlementReceiptLedger(private val expectedSku: String) {
  * Instantiate once per Application. No production path generates receipts or grants test
  * entitlements.
  */
-class AmazonBilling(context: Context, private val sku: String = "pawverio.premium.lifetime") :
+internal interface AmazonPurchaseGateway {
+    fun register(context: Context, listener: PurchasingListener)
+    fun userData()
+    fun productData(skus: Set<String>)
+    fun purchase(sku: String)
+    fun updates(reset: Boolean): RequestId
+    fun fulfill(receiptId: String)
+}
+
+private object StorePurchaseGateway : AmazonPurchaseGateway {
+    override fun register(context: Context, listener: PurchasingListener) = PurchasingService.registerListener(context, listener)
+    override fun userData() { PurchasingService.getUserData() }
+    override fun productData(skus: Set<String>) { PurchasingService.getProductData(skus) }
+    override fun purchase(sku: String) { PurchasingService.purchase(sku) }
+    override fun updates(reset: Boolean): RequestId = PurchasingService.getPurchaseUpdates(reset)
+    override fun fulfill(receiptId: String) = PurchasingService.notifyFulfillment(receiptId, FulfillmentResult.FULFILLED)
+}
+
+class AmazonBilling internal constructor(
+    context: Context,
+    private val sku: String,
+    private val gateway: AmazonPurchaseGateway,
+    private val publicKeyAvailable: () -> Boolean = {
+        try {
+            context.applicationContext.assets.open("AppstoreAuthenticationKey.pem").use { it.read() != -1 }
+        } catch (_: Exception) { false }
+    },
+) :
     PurchasingListener {
+    constructor(context: Context, sku: String = "pawverio.premium.lifetime") : this(context.applicationContext, sku, StorePurchaseGateway)
     private val app = context.applicationContext
     private val preferences = app.getSharedPreferences("amazon-entitlement", Context.MODE_PRIVATE)
     private val mutable =
@@ -76,26 +105,21 @@ class AmazonBilling(context: Context, private val sku: String = "pawverio.premiu
     private val receiptLedger = EntitlementReceiptLedger(sku)
     private var hasCompleteLedger = false
     private var connected = false
+    private var updatesRequestId: RequestId? = null
 
     fun connect() {
         mutable.value = mutable.value.copy(busy = true, status = BillingStatus.CONNECTING)
         // Do not start vendor authentication until the app-specific public key is provisioned.
         // A missing developer configuration must not interrupt ordinary offline pet care.
-        val hasPublicKey =
-            try {
-                app.assets.open("AppstoreAuthenticationKey.pem").use { it.read() != -1 }
-            } catch (_: Exception) {
-                false
-            }
-        if (!hasPublicKey) {
+        if (!publicKeyAvailable()) {
             unavailable()
             return
         }
         try {
-            PurchasingService.registerListener(app, this)
+            gateway.register(app, this)
             connected = true
-            PurchasingService.getUserData()
-            PurchasingService.getProductData(setOf(sku))
+            gateway.userData()
+            gateway.productData(setOf(sku))
         } catch (_: Exception) {
             unavailable()
         }
@@ -109,13 +133,14 @@ class AmazonBilling(context: Context, private val sku: String = "pawverio.premiu
         if (mutable.value.busy) return
         mutable.value = mutable.value.copy(busy = true)
         try {
-            PurchasingService.purchase(sku)
+            gateway.purchase(sku)
         } catch (_: Exception) {
             unavailable()
         }
     }
 
     fun restore() {
+        if (restoring) return
         if (!connected || userId == null) {
             unavailable()
             return
@@ -125,7 +150,7 @@ class AmazonBilling(context: Context, private val sku: String = "pawverio.premiu
         hasCompleteLedger = false
         mutable.value = mutable.value.copy(busy = true)
         try {
-            PurchasingService.getPurchaseUpdates(true)
+            updatesRequestId = gateway.updates(true)
         } catch (_: Exception) {
             failRestore()
         }
@@ -136,6 +161,7 @@ class AmazonBilling(context: Context, private val sku: String = "pawverio.premiu
     }
 
     private fun failRestore() {
+        updatesRequestId = null
         restoring = false
         receiptLedger.reset()
         hasCompleteLedger = false
@@ -146,6 +172,15 @@ class AmazonBilling(context: Context, private val sku: String = "pawverio.premiu
     private fun persist(premium: Boolean) {
         preferences.edit().putBoolean("premium", premium).putString("user", userId).apply()
         mutable.value = mutable.value.copy(premium = premium)
+    }
+
+    // Fulfillment is retried through purchase updates. A store-service failure must not crash
+    // the callback or discard an entitlement already delivered and cached on this device.
+    private fun fulfill(receiptId: String): Boolean = try {
+        gateway.fulfill(receiptId)
+        true
+    } catch (_: Exception) {
+        false
     }
 
     private fun matches(receipt: Receipt): Boolean =
@@ -162,11 +197,16 @@ class AmazonBilling(context: Context, private val sku: String = "pawverio.premiu
 
     override fun onUserDataResponse(response: UserDataResponse) {
         if (response.requestStatus != UserDataResponse.RequestStatus.SUCCESSFUL) {
+            userId = null
+            restoring = false
+            updatesRequestId = null
             unavailable()
             return
         }
         val current = response.userData.userId
         if (preferences.getString("user", null) != current) {
+            restoring = false
+            updatesRequestId = null
             receiptLedger.reset()
             hasCompleteLedger = false
             userId = current
@@ -191,7 +231,7 @@ class AmazonBilling(context: Context, private val sku: String = "pawverio.premiu
     }
 
     override fun onPurchaseResponse(response: PurchaseResponse) {
-        if (response.userData != null && response.userData.userId != userId) {
+        if (userId == null || response.userData?.userId != userId) {
             unavailable()
             return
         }
@@ -204,11 +244,7 @@ class AmazonBilling(context: Context, private val sku: String = "pawverio.premiu
                         if (!receiptLedger.isActive(receipt.receiptId)) BillingStatus.ERROR
                         else {
                             persist(receiptLedger.premium)
-                            PurchasingService.notifyFulfillment(
-                                receipt.receiptId,
-                                FulfillmentResult.FULFILLED,
-                            )
-                            BillingStatus.PURCHASED
+                            if (fulfill(receipt.receiptId)) BillingStatus.PURCHASED else BillingStatus.ERROR
                         }
                     } else BillingStatus.ERROR
                 }
@@ -227,6 +263,8 @@ class AmazonBilling(context: Context, private val sku: String = "pawverio.premiu
     }
 
     override fun onPurchaseUpdatesResponse(response: PurchaseUpdatesResponse) {
+        // Ignore late pages/failures from a superseded restore or a previous Amazon account.
+        if (response.requestId != updatesRequestId) return
         if (
             response.requestStatus != PurchaseUpdatesResponse.RequestStatus.SUCCESSFUL ||
                 response.userData.userId != userId
@@ -242,15 +280,19 @@ class AmazonBilling(context: Context, private val sku: String = "pawverio.premiu
         receiptLedger.mergePage(response.receipts.map(::fact))
         if (response.hasMore()) {
             try {
-                PurchasingService.getPurchaseUpdates(false)
+                updatesRequestId = gateway.updates(false)
             } catch (_: Exception) {
                 failRestore()
             }
             return
         }
         hasCompleteLedger = true
+        updatesRequestId = null
         persist(receiptLedger.premium)
         restoring = false
-        mutable.value = mutable.value.copy(busy = false, status = BillingStatus.RESTORED)
+        // Pending purchases may arrive only in purchase updates after restart. Acknowledge
+        // active receipts after the complete ledger has been persisted, never canceled ones.
+        val fulfilled = receiptLedger.activeReceiptIds.map(::fulfill).all { it }
+        mutable.value = mutable.value.copy(busy = false, status = if (fulfilled) BillingStatus.RESTORED else BillingStatus.ERROR)
     }
 }

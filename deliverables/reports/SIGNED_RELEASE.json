@@ -1,15 +1,14 @@
 {
   "status": "PASS",
   "artifact": "deliverables/android/release/Pawverio-release-signed.apk",
-  "sha256": "9d5336de8cbbacaeba8146b90b420accc1d1aa32a101ea939d0244dc530a4c07",
-  "unsigned_sha256": "ad467ffad1787d8233eaf4dc2b4b5f3ba6f12643424a557544345ab09f77b8ad",
+  "sha256": "b1165b9710e3d1341adfd50a8073d9f2425d330f162351f573df1269536e4d77",
+  "unsigned_sha256": "de3cff0fee09040b9af92078a133fc25447970601c220ff84fd12e8538602fa5",
   "alias": "pawverio-release",
   "key_algorithm": "RSA4096",
   "signature": "SHA256withRSA",
   "minimum_verified_api": 26,
   "alignment_bytes": 4,
-  "device_runtime_verification": "NOT TESTED: current Fire uses a different debug certificate; data was preserved",
-  "password_storage": "Windows CurrentUser DPAPI, outside repository",
   "zip_entry_native_page_alignment_kib": 16,
-  "elf_segment_16k_compatibility": "NOT TESTED; ZIP entry alignment is separate from ELF segment alignment"
+  "device_runtime_verification": "NOT TESTED: current Fire uses a different debug certificate; data was preserved",
+  "password_storage": "Windows CurrentUser DPAPI, outside repository"
 }

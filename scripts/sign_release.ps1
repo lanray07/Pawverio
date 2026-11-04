@@ -55,6 +55,8 @@ try {
     if ($LASTEXITCODE -ne 0) { throw 'APK signature verification failed.' }
     & (Join-Path $tools 'zipalign.exe') -c -P 16 4 $signed
     if ($LASTEXITCODE -ne 0) { throw 'Signed APK alignment verification failed.' }
+    & python (Join-Path $repo 'scripts/audit_native_alignment.py') --apk $signed --output (Join-Path $repo 'deliverables/reports/NATIVE_PAGE_ALIGNMENT.json')
+    if ($LASTEXITCODE -ne 0) { throw 'Packaged native ELF alignment verification failed.' }
     $summary = [ordered]@{status='PASS'; artifact='deliverables/android/release/Pawverio-release-signed.apk'; sha256=(Get-FileHash -LiteralPath $signed -Algorithm SHA256).Hash.ToLowerInvariant(); unsigned_sha256=(Get-FileHash -LiteralPath $unsigned -Algorithm SHA256).Hash.ToLowerInvariant(); alias=$alias; key_algorithm='RSA4096'; signature='SHA256withRSA'; minimum_verified_api=26; alignment_bytes=4; zip_entry_native_page_alignment_kib=16; device_runtime_verification='NOT TESTED: current Fire uses a different debug certificate; data was preserved'; password_storage='Windows CurrentUser DPAPI, outside repository'}
     $summary | ConvertTo-Json | Set-Content -LiteralPath (Join-Path $repo 'deliverables/reports/SIGNED_RELEASE.json') -Encoding UTF8
     Write-Output ('Signed release verified: ' + $signed)

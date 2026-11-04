@@ -1,6 +1,6 @@
 {
   "result": "PASS",
-  "source_files_scanned": 92,
+  "source_files_scanned": 95,
   "apk_scan": [
     {
       "file": "deliverables\\android\\debug\\Pawverio-debug.apk",

@@ -9,7 +9,7 @@
   "privacy_policy_url": "https://github.com/lanray07/Pawverio/blob/main/PRIVACY_POLICY.txt",
   "data_deletion_url": "https://github.com/lanray07/Pawverio/blob/main/PRIVACY_POLICY.txt",
   "category": "Lifestyle > Pets & Animals",
-  "app_price_model": "Free download; one-time Premium IAP remains unconfigured/unverified",
+  "app_price_model": "Free download; one-time Premium ENTITLED item saved as an unsubmitted draft with GBP4.99 base pricing",
   "availability_draft": "All countries and regions where Amazon sells apps",
   "target_audience_draft": "18+ years of age; household pet-care organiser",
   "language_support_checkbox": "English only; broader translations still require native-language review",
@@ -95,16 +95,17 @@
     "Exact production-signed runtime checks on a clean compatible device/emulator",
     "Final provider/owner review of conservative privacy classifications and vendor retention/secondary purposes",
     "Secure portable backup/recovery arrangement for the dedicated owner-local signing key",
-    "Amazon entitlement SKU setup, real purchase/restore testing and receipt-verification decision",
+    "Amazon App Tester and live purchase/restore tests; server-side receipt-verification assessment",
     "Native language and store-asset approval, including four text-only locales with artwork fallback",
     "Remaining supported-device voice/accessibility/release checks"
   ],
   "account_data_handling": "No account email, legal name, address, phone, credentials or account-profile screenshots were added to the public repository.",
-  "uploaded_apk_filename": "Pawverio-1.0.0-9d5336de.apk",
-  "signed_apk_sha256": "9d5336de8cbbacaeba8146b90b420accc1d1aa32a101ea939d0244dc530a4c07",
+  "uploaded_apk_filename": "Pawverio-1.0.0-b1165b97.apk",
+  "signed_apk_sha256": "b1165b9710e3d1341adfd50a8073d9f2425d330f162351f573df1269536e4d77",
   "signed_apk_local_verification": "PASS: signature v2/v3 for API26+, ZIP alignment, package identity, public-key asset and archive integrity",
   "signed_apk_device_runtime": "NOT TESTED: existing debug-signed Fire installation/data preserved; clean authorised device required",
   "amazon_public_authentication_key": "Configured from the app-specific console download; public verification asset only",
   "microphone_hardware": "Optional, as required by the touch/text fallback",
-  "selected_fire_tablet_count": 12
+  "selected_fire_tablet_count": 12,
+  "billing_draft": "SKU pawverio.premium.lifetime; nine purchase-dialog locale drafts and 12 marketplace prices verified against actual Amazon catalog export; not submitted"
 }

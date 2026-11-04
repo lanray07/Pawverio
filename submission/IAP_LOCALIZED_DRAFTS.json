@@ -1,0 +1,51 @@
+{
+  "review_status": "AI_AUTHORED_DRAFT_PENDING_NATIVE_REVIEW",
+  "sku": "pawverio.premium.lifetime",
+  "translations": {
+    "English (U.S.)": {
+      "locale": "en-US",
+      "title": "Pawverio Premium",
+      "description": "One-time Premium unlock for multiple pets, advanced care schedules, medication and vaccination records, weight charts, household assignments, pet sitter reports, PDF exports and encrypted record backups. No subscription. Pet records remain on this device unless you choose to export them. Voice features depend on available device services."
+    },
+    "English (Australia)": {
+      "locale": "en-AU",
+      "title": "Pawverio Premium",
+      "description": "One-time Premium unlock for multiple pets, advanced care schedules, medication and vaccination records, weight charts, household assignments, pet sitter reports, PDF exports and encrypted record backups. No subscription. Pet records stay on this device unless you choose to export them. Voice features depend on available device services."
+    },
+    "English (U.K.)": {
+      "locale": "en-GB",
+      "title": "Pawverio Premium",
+      "description": "One-time Premium unlock for multiple pets, advanced care schedules, medication and vaccination records, weight charts, household assignments, pet sitter reports, PDF exports and encrypted record backups. No subscription. Pet records stay on this device unless you choose to export them. Voice features depend on available device services."
+    },
+    "German": {
+      "locale": "de-DE",
+      "title": "Pawverio Premium",
+      "description": "Einmaliger Premium-Kauf für mehrere Haustiere, erweiterte Pflegepläne, Medikamenten- und Impfunterlagen, Gewichtskurven, Aufgaben im Haushalt, Tiersitter-Berichte, PDF-Exporte und verschlüsselte Datensicherungen. Kein Abonnement. Tierdaten bleiben auf diesem Gerät, sofern Sie sie nicht selbst exportieren. Sprachfunktionen hängen von den verfügbaren Gerätediensten ab."
+    },
+    "Spanish": {
+      "locale": "es-ES",
+      "title": "Pawverio Premium",
+      "description": "Compra única de Premium para varias mascotas, horarios avanzados de cuidado, registros de medicación y vacunas, gráficas de peso, tareas del hogar, informes para cuidadores, exportación a PDF y copias de seguridad cifradas de los registros. Sin suscripción. Los registros permanecen en este dispositivo salvo que decidas exportarlos. Las funciones de voz dependen de los servicios disponibles en el dispositivo."
+    },
+    "French": {
+      "locale": "fr-FR",
+      "title": "Pawverio Premium",
+      "description": "Achat unique de Premium pour plusieurs animaux, des plannings de soins avancés, des dossiers de médicaments et de vaccination, des courbes de poids, des tâches du foyer, des rapports pour la garde, des exports PDF et des sauvegardes chiffrées des dossiers. Sans abonnement. Les dossiers restent sur cet appareil sauf si vous choisissez de les exporter. Les fonctions vocales dépendent des services disponibles sur l’appareil."
+    },
+    "Italian": {
+      "locale": "it-IT",
+      "title": "Pawverio Premium",
+      "description": "Acquisto unico di Premium per più animali, programmi di cura avanzati, registri di farmaci e vaccinazioni, grafici del peso, incarichi familiari, resoconti per pet sitter, esportazioni PDF e backup cifrati dei registri. Nessun abbonamento. I registri restano su questo dispositivo, salvo esportazione da parte tua. Le funzioni vocali dipendono dai servizi disponibili sul dispositivo."
+    },
+    "Japanese": {
+      "locale": "ja-JP",
+      "title": "Pawverio Premium",
+      "description": "1回の購入でPremiumを利用できます。複数のペット、詳細なお世話スケジュール、投薬・ワクチンの記録、体重グラフ、家族の役割分担、ペットシッター用レポート、PDF出力、記録の暗号化バックアップに対応。定期購入ではありません。記録は、ご自身で書き出さない限り、この端末に保存されます。音声機能は端末で利用できるサービスによって異なります。"
+    },
+    "Portuguese (Brazil)": {
+      "locale": "pt-BR",
+      "title": "Pawverio Premium",
+      "description": "Compra única do Premium para vários pets, rotinas avançadas de cuidados, registros de medicamentos e vacinas, gráficos de peso, tarefas da família, relatórios para cuidadores, exportações em PDF e backups criptografados dos registros. Sem assinatura. Os registros ficam neste dispositivo, a menos que você escolha exportá-los. Os recursos de voz dependem dos serviços disponíveis no dispositivo."
+    }
+  }
+}

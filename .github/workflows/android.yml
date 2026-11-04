@@ -17,7 +17,9 @@ jobs:
       - uses: android-actions/setup-android@v4
       - run: sdkmanager 'platforms;android-35' 'build-tools;35.0.0'
       - run: chmod +x gradlew
-      - run: ./gradlew :app:assembleDebug :app:assembleRelease :app:lintDebug :core:testDebugUnitTest :platform:testDebugUnitTest --max-workers=2
+      - run: ./gradlew :app:assembleDebug :app:assembleRelease :app:lintDebug :core:testDebugUnitTest :platform:testDebugUnitTest :platform:assembleDebugAndroidTest --max-workers=2
+      - run: python scripts/validate_iap_catalog.py
+      - run: python scripts/audit_native_alignment.py --apk app/build/outputs/apk/release/app-release-unsigned.apk --output app/build/native-page-alignment.json
       - run: python scripts/localization.py validate
       - run: python -m unittest scripts/localization_test.py
       - uses: actions/upload-artifact@v4

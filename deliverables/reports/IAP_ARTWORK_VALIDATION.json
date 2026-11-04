@@ -1,0 +1,276 @@
+{
+  "status": "PASS",
+  "scope": "Persisted Amazon IAP artwork downloaded after reload; pixel equality to transparent source PNGs",
+  "images": [
+    {
+      "locale": "en-US",
+      "size": 512,
+      "source": "https://com-amazon-mas-catalog.s3.amazonaws.com/amzn1.devportal.assetupload.b69e2cd3de904489be4236823f51ff1a_4771ee6a-7e85-44cd-8f4e-7745c52e60f1_9bfe475cc7b6fa125e5e59787f861ce7",
+      "dimensions": [
+        512,
+        512
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "pixels_match_source": true,
+      "downloaded_sha256": "21a8c5b2125152995774176a062cdcd9bf89cde07caac4133597d1f9e733c8e5"
+    },
+    {
+      "locale": "en-US",
+      "size": 114,
+      "source": "https://com-amazon-mas-catalog.s3.amazonaws.com/amzn1.devportal.assetupload.a68b1aa05930484396fdf0fa68794f63_576c97b6-bca2-47e8-a12a-cac58e391b84_9d758dc1aa4f23ff2dd7d39754848025",
+      "dimensions": [
+        114,
+        114
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "pixels_match_source": true,
+      "downloaded_sha256": "d98a350ff11215400c3f13d0c14fa0a3ce48e6ff53df78b0eb5e7d1d11e7bac3"
+    },
+    {
+      "locale": "en-AU",
+      "size": 512,
+      "source": "https://com-amazon-mas-catalog.s3.amazonaws.com/amzn1.devportal.assetupload.4e53cc3dcca54139895dd75b70d3b9d1_e037770f-c75e-4377-9885-94c37ab1ad4d_bf244ae730208e716128706b03b1b5d5",
+      "dimensions": [
+        512,
+        512
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "pixels_match_source": true,
+      "downloaded_sha256": "21a8c5b2125152995774176a062cdcd9bf89cde07caac4133597d1f9e733c8e5"
+    },
+    {
+      "locale": "en-AU",
+      "size": 114,
+      "source": "https://com-amazon-mas-catalog.s3.amazonaws.com/amzn1.devportal.assetupload.58a365fece7347948f6c9d52744d1a01_bf9bb899-0e2e-4169-8150-db7c23ba001a_b70a9892b57d0dac7b4bb25501efd052",
+      "dimensions": [
+        114,
+        114
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "pixels_match_source": true,
+      "downloaded_sha256": "d98a350ff11215400c3f13d0c14fa0a3ce48e6ff53df78b0eb5e7d1d11e7bac3"
+    },
+    {
+      "locale": "en-GB",
+      "size": 512,
+      "source": "https://com-amazon-mas-catalog.s3.amazonaws.com/amzn1.devportal.assetupload.106395b0168f459da8cdc500c04e9e11_de990bb9-7acd-408c-9e16-60ce4cb259fc_b02fe4e7ad89e1c2e3113825098aa18a",
+      "dimensions": [
+        512,
+        512
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "pixels_match_source": true,
+      "downloaded_sha256": "21a8c5b2125152995774176a062cdcd9bf89cde07caac4133597d1f9e733c8e5"
+    },
+    {
+      "locale": "en-GB",
+      "size": 114,
+      "source": "https://com-amazon-mas-catalog.s3.amazonaws.com/amzn1.devportal.assetupload.2c50665518314b6f8f92a87c0ba518c9_4cf705a1-78a5-4b97-9525-eb62d762f596_f5941296d00e9c076bec8874e5f3d262",
+      "dimensions": [
+        114,
+        114
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "pixels_match_source": true,
+      "downloaded_sha256": "d98a350ff11215400c3f13d0c14fa0a3ce48e6ff53df78b0eb5e7d1d11e7bac3"
+    },
+    {
+      "locale": "de-DE",
+      "size": 512,
+      "source": "https://com-amazon-mas-catalog.s3.amazonaws.com/amzn1.devportal.assetupload.239301b7f431459b99e5529ec32d7419_7690ce59-9b92-43e8-838e-d66ddd241244_1778c8cbd613e423995034d4add18218",
+      "dimensions": [
+        512,
+        512
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "pixels_match_source": true,
+      "downloaded_sha256": "21a8c5b2125152995774176a062cdcd9bf89cde07caac4133597d1f9e733c8e5"
+    },
+    {
+      "locale": "de-DE",
+      "size": 114,
+      "source": "https://com-amazon-mas-catalog.s3.amazonaws.com/amzn1.devportal.assetupload.ad4fd78b80774bd5b6afe2a283e8875e_fcb96391-dfc5-40f9-b71b-7872f96e9681_2c7b2cb4f74be7df887bc109df00c1a2",
+      "dimensions": [
+        114,
+        114
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "pixels_match_source": true,
+      "downloaded_sha256": "d98a350ff11215400c3f13d0c14fa0a3ce48e6ff53df78b0eb5e7d1d11e7bac3"
+    },
+    {
+      "locale": "es-ES",
+      "size": 512,
+      "source": "https://com-amazon-mas-catalog.s3.amazonaws.com/amzn1.devportal.assetupload.1237ca2e44684776afabe7572559626e_ab0cce4e-97f5-4745-9cec-c449160da234_9aa276561c1d191c78ae5d21c9a98fce",
+      "dimensions": [
+        512,
+        512
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "pixels_match_source": true,
+      "downloaded_sha256": "21a8c5b2125152995774176a062cdcd9bf89cde07caac4133597d1f9e733c8e5"
+    },
+    {
+      "locale": "es-ES",
+      "size": 114,
+      "source": "https://com-amazon-mas-catalog.s3.amazonaws.com/amzn1.devportal.assetupload.3d377732f82e45859e2f7132da0521bc_c527b951-4bb3-465e-bc25-fe8cd7dc91b3_93e4b53b58f193f2eab6794783b662bc",
+      "dimensions": [
+        114,
+        114
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "pixels_match_source": true,
+      "downloaded_sha256": "d98a350ff11215400c3f13d0c14fa0a3ce48e6ff53df78b0eb5e7d1d11e7bac3"
+    },
+    {
+      "locale": "fr-FR",
+      "size": 512,
+      "source": "https://com-amazon-mas-catalog.s3.amazonaws.com/amzn1.devportal.assetupload.473cc843ce5b449a8ade9dd1e76c7fc3_f15a932f-c511-4738-a7bd-bac1c2af3b53_5bfae8a4d788a50f20c9b27c9bf04a02",
+      "dimensions": [
+        512,
+        512
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "pixels_match_source": true,
+      "downloaded_sha256": "21a8c5b2125152995774176a062cdcd9bf89cde07caac4133597d1f9e733c8e5"
+    },
+    {
+      "locale": "fr-FR",
+      "size": 114,
+      "source": "https://com-amazon-mas-catalog.s3.amazonaws.com/amzn1.devportal.assetupload.44f237f6fe1a4b5cabfc62dfce2aca7b_374f87d8-248a-48f0-a5d7-95ea8c5e3856_86a3f96f8f63bee0e1d29d46a95685e0",
+      "dimensions": [
+        114,
+        114
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "pixels_match_source": true,
+      "downloaded_sha256": "d98a350ff11215400c3f13d0c14fa0a3ce48e6ff53df78b0eb5e7d1d11e7bac3"
+    },
+    {
+      "locale": "it-IT",
+      "size": 512,
+      "source": "https://com-amazon-mas-catalog.s3.amazonaws.com/amzn1.devportal.assetupload.d5de5a17b68d4211834fb50895f68a9a_8a53b941-fb2d-4c60-8a4b-c2416249481f_d94207196c20c5b9628fca6d18558b8c",
+      "dimensions": [
+        512,
+        512
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "pixels_match_source": true,
+      "downloaded_sha256": "21a8c5b2125152995774176a062cdcd9bf89cde07caac4133597d1f9e733c8e5"
+    },
+    {
+      "locale": "it-IT",
+      "size": 114,
+      "source": "https://com-amazon-mas-catalog.s3.amazonaws.com/amzn1.devportal.assetupload.6e55b419c43d4b18936c0d05133e6377_485e7019-1231-4161-99a1-99eb142b61ae_ba64cfd3e5bd5f39c8b5be5198b83036",
+      "dimensions": [
+        114,
+        114
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "pixels_match_source": true,
+      "downloaded_sha256": "d98a350ff11215400c3f13d0c14fa0a3ce48e6ff53df78b0eb5e7d1d11e7bac3"
+    },
+    {
+      "locale": "ja-JP",
+      "size": 512,
+      "source": "https://com-amazon-mas-catalog.s3.amazonaws.com/amzn1.devportal.assetupload.b69e412d3cb04dd0b5968e40296c8499_627cf548-46dd-4a10-84ab-20a19cc13b1d_8a798d3ee47dbbc74c422beb7df08582",
+      "dimensions": [
+        512,
+        512
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "pixels_match_source": true,
+      "downloaded_sha256": "21a8c5b2125152995774176a062cdcd9bf89cde07caac4133597d1f9e733c8e5"
+    },
+    {
+      "locale": "ja-JP",
+      "size": 114,
+      "source": "https://com-amazon-mas-catalog.s3.amazonaws.com/amzn1.devportal.assetupload.62a1750fe2ab4cc58c04f4935d99ae47_08c97a84-1e08-4732-ad02-c9bc9894d6b5_3c4c41c08aa9ed127ed2bfc47df016ca",
+      "dimensions": [
+        114,
+        114
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "pixels_match_source": true,
+      "downloaded_sha256": "d98a350ff11215400c3f13d0c14fa0a3ce48e6ff53df78b0eb5e7d1d11e7bac3"
+    },
+    {
+      "locale": "pt-BR",
+      "size": 512,
+      "source": "https://com-amazon-mas-catalog.s3.amazonaws.com/amzn1.devportal.assetupload.4c236d036e73418fb8c9e7418434f2fe_3c84ac25-69a4-47e5-9acf-1ac0a39868cf_eba8123a4d48f2d0a6d8b26e3c6faffc",
+      "dimensions": [
+        512,
+        512
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "pixels_match_source": true,
+      "downloaded_sha256": "21a8c5b2125152995774176a062cdcd9bf89cde07caac4133597d1f9e733c8e5"
+    },
+    {
+      "locale": "pt-BR",
+      "size": 114,
+      "source": "https://com-amazon-mas-catalog.s3.amazonaws.com/amzn1.devportal.assetupload.14c2f4f7bbdf4ccdbfb155df1317424f_19c02e87-2e25-4b02-89ce-b234f3734196_5bdff217d00065a3bec0f1d34d73f8c0",
+      "dimensions": [
+        114,
+        114
+      ],
+      "alpha_range": [
+        0,
+        255
+      ],
+      "pixels_match_source": true,
+      "downloaded_sha256": "d98a350ff11215400c3f13d0c14fa0a3ce48e6ff53df78b0eb5e7d1d11e7bac3"
+    }
+  ]
+}

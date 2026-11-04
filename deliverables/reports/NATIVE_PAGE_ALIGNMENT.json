@@ -1,0 +1,190 @@
+{
+  "status": "PASS",
+  "apk_sha256": "b1165b9710e3d1341adfd50a8073d9f2425d330f162351f573df1269536e4d77",
+  "scope": "ELF LOAD alignment and offset/address congruence; not runtime 16KiB compatibility",
+  "libraries": [
+    {
+      "entry": "lib/arm64-v8a/libandroidx.graphics.path.so",
+      "bits": 64,
+      "load_segments": [
+        {
+          "file_offset": 0,
+          "virtual_address": 0,
+          "alignment": 16384,
+          "supports_16k_alignment": true
+        },
+        {
+          "file_offset": 7232,
+          "virtual_address": 23616,
+          "alignment": 16384,
+          "supports_16k_alignment": true
+        },
+        {
+          "file_offset": 8144,
+          "virtual_address": 40912,
+          "alignment": 16384,
+          "supports_16k_alignment": true
+        }
+      ],
+      "static_16k_alignment": true
+    },
+    {
+      "entry": "lib/arm64-v8a/libdatastore_shared_counter.so",
+      "bits": 64,
+      "load_segments": [
+        {
+          "file_offset": 0,
+          "virtual_address": 0,
+          "alignment": 16384,
+          "supports_16k_alignment": true
+        },
+        {
+          "file_offset": 4544,
+          "virtual_address": 20928,
+          "alignment": 16384,
+          "supports_16k_alignment": true
+        },
+        {
+          "file_offset": 5160,
+          "virtual_address": 37928,
+          "alignment": 16384,
+          "supports_16k_alignment": true
+        }
+      ],
+      "static_16k_alignment": true
+    },
+    {
+      "entry": "lib/armeabi-v7a/libandroidx.graphics.path.so",
+      "bits": 32,
+      "load_segments": [
+        {
+          "file_offset": 0,
+          "virtual_address": 0,
+          "alignment": 16384,
+          "supports_16k_alignment": true
+        },
+        {
+          "file_offset": 5312,
+          "virtual_address": 21696,
+          "alignment": 16384,
+          "supports_16k_alignment": true
+        },
+        {
+          "file_offset": 5772,
+          "virtual_address": 38540,
+          "alignment": 16384,
+          "supports_16k_alignment": true
+        }
+      ],
+      "static_16k_alignment": true
+    },
+    {
+      "entry": "lib/armeabi-v7a/libdatastore_shared_counter.so",
+      "bits": 32,
+      "load_segments": [
+        {
+          "file_offset": 0,
+          "virtual_address": 0,
+          "alignment": 16384,
+          "supports_16k_alignment": true
+        },
+        {
+          "file_offset": 2704,
+          "virtual_address": 19088,
+          "alignment": 16384,
+          "supports_16k_alignment": true
+        }
+      ],
+      "static_16k_alignment": true
+    },
+    {
+      "entry": "lib/x86/libandroidx.graphics.path.so",
+      "bits": 32,
+      "load_segments": [
+        {
+          "file_offset": 0,
+          "virtual_address": 0,
+          "alignment": 16384,
+          "supports_16k_alignment": true
+        },
+        {
+          "file_offset": 7456,
+          "virtual_address": 23840,
+          "alignment": 16384,
+          "supports_16k_alignment": true
+        },
+        {
+          "file_offset": 7912,
+          "virtual_address": 40680,
+          "alignment": 16384,
+          "supports_16k_alignment": true
+        }
+      ],
+      "static_16k_alignment": true
+    },
+    {
+      "entry": "lib/x86/libdatastore_shared_counter.so",
+      "bits": 32,
+      "load_segments": [
+        {
+          "file_offset": 0,
+          "virtual_address": 0,
+          "alignment": 16384,
+          "supports_16k_alignment": true
+        },
+        {
+          "file_offset": 3600,
+          "virtual_address": 19984,
+          "alignment": 16384,
+          "supports_16k_alignment": true
+        }
+      ],
+      "static_16k_alignment": true
+    },
+    {
+      "entry": "lib/x86_64/libandroidx.graphics.path.so",
+      "bits": 64,
+      "load_segments": [
+        {
+          "file_offset": 0,
+          "virtual_address": 0,
+          "alignment": 16384,
+          "supports_16k_alignment": true
+        },
+        {
+          "file_offset": 7872,
+          "virtual_address": 24256,
+          "alignment": 16384,
+          "supports_16k_alignment": true
+        },
+        {
+          "file_offset": 8808,
+          "virtual_address": 41576,
+          "alignment": 16384,
+          "supports_16k_alignment": true
+        }
+      ],
+      "static_16k_alignment": true
+    },
+    {
+      "entry": "lib/x86_64/libdatastore_shared_counter.so",
+      "bits": 64,
+      "load_segments": [
+        {
+          "file_offset": 0,
+          "virtual_address": 0,
+          "alignment": 16384,
+          "supports_16k_alignment": true
+        },
+        {
+          "file_offset": 3872,
+          "virtual_address": 20256,
+          "alignment": 16384,
+          "supports_16k_alignment": true
+        }
+      ],
+      "static_16k_alignment": true
+    }
+  ],
+  "runtime_16k_device": "NOT TESTED"
+}

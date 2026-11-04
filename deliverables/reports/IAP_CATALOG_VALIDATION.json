@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "sku": "pawverio.premium.lifetime",
+  "scope": "Actual Amazon draft catalog export; not a live product or transaction test",
+  "source_sha256": "d45a3035951bb2efa6a2242955115f38249fafaf4bf9ce74934c8893d4f3346a",
+  "locales": 9,
+  "native_review": "PENDING",
+  "errors": []
+}

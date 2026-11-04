@@ -63,3 +63,13 @@ Final copied XML reports 15 JVM and 11 physical platform tests, all passing. Six
 ## Signed draft update
 
 The app-specific Amazon public authentication key is now packaged. A dedicated owner-local production signature verifies, and the APK is accepted in the unsubmitted Amazon draft. The configured SKU and real transaction/restore tests remain outstanding; signing does not prove billing success. Static SDK review identified reachable identifier, receipt, diagnostic and API-use metric paths. The conservative 39-row privacy draft is saved for review; provider retention/secondary purposes are not independently verified. See submission/PRIVACY_QUESTIONNAIRE_ASSESSMENT.txt.
+
+## Billing draft and callback update — 2026-11-04
+
+The previous unconfigured-SKU notes are superseded: the public key and ENTITLED SKU `pawverio.premium.lifetime` are now configured in the unsubmitted Amazon draft, with GBP4.99 base price, 12 Amazon-calculated marketplace prices and nine saved purchase-dialog translations. Actual exported catalog content matches the app SKU and translation sources. Native language review remains pending.
+
+Eight new callback instrumentation tests passed on KFTRWI/API28, with no failures/errors. They inject SDK response models through a test gateway, isolated from the real store and the user's Pawverio entitlement preferences. Production still uses PurchasingService. Fixes acknowledge active restored/pending receipts after the full receipt ledger, retry fulfillment-service failures without crashing or discarding delivered access, prevent duplicate restores resetting pagination, and reject stale restore pages from previous requests/accounts. See BILLING_RELEASE_CHECKS.md for evidence and limits.
+
+App Tester is installed and already has overlay permission. Its temporary sandbox mode is not enabled; owner authorisation is pending. DevTest requires a live IAP according to Amazon's documentation, and no IAP or app submission is authorised. RVS backend verification is not implemented. Do not interpret catalog export, local callbacks or signature verification as live billing success.
+
+IAP artwork format check: original transparent purchase icons now replace the opaque-background variants. All18 stored Amazon image files were downloaded after reload and pixel-matched to the 512px/114px source images. This is file/persistence evidence, not native marketing review.
