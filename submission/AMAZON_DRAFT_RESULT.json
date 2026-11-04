@@ -1,6 +1,6 @@
 {
   "verified_date": "2026-11-04",
-  "status": "DRAFT_SAVED_WITH_SIGNED_APK_EXPORT_CONFIRMATION_PENDING",
+  "status": "DRAFT_SAVED_WITH_SIGNED_APK_OWNER_EXPORT_CERTIFICATION_CONFIRMED",
   "store": "Amazon Appstore",
   "app_title": "Pawverio Pet Care and Daily Planner",
   "publisher": "Existing Amazon developer account; unchanged",
@@ -88,11 +88,10 @@
   "native_language_approval": "PENDING for all translated drafts",
   "verification": "Description values were compared with prepared source files after reload. Nine artwork sets were reopened and checked for eight distinct image references and both icon sizes. Category, account contact, audience, rating and GitHub URLs were checked in Amazon review UI.",
   "reviewer_instructions": "Optional Step 4 text did not persist after reload; no saved reviewer-instruction claim is made.",
-  "export_compliance_certification": "UNCHECKED_PENDING_EXPLICIT_OWNER_CONFIRMATION",
-  "submit_app_button": "DISABLED at last verification; never clicked",
+  "export_compliance_certification": "CHECKED_WITH_EXPLICIT_OWNER_CONFIRMATION; persisted after reload on 2026-11-04; owner declaration, not independent legal assessment",
+  "submit_app_button": "ENABLED after certification persisted; never clicked",
   "app_files_uploaded": 1,
   "remaining_before_submission": [
-    "Explicit owner export-compliance declaration after an appropriate assessment",
     "Exact production-signed runtime checks on a clean compatible device/emulator",
     "Final provider/owner review of conservative privacy classifications and vendor retention/secondary purposes",
     "Secure portable backup/recovery arrangement for the dedicated owner-local signing key",
@@ -107,5 +106,5 @@
   "signed_apk_device_runtime": "NOT TESTED: existing debug-signed Fire installation/data preserved; clean authorised device required",
   "amazon_public_authentication_key": "Configured from the app-specific console download; public verification asset only",
   "microphone_hardware": "Optional, as required by the touch/text fallback",
-  "selected_fire_tablet_count": 13
+  "selected_fire_tablet_count": 12
 }
