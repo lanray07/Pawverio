@@ -2,7 +2,7 @@
 
 **BLOCKED — NOT READY FOR SUBMISSION.** The signed APK has been uploaded to an Amazon draft; no app-store review submission or publishing has occurred.
 
-The draft and the checklist below refer to 1.0.0. See [the master prompt follow-up](MASTER_PROMPT_FOLLOW_UP.md) for the separate 1.0.1 candidate, verification and remaining release work.
+The checklist below retains historical 1.0.0 evidence. The Amazon draft now contains 1.0.1, version code 2. See [the master prompt follow-up](MASTER_PROMPT_FOLLOW_UP.md) for the exact signed 1.0.1 Fire test and remaining release work.
 
 Verified checklist rate: **37/46 = 80.43%**. PASS37; FAIL0; BLOCKED7; NOT TESTED2. This counts the user's46 mandatory checklist items, with scope/evidence in ACCEPTANCE_CRITERIA.csv; it is not a claim that the entire product is production ready.
 
@@ -14,7 +14,7 @@ Evidence:178 core JVM +15 platform JVM tests;14 core +11 earlier platform physic
 
 19×179 translated resource strings, CLDR forms/placeholders and independent Android-resource expectations. All translations remain AI-authored drafts pending human review. 304 screenshot compositions and their real app-source PNGs are inventoried;19 target locales×8screens×2layouts when complete. The phone layout was captured in an app-only native360×640dp viewport on Fire; this does not certify phone hardware. Metadata19 locale drafts and original branding/assets are included. See screenshot and brand manifests.
 
-Debug APK:android/debug/Pawverio-debug.apk. Signed release:android/release/Pawverio-release-signed.apk; unsigned build input is retained separately. The signed release is uploaded to the unsubmitted Amazon draft. Production-signed runtime: PASS: Exact APK installed and rendered its first activity on KFTRWI / API 28. Onboarding interaction and persistence remain NOT TESTED. See FIRE_RELEASE_CHECKS.md. SHA256s:RELEASE_STATUS.json, SIGNED_RELEASE.json and FILE_CHECKSUMS.csv.
+Debug APK:android/debug/Pawverio-debug.apk. Signed release:android/release/Pawverio-release-signed.apk; unsigned build input is retained separately. The historical signed release was replaced in the unsubmitted Amazon draft by 1.0.1. Historical production-signed runtime: PASS: Exact APK installed and rendered its first activity on KFTRWI / API 28. Onboarding interaction and persistence remain NOT TESTED. See FIRE_RELEASE_CHECKS.md. SHA256s:RELEASE_STATUS.json, SIGNED_RELEASE.json and FILE_CHECKSUMS.csv.
 
 ## Required before submission
 

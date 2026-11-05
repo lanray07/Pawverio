@@ -1,6 +1,6 @@
 # Master prompt follow-up
 
-The repository now targets Pawverio 1.0.1, version code 2. The Amazon draft contains the previously uploaded 1.0.0 binary. Its signed-device evidence applies to that binary. The app and Premium IAP are unsubmitted drafts.
+The repository now targets Pawverio 1.0.1, version code 2. Amazon now saves Pawverio-1.0.1-signed.apk as version code 2 in place of 1.0.0. The app and Premium IAP are unsubmitted drafts. The console retained 12 selected Fire tablets.
 
 | Master prompt area | Follow-up |
 |---|---|
@@ -11,6 +11,8 @@ The repository now targets Pawverio 1.0.1, version code 2. The Amazon draft cont
 
 ## Verification
 
+- The exact signed 1.0.1 APK passed a clean-install smoke test on KFTRWI / API 28. Its installed SHA-256 matched the file uploaded to Amazon. Guided setup saved a fictional pet and daily feeding routine, both persisted after force-stop and relaunch, and completing the feeding added it to History. The original debug installation, both profile registrations, owner backup file contents and temporary device setting were restored and verified. See [signed Fire test log](../android/build-logs/pawverio-1.0.1-signed-fire.log).
+
 - Debug and release builds passed, along with Android lint and the core and platform JVM test tasks. The signed APK uses the existing production certificate and passed signature, ZIP alignment, native ELF alignment and payload integrity checks. See the [debug APK](../android/debug/Pawverio-1.0.1-debug.apk), [signed candidate](../android/release/Pawverio-1.0.1-signed.apk) and [signing evidence](SIGNED_CANDIDATE_1.0.1.json).
 - Three Compose instrumentation tests passed on the KFTRWI running API 28. They exercised first-pet setup and daily feeding, reminder opt-in defaults, activity recreation, skipping setup, opening a household assignment, and saving the high-contrast setting. The separate QA package was removed afterward. Both profiles retained their original Pawverio and instrumentation packages. See [Fire test log](../android/build-logs/pawverio-1.0.1-fire-ui.log).
 - Localisation validation passed for 180 strings per locale and all 11 pipeline tests passed. The existing metadata and 304 screenshot compositions passed the structural store asset validator. Native review and any screenshot updates for the candidate are separate.
@@ -19,7 +21,6 @@ The repository now targets Pawverio 1.0.1, version code 2. The Amazon draft cont
 
 | Requirement | Status | Dependency or next check |
 |---|---|---|
-| Signed 1.0.1 runtime | NOT TESTED | Install the exact signed candidate on a Fire with a compatible signing state. The isolated QA build exercises source behaviour separately. |
 | Live Premium purchases and restore | BLOCKED | Amazon App Tester covered the draft SKU. Production checkout, cancellation, restore and revocation require the relevant Amazon test environment. |
 | Amazon server receipt verification | BLOCKED | Amazon RVS needs an HTTPS backend and the owner’s server-side shared secret. The app currently validates SDK responses locally and retains an offline entitlement cache. |
 | Live push-to-talk and audible multilingual feedback | BLOCKED | The connected KFTRWI has no Android recognition service. English audio synthesis was verified separately. Recognition and audible output need supported speech providers and device testing. |

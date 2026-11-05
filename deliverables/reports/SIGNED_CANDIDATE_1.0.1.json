@@ -9,9 +9,9 @@
   "minimum_verified_api": 26,
   "alignment_bytes": 4,
   "zip_entry_native_page_alignment_kib": 16,
-  "device_runtime_verification": "NOT TESTED: signed candidate has not been installed",
+  "device_runtime_verification": "PASS: Exact signed APK installed on KFTRWI / API 28; onboarding, pet and feeding persistence, and completion history verified.",
   "password_storage": "Windows CurrentUser DPAPI, outside repository",
   "version_name": "1.0.1",
   "version_code": 2,
-  "amazon_draft_uploaded": false
+  "amazon_draft_uploaded": true
 }

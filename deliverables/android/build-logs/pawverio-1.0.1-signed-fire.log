@@ -1,0 +1,5 @@
+PASS: exact production-signed 1.0.1 APK installed on KFTRWI / API 28 and verified by SHA-256 read-back.
+PASS: guided onboarding saved a fictional pet and daily feeding with reminders off by default. Setup, pet and routine persisted after force-stop and relaunch. Completing the feeding added it to History.
+Signed UI test window ended with passed.
+PASS: exact debug APK, both profile registrations and every backed-up owner file restored and verified.
+PASS: original stay-awake setting restored; Amazon sandbox setting remained none.
