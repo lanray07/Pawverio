@@ -73,6 +73,54 @@ class PlatformDeviceTest {
         instrumentation.runOnMainSync { tts?.shutdown() }
     }
 
+    @Test fun englishVoiceEngineProducesAudio() {
+        val ready = CountDownLatch(1)
+        val finished = CountDownLatch(1)
+        var initStatus = TextToSpeech.ERROR
+        var synthStatus = TextToSpeech.ERROR
+        val output = File.createTempFile("pawverio-speech-", ".wav", context.cacheDir)
+        val tts = TextToSpeech(context) { status ->
+            initStatus = status
+            ready.countDown()
+        }
+        try {
+            assertTrue("TTS initialization callback arrived", ready.await(30, TimeUnit.SECONDS))
+            assertEquals(TextToSpeech.SUCCESS, initStatus)
+            assertTrue(tts.setLanguage(Locale.UK) >= TextToSpeech.LANG_AVAILABLE)
+            tts.setOnUtteranceProgressListener(object : android.speech.tts.UtteranceProgressListener() {
+                override fun onStart(utteranceId: String?) = Unit
+                override fun onDone(utteranceId: String?) {
+                    synthStatus = TextToSpeech.SUCCESS
+                    finished.countDown()
+                }
+                override fun onError(utteranceId: String?) {
+                    finished.countDown()
+                }
+            })
+            assertEquals(
+                TextToSpeech.SUCCESS,
+                tts.synthesizeToFile("Bella has a care reminder.", android.os.Bundle(), output, "pawverio-qa"),
+            )
+            assertTrue("Synthesis completion callback arrived", finished.await(30, TimeUnit.SECONDS))
+            assertEquals(TextToSpeech.SUCCESS, synthStatus)
+            val extractor = android.media.MediaExtractor()
+            try {
+                extractor.setDataSource(output.absolutePath)
+                val audioTrack = (0 until extractor.trackCount).first {
+                    extractor.getTrackFormat(it).getString(android.media.MediaFormat.KEY_MIME)
+                        ?.startsWith("audio/") == true
+                }
+                extractor.selectTrack(audioTrack)
+                assertTrue("Synthesized audio contains samples", extractor.readSampleData(java.nio.ByteBuffer.allocate(65536), 0) > 0)
+            } finally {
+                extractor.release()
+            }
+        } finally {
+            tts.shutdown()
+            output.delete()
+        }
+    }
+
     @Test fun exportsWriteActualUtf8TextAndReadableMultipagePdf() {
         val service = ExportService(context)
         val textUri = Uri.parse("content://com.pawverio.platform.test.exports/report.txt")
@@ -167,6 +215,40 @@ class PlatformDeviceTest {
         } finally {
             prefs.enabled = previouslyEnabled; prefs.quietEnabled = wasQuiet
             ReminderScheduler(context).cancel(id)
+        }
+    }
+
+    @Test fun scheduledReminderPostsThroughWorkManager() = runBlocking {
+        val prefs = ReminderPreferences(context)
+        val previouslyEnabled = prefs.enabled
+        val wasQuiet = prefs.quietEnabled
+        val scheduler = ReminderScheduler(context)
+        val manager = context.getSystemService(android.app.NotificationManager::class.java)
+        val id = "scheduled-delivery-${java.util.UUID.randomUUID()}"
+        try {
+            assertTrue("Notifications must be enabled to verify delivery", manager.areNotificationsEnabled())
+            prefs.enabled = true
+            prefs.quietEnabled = false
+            val due = System.currentTimeMillis() + 4_000
+            scheduler.schedule(id, "Pawverio scheduled test reminder", "Fictional test task", due)
+            assertFalse(manager.activeNotifications.any { it.id == id.hashCode() })
+            val posted = kotlinx.coroutines.withTimeout(45_000) {
+                var notification = manager.activeNotifications.firstOrNull { it.id == id.hashCode() }
+                while (notification == null) {
+                    kotlinx.coroutines.delay(250)
+                    notification = manager.activeNotifications.firstOrNull { it.id == id.hashCode() }
+                }
+                notification
+            }
+            assertTrue("Reminder posted before its due time", posted.postTime >= due - 250)
+            assertEquals(
+                "Pawverio scheduled test reminder",
+                posted.notification.extras.getString(android.app.Notification.EXTRA_TITLE),
+            )
+        } finally {
+            scheduler.cancel(id)
+            prefs.enabled = previouslyEnabled
+            prefs.quietEnabled = wasQuiet
         }
     }
 

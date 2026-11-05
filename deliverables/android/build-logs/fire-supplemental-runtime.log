@@ -1,0 +1,66 @@
+> Task :platform:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :platform:preBuild UP-TO-DATE
+> Task :platform:preDebugBuild UP-TO-DATE
+> Task :platform:generateDebugResValues UP-TO-DATE
+> Task :platform:generateDebugResources UP-TO-DATE
+> Task :platform:packageDebugResources UP-TO-DATE
+> Task :platform:parseDebugLocalResources UP-TO-DATE
+> Task :platform:generateDebugRFile UP-TO-DATE
+> Task :platform:compileDebugKotlin UP-TO-DATE
+> Task :platform:javaPreCompileDebug UP-TO-DATE
+> Task :platform:compileDebugJavaWithJavac NO-SOURCE
+> Task :platform:bundleLibCompileToJarDebug UP-TO-DATE
+> Task :platform:preDebugAndroidTestBuild UP-TO-DATE
+> Task :platform:writeDebugAarMetadata UP-TO-DATE
+> Task :platform:checkDebugAndroidTestAarMetadata UP-TO-DATE
+> Task :platform:compileDebugLibraryResources UP-TO-DATE
+> Task :platform:generateDebugAndroidTestResValues UP-TO-DATE
+> Task :platform:mapDebugAndroidTestSourceSetPaths UP-TO-DATE
+> Task :platform:generateDebugAndroidTestResources UP-TO-DATE
+> Task :platform:mergeDebugAndroidTestResources UP-TO-DATE
+> Task :platform:extractDeepLinksDebug UP-TO-DATE
+> Task :platform:processDebugManifest UP-TO-DATE
+> Task :platform:processDebugAndroidTestManifest UP-TO-DATE
+> Task :platform:processDebugAndroidTestResources UP-TO-DATE
+> Task :platform:javaPreCompileDebugAndroidTest UP-TO-DATE
+> Task :platform:mergeDebugAndroidTestShaders UP-TO-DATE
+> Task :platform:compileDebugAndroidTestShaders NO-SOURCE
+> Task :platform:generateDebugAndroidTestAssets UP-TO-DATE
+> Task :platform:mergeDebugShaders UP-TO-DATE
+> Task :platform:compileDebugShaders NO-SOURCE
+> Task :platform:generateDebugAssets UP-TO-DATE
+> Task :platform:packageDebugAssets UP-TO-DATE
+> Task :platform:mergeDebugAndroidTestAssets UP-TO-DATE
+> Task :platform:compressDebugAndroidTestAssets UP-TO-DATE
+> Task :platform:bundleLibRuntimeToJarDebug UP-TO-DATE
+> Task :platform:desugarDebugAndroidTestFileDependencies UP-TO-DATE
+> Task :platform:processDebugJavaRes UP-TO-DATE
+> Task :platform:checkDebugAndroidTestDuplicateClasses UP-TO-DATE
+> Task :platform:mergeExtDexDebugAndroidTest UP-TO-DATE
+> Task :platform:bundleLibRuntimeToDirDebug UP-TO-DATE
+> Task :platform:mergeLibDexDebugAndroidTest UP-TO-DATE
+> Task :platform:mergeDebugJniLibFolders UP-TO-DATE
+> Task :platform:mergeDebugNativeLibs NO-SOURCE
+> Task :platform:copyDebugJniLibsProjectOnly UP-TO-DATE
+> Task :platform:mergeDebugAndroidTestJniLibFolders UP-TO-DATE
+> Task :platform:mergeDebugAndroidTestNativeLibs NO-SOURCE
+> Task :platform:stripDebugAndroidTestDebugSymbols NO-SOURCE
+> Task :platform:validateSigningDebugAndroidTest UP-TO-DATE
+> Task :platform:writeDebugAndroidTestSigningConfigVersions UP-TO-DATE
+> Task :platform:compileDebugAndroidTestKotlin
+> Task :platform:compileDebugAndroidTestJavaWithJavac NO-SOURCE
+> Task :platform:dexBuilderDebugAndroidTest
+> Task :platform:mergeDebugAndroidTestGlobalSynthetics UP-TO-DATE
+> Task :platform:processDebugAndroidTestJavaRes UP-TO-DATE
+> Task :platform:mergeDebugAndroidTestJavaResource UP-TO-DATE
+> Task :platform:mergeProjectDexDebugAndroidTest
+> Task :platform:packageDebugAndroidTest
+> Task :platform:createDebugAndroidTestApkListingFileRedirect UP-TO-DATE
+
+> Task :platform:connectedDebugAndroidTest
+Starting 2 tests on KFTRWI - 9
+
+Finished 2 tests on KFTRWI - 9
+
+BUILD SUCCESSFUL in 31s
+46 actionable tasks: 5 executed, 41 up-to-date

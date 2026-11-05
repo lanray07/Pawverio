@@ -18,8 +18,14 @@ def main():
         for xml in (ROOT/f'{module}/build/outputs/androidTest-results/connected').rglob('*.xml'):
             if module=='core':shutil.copy2(xml,folder/'TEST-com.pawverio.core.RepositoryTest.xml')
             else:
-                billing = any('AmazonBillingCallbackTest' in case.attrib.get('classname', '') for case in E.parse(xml).iter('testcase'))
-                destination = D/'android/build-logs/billing-callback-device-tests' if billing else folder
+                cases = list(E.parse(xml).iter('testcase'))
+                supplemental = {'scheduledReminderPostsThroughWorkManager', 'englishVoiceEngineProducesAudio'}
+                if any(case.attrib.get('name') in supplemental for case in cases):
+                    destination = D/'android/build-logs/fire-supplemental-device-tests'
+                elif any('AmazonBillingCallbackTest' in case.attrib.get('classname', '') for case in cases):
+                    destination = D/'android/build-logs/billing-callback-device-tests'
+                else:
+                    destination = folder
                 destination.mkdir(parents=True,exist_ok=True)
                 shutil.copy2(xml,destination/xml.name)
     for src,dst in [('app/build/outputs/apk/debug/app-debug.apk','android/debug/Pawverio-debug.apk'),('app/build/outputs/apk/release/app-release-unsigned.apk','android/release/Pawverio-release-unsigned.apk')]:
@@ -53,13 +59,15 @@ def main():
     build=log_pass('deliverables/'+build_log,'BUILD SUCCESSFUL')
     sandbox=log_pass('deliverables/reports/BILLING_RELEASE_CHECKS.md','| App Tester sandbox product/purchase/cancel/restore | PASS |')
     signed=(D/'android/release/Pawverio-release-signed.apk').is_file() and log_pass('deliverables/android/build-logs/release-signature-verification.log','Verifies')
+    signed_details=json.loads((R/'SIGNED_RELEASE.json').read_text(encoding='utf-8-sig')) if signed else {}
+    signed_runtime=signed_details.get('device_runtime_verification','NOT TESTED')
     items=[]
     def item(group,name,status,evidence,limit=''):
         items.append({'ID':f'A{len(items)+1:02}','Group':group,'Criterion':name,'Status':status,'Evidence':evidence,'Scope or remaining requirement':limit})
     for name in ['Debug build succeeds','Release build succeeds','No critical compilation errors remain']:item('Build',name,'PASS' if build else 'FAIL',build_log,'Gradle produces an unsigned input for the local signing script.')
     item('Build','No embedded secrets found by executed checks','PASS','reports/static-security-check.json','Known-pattern source and APK scan; not a complete security audit.')
     for name in ['Pet profile create/edit/delete','Feeding schedules and history','Dated manual walking logs','Grooming recurrence and history','Veterinary records persist','Medication reminders within tested limits','Vaccination records persist','Weight history persists and displays','Valid pet sitter text/PDF exports']:
-        item('Core',name,'PASS','android/build-logs/core-device-tests/TEST-com.pawverio.core.RepositoryTest.xml; android/build-logs/platform-device-tests/; android/build-logs/offline-ui-journeys.log','Current domain/device evidence plus earlier scoped UI/render regression checks and a current debug-package passive startup smoke; exact production-signed runtime remains NOT TESTED. WorkManager timing is inexact; not all form/picker interactions are automated.')
+        item('Core',name,'PASS','android/build-logs/core-device-tests/TEST-com.pawverio.core.RepositoryTest.xml; android/build-logs/platform-device-tests/; android/build-logs/offline-ui-journeys.log','Current domain/device evidence plus earlier scoped UI/render regression checks and a current debug-package passive startup smoke; see FIRE_RELEASE_CHECKS.md for signed runtime status. WorkManager timing is inexact; not all form/picker interactions are automated.')
     item('Voice','Push-to-talk success on supported tested device','BLOCKED','reports/VOICE_COMPATIBILITY.md','KFTRWI has no recognition service; another compatible engine/device is required.')
     item('Voice','Commands execute real care actions','PASS' if offline else 'NOT TESTED','android/build-logs/offline-ui-journeys.log','Typed voice command queried data and completed feeding after confirmation; unknown command preserved records.')
     item('Voice','Spoken feedback works audibly','NOT TESTED','reports/VOICE_COMPATIBILITY.md','English capability reported; audible output/accuracy not validated. Other16 installed locale voices unsupported.')
@@ -83,7 +91,7 @@ def main():
     item('Privacy/offline','Data deletion works','PASS' if offline else 'NOT TESTED','android/build-logs/offline-ui-journeys.log; android/build-logs/platform-device-tests/','Records/contact settings cleared, work invalidated/cancelled/pruned. Logical deletion; no forensic erasure claim.')
     item('Privacy/offline','No silent pet-record cloud uploads','PASS','android/build-logs/release-merged-manifest.xml; reports/PRIVACY_SECURITY.md','No INTERNET permission or first-party network uploader. Explicit voice services/store run under their own terms.')
     item('Privacy/offline','Sensitive exports require confirmation','PASS' if offline else 'NOT TESTED','android/build-logs/offline-ui-journeys.log','Export confirmation and cancel verified; PDF/document flows share confirmation policy.')
-    item('Release','Required build artifacts exist','PASS' if signed else 'BLOCKED','android/release/Pawverio-release-signed.apk; reports/SIGNED_RELEASE.json','Exact production-signed runtime verification remains NOT TESTED; the existing debug-signed Fire app and its data were preserved.')
+    item('Release','Required build artifacts exist','PASS' if signed else 'BLOCKED','android/release/Pawverio-release-signed.apk; reports/SIGNED_RELEASE.json',signed_runtime)
     item('Release','Test reports exist','PASS','android/build-logs/','193 JVM,25 earlier Fire domain/platform tests plus 10 Fire billing callback tests,3 offline UI,1 dialog regression,2 attachment boundary and11 localization tests; capture matrix separate.')
     item('Release','Fire compatibility documented','PASS','reports/FIRE_PLATFORM_COMPATIBILITY.md','One KFTRWI/API28 tested; minSDK26. Other Fire/Android devices and reboot/sleep timing not certified.')
     item('Release','Localized store assets complete and approved','BLOCKED','store-assets/metadata/; store-assets/screenshots/','Draft files generated; publisher contact/privacy publication, native review and console locale approval required.')
@@ -109,12 +117,12 @@ Evidence:178 core JVM +15 platform JVM tests;14 core +11 earlier platform physic
 
 19×179 translated resource strings, CLDR forms/placeholders and independent Android-resource expectations. All translations remain AI-authored drafts pending human review. {len(shots)} screenshot compositions and their real app-source PNGs are inventoried;19 target locales×8screens×2layouts when complete. The phone layout was captured in an app-only native360×640dp viewport on Fire; this does not certify phone hardware. Metadata19 locale drafts and original branding/assets are included. See screenshot and brand manifests.
 
-Debug APK:android/debug/Pawverio-debug.apk. Signed release:android/release/Pawverio-release-signed.apk; unsigned build input is retained separately. The signed release is uploaded to the unsubmitted Amazon draft. Exact production-signed device runtime validation remains NOT TESTED because the connected Fire uses a different debug certificate. SHA256s:RELEASE_STATUS.json, SIGNED_RELEASE.json and FILE_CHECKSUMS.csv.
+Debug APK:android/debug/Pawverio-debug.apk. Signed release:android/release/Pawverio-release-signed.apk; unsigned build input is retained separately. The signed release is uploaded to the unsubmitted Amazon draft. Production-signed runtime: {signed_runtime} SHA256s:RELEASE_STATUS.json, SIGNED_RELEASE.json and FILE_CHECKSUMS.csv.
 
 ## Required before submission
 
 1. The Amazon draft contains the app authentication public key and matching ENTITLED SKU pawverio.premium.lifetime, with GBP4.99 base pricing and nine saved purchase-dialog locales. App Tester sandbox checks are {'PASS' if sandbox else 'BLOCKED'}. Production purchase and restore checks require a live IAP. The server-side RVS decision remains open. See BILLING_RELEASE_CHECKS.md.
-2. Test the exact production-signed artifact on a clean compatible device/emulator; the current debug installation was preserved. Securely back up the dedicated owner-local signing identity and arrange portable password recovery before changing machines. No unrelated signing key was used.
+2. See FIRE_RELEASE_CHECKS.md for the production-signed device check and the supplemental scheduled notification and English speech synthesis results. Securely back up the dedicated owner-local signing identity and arrange portable password recovery before changing machines. No unrelated signing key was used.
 3. KFTRWI/API28 has no Android recognition service. Test real speech on a compatible device/engine. Installed IVONA advertises English only; other16 requested locale voices are unsupported. Audible output/pronunciation and live recognition remain unverified. Text/touch commands work.
 4. Approve native translations, long-text/form layouts, Arabic screen-reader order, localized screenshot spelling/readability and listing-locale selectors in the actual Amazon console. No locale is certified/approved merely because strings or images exist.
 5. Account contact details and GitHub links are saved in the Amazon draft. The public privacy notice and conservative questionnaire are drafts pending final provider/owner review. Review SDK diagnostics, identifiers, API-use telemetry, voice-provider processing, licensing, dependency security and applicable legal requirements. The export checkbox is saved using the owner’s explicit declaration; no independent legal assessment is claimed.
@@ -136,7 +144,7 @@ Finish the release blockers first. Then validate onboarding with real multi-pet 
         delivery.append({'Deliverable ID':f'D{len(delivery)+1:02}','Deliverable name':name,'File path':path,'Status':status,'Verification method':method,'Evidence path':evidence,'Remaining blocker':block})
     deliver('Complete Android source project','deliverables/android/Pawverio-source.zip','PASS','Gradle build + tests, source ZIP integrity; app/core/platform included','deliverables/'+build_log)
     deliver('Debug APK','deliverables/android/debug/Pawverio-debug.apk','PASS','Current debug APK installed preserving data; passive startup plus earlier scoped UI/core/platform evidence and package integrity','deliverables/android/build-logs/offline-ui-journeys.log')
-    deliver('Signed release APK','deliverables/android/release/Pawverio-release-signed.apk','PASS' if signed else 'BLOCKED','Release build, signature/alignment/integrity checks; APK accepted into Amazon draft','deliverables/reports/SIGNED_RELEASE.json','Exact production-signed runtime validation on a clean device remains NOT TESTED')
+    deliver('Signed release APK','deliverables/android/release/Pawverio-release-signed.apk','PASS' if signed else 'BLOCKED','Release build, signature/alignment/integrity checks; APK accepted into Amazon draft','deliverables/reports/SIGNED_RELEASE.json',signed_runtime)
     deliver('Original premium brand assets','deliverables/brand-assets/brand-assets-manifest.csv','PASS','Actual SVG/PNG files and checksums','deliverables/brand-assets/brand-contact-sheet.png')
     deliver('Pet care modules and persistence evidence','deliverables/reports/CORE_TEST_RESULTS.md','PASS','178 JVM and14 Fire database/parser tests','deliverables/android/build-logs/core-device-tests/')
     deliver('Voice implementation and compatibility','deliverables/reports/VOICE_COMPATIBILITY.md','BLOCKED','Native capability query + parser and typed UI tests','deliverables/reports/voice-device-capabilities.csv','No recognition engine on tested Fire; audible and multilingual device tests outstanding')

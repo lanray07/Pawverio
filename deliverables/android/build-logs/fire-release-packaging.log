@@ -1,0 +1,28 @@
+{"references": 143, "missing_ids": [], "literal_text_candidates": 0}
+{"result": "PASS", "errors": [], "locales": 19, "strings_per_locale": 179}
+{"status": "PASS", "metadata_drafts": 19, "composition_pngs": 304, "manifest_rows": 304, "errors": [], "remaining_review": "Native language and visual clipping review; claims; final Amazon console listing locale/device/country selectors. Sizes verified from Amazon appstore-details documentation in marketplace-research.md."}
+{"static_checks": "PASS", "source_files": 95, "inventoried_files": 1190, "errors": []}
+{
+  "release_status": "BLOCKED",
+  "mandatory_criteria": 46,
+  "status_counts": {
+    "PASS": 37,
+    "FAIL": 0,
+    "BLOCKED": 7,
+    "NOT TESTED": 2
+  },
+  "verified_acceptance_rate_percent": 80.43,
+  "screenshot_compositions": 304,
+  "expected_screenshot_compositions": 304,
+  "missing_screenshot_compositions": 0,
+  "capture_blocker": null,
+  "approved_locales": [],
+  "human_review_pending_locales": 19,
+  "debug_sha256": "5ca4fefc55a8614b2226d1508bc19b76e4ab8cc4e85cb92248c2528e753eab8e",
+  "unsigned_release_sha256": "2c53beba42761efe44030ecef0b4c4ba17f8fd04bf65b9f737bd2003cac69800",
+  "dialog_locale_regression_pass": true,
+  "production_signing": "PASS: dedicated owner-local RSA4096 identity; verified v2/v3 signatures",
+  "amazon_store_tests": "BLOCKED: live store purchase and restore require a live IAP",
+  "app_tester_sandbox": "PASS",
+  "signed_release_sha256": "fe0d7e21e3cc206b61240bd35bddee67d487ab48563eef047e2dc51c2bf7d427"
+}

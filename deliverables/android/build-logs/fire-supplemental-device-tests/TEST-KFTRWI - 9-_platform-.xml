@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<testsuite name="com.pawverio.platform.PlatformDeviceTest" tests="2" failures="0" errors="0" skipped="0" time="8.508" timestamp="2026-11-05T06:55:37" hostname="localhost">
+  <properties>
+    <property name="device" value="KFTRWI - 9" />
+    <property name="flavor" value="" />
+    <property name="project" value=":platform" />
+  </properties>
+  <testcase name="englishVoiceEngineProducesAudio" classname="com.pawverio.platform.PlatformDeviceTest" time="0.688" />
+  <testcase name="scheduledReminderPostsThroughWorkManager" classname="com.pawverio.platform.PlatformDeviceTest" time="4.331" />
+</testsuite>
