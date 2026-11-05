@@ -26,7 +26,7 @@ Evidence: `deliverables/android/build-logs/platform-device-tests/` copied from t
 | Password-encrypted backup runtime | PASS | UTF-8 round-trip and wrong-password rejection |
 | Records-only backup full UI workflow | NOT TESTED | Tested encryption primitive; root app tests are separate |
 | Missing Amazon key behavior | PASS | Store unavailable without starting vendor authentication |
-| Amazon purchase/restore/price/receipt verification | BLOCKED | App-specific public key, configured SKU and sandbox evidence absent |
+| Amazon purchase/restore/price/receipt verification | BLOCKED | Public key, draft SKU and App Tester coverage verified. Live purchase, receipt verification and signed runtime remain open. |
 | Android API33 notification-permission denial | NOT TESTED | Tested device is API28 |
 | Optional device-lock PIN removal recovery | NOT TESTED | Guard implemented; no device PIN manipulation performed |
 

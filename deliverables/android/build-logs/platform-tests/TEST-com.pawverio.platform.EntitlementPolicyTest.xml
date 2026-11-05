@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.pawverio.platform.EntitlementPolicyTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-11-04T20:55:59.195Z" hostname="DESKTOP-MAKK9CA" time="0.0">
+<testsuite name="com.pawverio.platform.EntitlementPolicyTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-11-05T06:45:20.911Z" hostname="DESKTOP-MAKK9CA" time="0.001">
   <properties/>
-  <testcase name="onlyMatchingNonCanceledEntitlementGrantsPremium" classname="com.pawverio.platform.EntitlementPolicyTest" time="0.0"/>
+  <testcase name="onlyMatchingNonCanceledEntitlementGrantsPremium" classname="com.pawverio.platform.EntitlementPolicyTest" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

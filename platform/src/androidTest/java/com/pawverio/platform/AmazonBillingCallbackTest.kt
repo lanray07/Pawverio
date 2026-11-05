@@ -109,6 +109,24 @@ class AmazonBillingCallbackTest {
         assertEquals(BillingStatus.ERROR, billing.state.value.status)
     }
 
+    @Test fun purchaseFailureWithoutAccountDataShowsErrorWithoutGrantingPremium() {
+        val billing = billing(Gateway())
+        billing.onPurchaseResponse(PurchaseResponseBuilder().setRequestId(RequestId())
+            .setRequestStatus(PurchaseResponse.RequestStatus.FAILED).build())
+        assertFalse(billing.state.value.premium)
+        assertFalse(billing.state.value.busy)
+        assertEquals(BillingStatus.ERROR, billing.state.value.status)
+    }
+
+    @Test fun purchaseFailureWithBlankAccountIdShowsErrorWithoutGrantingPremium() {
+        val billing = billing(Gateway())
+        val emptyAccount = UserDataBuilder().setUserId("").setMarketplace("").build()
+        billing.onPurchaseResponse(PurchaseResponseBuilder().setRequestId(RequestId())
+            .setUserData(emptyAccount).setRequestStatus(PurchaseResponse.RequestStatus.FAILED).build())
+        assertFalse(billing.state.value.premium)
+        assertEquals(BillingStatus.ERROR, billing.state.value.status)
+    }
+
     @Test fun failedIdentityRefreshRejectsLatePurchaseCallbacks() {
         val gateway = Gateway()
         val billing = billing(gateway)

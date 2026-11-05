@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.pawverio.platform.EntitlementReceiptLedgerTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2026-11-04T20:55:59.198Z" hostname="DESKTOP-MAKK9CA" time="0.02">
+<testsuite name="com.pawverio.platform.EntitlementReceiptLedgerTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2026-11-05T06:45:20.980Z" hostname="DESKTOP-MAKK9CA" time="0.077">
   <properties/>
-  <testcase name="wrongSkuNonEntitlementAndBlankIdentityCannotGrantOrRevoke" classname="com.pawverio.platform.EntitlementReceiptLedgerTest" time="0.013"/>
+  <testcase name="wrongSkuNonEntitlementAndBlankIdentityCannotGrantOrRevoke" classname="com.pawverio.platform.EntitlementReceiptLedgerTest" time="0.069"/>
   <testcase name="cancellationDominatesAnActiveFactForSameReceiptInEitherOrder" classname="com.pawverio.platform.EntitlementReceiptLedgerTest" time="0.0"/>
   <testcase name="resetDropsPreviousAccountAndPartialRestoreFacts" classname="com.pawverio.platform.EntitlementReceiptLedgerTest" time="0.002"/>
   <testcase name="fullHistoryWithOnlyCanceledReceiptsHasNoEntitlement" classname="com.pawverio.platform.EntitlementReceiptLedgerTest" time="0.0"/>

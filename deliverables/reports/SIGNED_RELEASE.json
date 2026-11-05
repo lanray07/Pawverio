@@ -1,8 +1,8 @@
 {
   "status": "PASS",
   "artifact": "deliverables/android/release/Pawverio-release-signed.apk",
-  "sha256": "b1165b9710e3d1341adfd50a8073d9f2425d330f162351f573df1269536e4d77",
-  "unsigned_sha256": "de3cff0fee09040b9af92078a133fc25447970601c220ff84fd12e8538602fa5",
+  "sha256": "fe0d7e21e3cc206b61240bd35bddee67d487ab48563eef047e2dc51c2bf7d427",
+  "unsigned_sha256": "2c53beba42761efe44030ecef0b4c4ba17f8fd04bf65b9f737bd2003cac69800",
   "alias": "pawverio-release",
   "key_algorithm": "RSA4096",
   "signature": "SHA256withRSA",

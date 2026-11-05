@@ -1,7 +1,7 @@
 {
   "status": "PASS_UI_UPLOAD_ACCEPTED",
-  "uploaded_filename": "Pawverio-1.0.0-b1165b97.apk",
-  "local_signed_apk_sha256": "b1165b9710e3d1341adfd50a8073d9f2425d330f162351f573df1269536e4d77",
+  "uploaded_filename": "Pawverio-1.0.0-fe0d7e21.apk",
+  "local_signed_apk_sha256": "fe0d7e21e3cc206b61240bd35bddee67d487ab48563eef047e2dc51c2bf7d427",
   "evidence": "Amazon review UI shows the processed replacement APK with hash-labelled filename, version code1, 12 retained Fire selections and owner-confirmed export checkbox; neither submit control was clicked",
   "package": "com.pawverio.app",
   "version_code": 1,

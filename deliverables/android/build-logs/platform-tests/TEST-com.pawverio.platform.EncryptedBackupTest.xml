@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.pawverio.platform.EncryptedBackupTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-11-04T20:55:57.054Z" hostname="DESKTOP-MAKK9CA" time="2.139">
+<testsuite name="com.pawverio.platform.EncryptedBackupTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-11-05T06:45:18.911Z" hostname="DESKTOP-MAKK9CA" time="1.997">
   <properties/>
-  <testcase name="authenticationRejectsTampering" classname="com.pawverio.platform.EncryptedBackupTest" time="0.82"/>
-  <testcase name="wrongPasswordFails" classname="com.pawverio.platform.EncryptedBackupTest" time="0.641"/>
-  <testcase name="roundTripPreservesUtf8AndUsesRandomSalt" classname="com.pawverio.platform.EncryptedBackupTest" time="0.677"/>
+  <testcase name="authenticationRejectsTampering" classname="com.pawverio.platform.EncryptedBackupTest" time="0.825"/>
+  <testcase name="wrongPasswordFails" classname="com.pawverio.platform.EncryptedBackupTest" time="0.558"/>
+  <testcase name="roundTripPreservesUtf8AndUsesRandomSalt" classname="com.pawverio.platform.EncryptedBackupTest" time="0.614"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

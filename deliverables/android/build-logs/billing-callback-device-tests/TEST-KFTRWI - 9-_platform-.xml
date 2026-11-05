@@ -1,16 +1,18 @@
 <?xml version='1.0' encoding='UTF-8' ?>
-<testsuite name="com.pawverio.platform.AmazonBillingCallbackTest" tests="8" failures="0" errors="0" skipped="0" time="3.904" timestamp="2026-11-04T20:56:22" hostname="localhost">
+<testsuite name="com.pawverio.platform.AmazonBillingCallbackTest" tests="10" failures="0" errors="0" skipped="0" time="4.21" timestamp="2026-11-05T06:45:53" hostname="localhost">
   <properties>
     <property name="device" value="KFTRWI - 9" />
     <property name="flavor" value="" />
     <property name="project" value=":platform" />
   </properties>
-  <testcase name="previousAccountRestoreCannotOverwriteNewAccountOrCancelItsRequest" classname="com.pawverio.platform.AmazonBillingCallbackTest" time="0.052" />
-  <testcase name="restoredPendingPurchaseIsAcknowledgedOnlyAfterAllPages" classname="com.pawverio.platform.AmazonBillingCallbackTest" time="0.025" />
-  <testcase name="stalePageAfterCompleteRestoreCannotGrantPremium" classname="com.pawverio.platform.AmazonBillingCallbackTest" time="0.026" />
-  <testcase name="failedIdentityRefreshRejectsLatePurchaseCallbacks" classname="com.pawverio.platform.AmazonBillingCallbackTest" time="0.025" />
-  <testcase name="failedRestorePreservesOfflineCache" classname="com.pawverio.platform.AmazonBillingCallbackTest" time="0.025" />
-  <testcase name="directPurchaseFulfillmentFailureDoesNotCrashOrLoseEntitlement" classname="com.pawverio.platform.AmazonBillingCallbackTest" time="0.023" />
-  <testcase name="duplicateRestoreDoesNotResetAnInFlightPagination" classname="com.pawverio.platform.AmazonBillingCallbackTest" time="0.024" />
-  <testcase name="fulfillmentFailurePreservesDeliveredEntitlementAndRetriesOnRestore" classname="com.pawverio.platform.AmazonBillingCallbackTest" time="0.025" />
+  <testcase name="previousAccountRestoreCannotOverwriteNewAccountOrCancelItsRequest" classname="com.pawverio.platform.AmazonBillingCallbackTest" time="0.072" />
+  <testcase name="restoredPendingPurchaseIsAcknowledgedOnlyAfterAllPages" classname="com.pawverio.platform.AmazonBillingCallbackTest" time="0.026" />
+  <testcase name="stalePageAfterCompleteRestoreCannotGrantPremium" classname="com.pawverio.platform.AmazonBillingCallbackTest" time="0.023" />
+  <testcase name="failedIdentityRefreshRejectsLatePurchaseCallbacks" classname="com.pawverio.platform.AmazonBillingCallbackTest" time="0.024" />
+  <testcase name="purchaseFailureWithBlankAccountIdShowsErrorWithoutGrantingPremium" classname="com.pawverio.platform.AmazonBillingCallbackTest" time="0.023" />
+  <testcase name="failedRestorePreservesOfflineCache" classname="com.pawverio.platform.AmazonBillingCallbackTest" time="0.021" />
+  <testcase name="directPurchaseFulfillmentFailureDoesNotCrashOrLoseEntitlement" classname="com.pawverio.platform.AmazonBillingCallbackTest" time="0.02" />
+  <testcase name="duplicateRestoreDoesNotResetAnInFlightPagination" classname="com.pawverio.platform.AmazonBillingCallbackTest" time="0.025" />
+  <testcase name="fulfillmentFailurePreservesDeliveredEntitlementAndRetriesOnRestore" classname="com.pawverio.platform.AmazonBillingCallbackTest" time="0.024" />
+  <testcase name="purchaseFailureWithoutAccountDataShowsErrorWithoutGrantingPremium" classname="com.pawverio.platform.AmazonBillingCallbackTest" time="0.025" />
 </testsuite>

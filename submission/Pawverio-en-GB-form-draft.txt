@@ -69,7 +69,7 @@ Pet records are local; no account, advertising SDK or automatic location trackin
 
 BINARY UPLOAD STATUS
 Debug APK is for testing. Do not upload it as the production artifact.
-A dedicated production-signed APK has been verified and uploaded to the unsubmitted Amazon draft as Pawverio-1.0.0-b1165b97.apk. Exact signed-device runtime verification remains outstanding; the existing debug installation was preserved.
+A dedicated production-signed APK has been verified and uploaded to the unsubmitted Amazon draft as Pawverio-1.0.0-fe0d7e21.apk. Exact signed-device runtime verification remains outstanding; the existing debug installation was preserved.
 
 FINAL SUBMISSION
 BLOCKED. Keep the application in draft. Export certification awaits explicit owner confirmation; real Amazon purchase validation, exact production-signed runtime, speech/device/accessibility tests, native/store approval and final provider/privacy review remain outstanding.

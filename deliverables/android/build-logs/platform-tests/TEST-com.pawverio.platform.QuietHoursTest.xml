@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.pawverio.platform.QuietHoursTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2026-11-04T20:55:59.221Z" hostname="DESKTOP-MAKK9CA" time="0.002">
+<testsuite name="com.pawverio.platform.QuietHoursTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2026-11-05T06:45:21.060Z" hostname="DESKTOP-MAKK9CA" time="0.001">
   <properties/>
-  <testcase name="overnightQuietHoursIncludeLateNightAndEarlyMorning" classname="com.pawverio.platform.QuietHoursTest" time="0.001"/>
+  <testcase name="overnightQuietHoursIncludeLateNightAndEarlyMorning" classname="com.pawverio.platform.QuietHoursTest" time="0.0"/>
   <testcase name="daytimeAndDisabledRangesHaveCorrectBoundaries" classname="com.pawverio.platform.QuietHoursTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>

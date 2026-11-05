@@ -231,7 +231,13 @@ class AmazonBilling internal constructor(
     }
 
     override fun onPurchaseResponse(response: PurchaseResponse) {
-        if (userId == null || response.userData?.userId != userId) {
+        val responseUserId = response.userData?.userId?.takeIf { it.isNotBlank() }
+        val requiresIdentity = response.requestStatus == PurchaseResponse.RequestStatus.SUCCESSFUL ||
+            response.requestStatus == PurchaseResponse.RequestStatus.ALREADY_PURCHASED
+        if (userId == null ||
+            (responseUserId != null && responseUserId != userId) ||
+            (requiresIdentity && responseUserId == null)
+        ) {
             unavailable()
             return
         }

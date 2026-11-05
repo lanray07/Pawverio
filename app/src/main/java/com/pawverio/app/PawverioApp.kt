@@ -1242,7 +1242,7 @@ private fun MainContent(
                     Column {
                         Text(stringResource(R.string.premium_body))
                         if (bill.busy) Text(stringResource(R.string.purchase_pending))
-                        when (bill.status) {
+                        else when (bill.status) {
                             BillingStatus.ERROR -> Text(stringResource(R.string.purchase_failed))
                             BillingStatus.CANCELLED ->
                                 Text(stringResource(R.string.purchase_cancelled))

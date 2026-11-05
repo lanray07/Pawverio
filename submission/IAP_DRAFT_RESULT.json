@@ -109,7 +109,7 @@
   "devtest_blocker": "Amazon documented requirement for submitted live IAP items conflicts with owner instruction to keep all drafts unsubmitted",
   "catalog_export": "submission/amazon.sdktester.json; actual Amazon-generated draft catalog",
   "catalog_validation": "PASS: scripts/validate_iap_catalog.py",
-  "app_tester_environment": "Installed on connected KFTRWI; overlay permission already allowed; debug.amazon.sandboxmode=none. No device permission or sandbox changes were made pending owner authorisation.",
+  "app_tester_environment": "PASS on KFTRWI on 2026-11-05. Catalog lookup, sandbox checkout, cancellation, forced failure, fulfillment, restore and revocation were exercised. Original catalog, sandbox mode none and Purchase API Default were restored.",
   "artwork_verification": "PASS: all 18 persisted Amazon icons downloaded after reload and pixel-matched to transparent 512px/114px source PNGs",
   "artwork_sources": [
     "deliverables/brand-assets/pawverio-iap-icon-512.png",
