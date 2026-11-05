@@ -20,6 +20,14 @@ python -m unittest scripts/localization_test.py
 
 Install `app/build/outputs/apk/debug/app-debug.apk` with `adb install -r`. Gradle emits an unsigned build input. A verified production-signed APK is included under `deliverables/android/release/`; the owner-local `scripts/sign_release.ps1` signs future builds with the dedicated key outside the repository. Never distribute a debug or QA-signed artifact as the production app.
 
+The onboarding instrumentation suite uses a separate `com.pawverio.app.qa` package. Run it on an unlocked test device with:
+
+```powershell
+.\gradlew.bat :app:connectedDebugAndroidTest -PisolatedDeviceQa=true -Pandroid.testInstrumentationRunnerArguments.class=com.pawverio.app.OnboardingTest
+```
+
+See [the master prompt follow-up](deliverables/reports/MASTER_PROMPT_FOLLOW_UP.md) for the 1.0.1 candidate and current Amazon draft status.
+
 ## Architecture
 
 - `app/`: adaptive Compose interface, `CareViewModel`, DataStore preferences, onboarding, care editors, settings and coordinated platform flows.
@@ -43,7 +51,7 @@ The app records user-entered veterinary instructions; it does not calculate feed
 
 ## Monetization
 
-Amazon SDK3.0.9, entitlement SKU `pawverio.premium.lifetime`, one-time unlock. The suggested £4.99 is a pricing hypothesis; the UI displays the store price only. The app-specific Amazon public verification key is packaged. Configure and validate the actual store product before testing purchases. No Google Play Billing and no simulated purchase success. Amazon sandbox purchase verification, refunds/account changes/restore, and receipt-verification assessment are release blockers. See [platform integration](deliverables/reports/PLATFORM_INTEGRATIONS.md).
+Amazon SDK 3.0.9 provides the one-time entitlement SKU `pawverio.premium.lifetime`. The draft lists a £4.99 base price and the app displays the price returned by the store. The app-specific Amazon public key is packaged. Amazon App Tester covered checkout, cancellation, failure, fulfillment, restore and revocation. Live-store testing and server-side receipt verification remain release blockers. See [platform integration](deliverables/reports/PLATFORM_INTEGRATIONS.md).
 
 ## Localization and screenshots
 

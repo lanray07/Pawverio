@@ -180,6 +180,7 @@
     <string name="quiet_start_hour">"通知を控える開始時刻（0～23）"</string>
     <string name="quiet_end_hour">"通知を控える終了時刻（0～23）"</string>
     <string name="attachment_export">"添付ファイルを書き出す"</string>
+    <string name="high_contrast">"ハイコントラスト"</string>
     <plurals name="tasks_count">
         <item quantity="other">"お世話%1$d件"</item>
     </plurals>

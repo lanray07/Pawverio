@@ -180,6 +180,7 @@
     <string name="quiet_start_hour">"Tysta timmar börjar (0–23)"</string>
     <string name="quiet_end_hour">"Tysta timmar slutar (0–23)"</string>
     <string name="attachment_export">"Exportera bilaga"</string>
+    <string name="high_contrast">"Hög kontrast"</string>
     <plurals name="tasks_count">
         <item quantity="one">"%1$d skötseluppgift"</item>
         <item quantity="other">"%1$d skötseluppgifter"</item>

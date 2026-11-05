@@ -3,11 +3,18 @@ android {
     namespace = "com.pawverio.app"
     compileSdk = 35
     buildToolsVersion = "35.0.0"
-    defaultConfig { applicationId = "com.pawverio.app"; minSdk = 26; targetSdk = 35; versionCode = 1; versionName = "1.0.0"; testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner" }
+    defaultConfig { applicationId = "com.pawverio.app"; minSdk = 26; targetSdk = 35; versionCode = 2; versionName = "1.0.1"; testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner" }
     buildFeatures { compose = true; buildConfig = true }
     compileOptions { sourceCompatibility = JavaVersion.VERSION_17; targetCompatibility = JavaVersion.VERSION_17 }
     kotlinOptions { jvmTarget = "17" }
-    buildTypes { release { isMinifyEnabled = false } }
+    buildTypes {
+        debug {
+            if (providers.gradleProperty("isolatedDeviceQa").orNull == "true") {
+                applicationIdSuffix = ".qa"
+            }
+        }
+        release { isMinifyEnabled = false }
+    }
 }
 dependencies {
     implementation(project(":core")); implementation(project(":platform"))

@@ -180,6 +180,7 @@
     <string name="quiet_start_hour">"بداية ساعات الهدوء (0–23)"</string>
     <string name="quiet_end_hour">"نهاية ساعات الهدوء (0–23)"</string>
     <string name="attachment_export">"تصدير المرفق"</string>
+    <string name="high_contrast">"تباين عالٍ"</string>
     <plurals name="tasks_count">
         <item quantity="zero">"%1$d مهمة رعاية"</item>
         <item quantity="one">"%1$d مهمة رعاية"</item>

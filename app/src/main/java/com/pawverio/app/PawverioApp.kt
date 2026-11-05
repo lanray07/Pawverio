@@ -3,6 +3,7 @@
 package com.pawverio.app
 
 import android.Manifest
+import android.animation.ValueAnimator
 import android.content.Context
 import android.content.res.Configuration
 import android.os.Build
@@ -24,6 +25,8 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalConfiguration
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.semantics.contentDescription
+import androidx.compose.ui.semantics.semantics
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
@@ -79,7 +82,11 @@ fun PawverioApp(initialRoute: Int = 0) {
                 Column(Modifier.fillMaxSize(),verticalArrangement=Arrangement.Center,horizontalAlignment=Alignment.CenterHorizontally){
                     Icon(Icons.Outlined.Pets,null,tint=MaterialTheme.colorScheme.primary,modifier=Modifier.size(56.dp))
                     Spacer(Modifier.height(24.dp))
-                    CircularProgressIndicator()
+                    if (ValueAnimator.areAnimatorsEnabled()) {
+                        CircularProgressIndicator()
+                    } else {
+                        Text(stringResource(R.string.loading))
+                    }
                 }
             }
         }
@@ -105,7 +112,10 @@ fun PawverioApp(initialRoute: Int = 0) {
                 androidx.compose.ui.unit.LayoutDirection.Rtl
             else androidx.compose.ui.unit.LayoutDirection.Ltr,
     ) {
-        MaterialTheme(colorScheme = pawverioColors(prefs.dark), typography = Typography()) {
+        MaterialTheme(
+            colorScheme = pawverioColors(prefs.dark, prefs.highContrast),
+            typography = Typography(),
+        ) {
             Surface(Modifier.fillMaxSize(), color = MaterialTheme.colorScheme.background) {
                 MainContent(base, settings, prefs, locale, initialRoute)
             }
@@ -168,6 +178,7 @@ private fun MainContent(
     var healthPetFilter by remember { mutableStateOf<String?>(null) }
     var healthKindFilter by remember { mutableStateOf<String?>(null) }
     var petEdit by remember { mutableStateOf<Pet?>(null) }
+    var onboardingPet by remember { mutableStateOf<Pet?>(null) }
     var taskEdit by remember { mutableStateOf<CareTask?>(null) }
     var recordEdit by remember { mutableStateOf<HealthRecord?>(null) }
     var search by remember { mutableStateOf("") }
@@ -491,8 +502,8 @@ private fun MainContent(
             prefs,
             settings,
             {
-                action { settings.set("onboarded", true) }
-                dialog = "pet"
+                onboardingPet = pets.firstOrNull()
+                dialog = if (onboardingPet == null) "pet" else "onboardingFeeding"
             },
             { action { settings.set("onboarded", true) } },
         )
@@ -973,6 +984,19 @@ private fun MainContent(
                             item {
                                 SectionTitle(R.string.household)
                                 members.forEach { Text(it.name + " · " + it.contact) }
+                                tasks.filter { it.assignedTo.isNotBlank() }
+                                    .groupBy { it.assignedTo }
+                                    .forEach { (assignee, assignedTasks) ->
+                                        Text(assignee, style = MaterialTheme.typography.titleSmall)
+                                        assignedTasks.forEach { task ->
+                                            TextButton(onClick = {
+                                                taskEdit = task
+                                                dialog = "task"
+                                            }) {
+                                                Text(task.title + " · " + date(task.time, locale))
+                                            }
+                                        }
+                                    }
                                 OutlinedButton(onClick = { gate("member") }) {
                                     Text(stringResource(R.string.member_name))
                                 }
@@ -1021,11 +1045,39 @@ private fun MainContent(
                     action {
                         repository.savePet(pet)
                         pruneAttachments()
-                        dialog = null
+                        if (!prefs.onboarded) onboardingPet = pet
+                        dialog = if (prefs.onboarded) null else "onboardingFeeding"
                         petEdit = null
                     }
                 },
                 { id -> dialog = "deletePet" },
+                onboarding = !prefs.onboarded,
+            )
+        "onboardingFeeding" ->
+            TaskEditor(
+                existing = null,
+                pets = listOfNotNull(onboardingPet),
+                members = emptyList(),
+                premium = false,
+                locale = locale,
+                dismiss = {
+                    action {
+                        settings.set("onboarded", true)
+                        dialog = null
+                    }
+                },
+                save = { task ->
+                    action {
+                        repository.saveTask(task)
+                        settings.set("onboarded", true)
+                        dialog = null
+                        if (task.remindersEnabled && Build.VERSION.SDK_INT >= 33) {
+                            notifications.launch(Manifest.permission.POST_NOTIFICATIONS)
+                        }
+                    }
+                },
+                delete = {},
+                onboarding = true,
             )
         "deletePet" ->
             Confirm(R.string.delete_pet_confirm, { dialog = "pet" }) {
@@ -1706,13 +1758,19 @@ private fun SettingsPanel(
         LanguagePicker(prefs.language) { run { settings.set("language", it) } }
         listOf(
                 Triple(R.string.dark_theme, prefs.dark, "dark"),
+                Triple(R.string.high_contrast, prefs.highContrast, "high_contrast"),
                 Triple(R.string.pounds, prefs.pounds, "pounds"),
                 Triple(R.string.spoken_feedback, prefs.spoken, "spoken"),
             )
             .forEach { (id, value, key) ->
                 Row(verticalAlignment = Alignment.CenterVertically) {
-                    Text(stringResource(id), Modifier.weight(1f))
-                    Switch(value, { run { settings.set(key, it) } })
+                    val label = stringResource(id)
+                    Text(label, Modifier.weight(1f))
+                    Switch(
+                        value,
+                        { run { settings.set(key, it) } },
+                        modifier = Modifier.semantics { contentDescription = label },
+                    )
                 }
             }
         OutlinedButton(onClick = notifications) {

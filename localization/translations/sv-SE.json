@@ -177,5 +177,6 @@
   "enabled": "Aktiverat",
   "quiet_start_hour": "Tysta timmar börjar (0–23)",
   "quiet_end_hour": "Tysta timmar slutar (0–23)",
-  "attachment_export": "Exportera bilaga"
+  "attachment_export": "Exportera bilaga",
+  "high_contrast": "Hög kontrast"
 }

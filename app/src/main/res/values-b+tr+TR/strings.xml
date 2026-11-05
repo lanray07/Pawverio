@@ -180,6 +180,7 @@
     <string name="quiet_start_hour">"Sessiz saat başlangıcı (0–23)"</string>
     <string name="quiet_end_hour">"Sessiz saat bitişi (0–23)"</string>
     <string name="attachment_export">"Eki dışa aktar"</string>
+    <string name="high_contrast">"Yüksek kontrast"</string>
     <plurals name="tasks_count">
         <item quantity="one">"%1$d bakım görevi"</item>
         <item quantity="other">"%1$d bakım görevi"</item>

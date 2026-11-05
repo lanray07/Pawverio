@@ -15,6 +15,8 @@ import androidx.compose.runtime.*
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.semantics.contentDescription
+import androidx.compose.ui.semantics.semantics
 import androidx.compose.ui.unit.dp
 import com.pawverio.core.*
 import java.io.File
@@ -29,6 +31,7 @@ internal fun Editor(
     save: () -> Unit,
     valid: Boolean = true,
     delete: (() -> Unit)? = null,
+    dismissLabel: Int = R.string.cancel,
     content: @Composable ColumnScope.() -> Unit,
 ) {
     PawverioAlertDialog(
@@ -55,7 +58,7 @@ internal fun Editor(
                             color = MaterialTheme.colorScheme.error,
                         )
                     }
-                TextButton(onClick = dismiss) { Text(stringResource(R.string.cancel)) }
+                TextButton(onClick = dismiss) { Text(stringResource(dismissLabel)) }
             }
         },
     )
@@ -83,7 +86,7 @@ private fun Choice(
         Text(stringResource(id), style = MaterialTheme.typography.labelLarge)
         Box {
             OutlinedButton(onClick = { expanded = true }, modifier = Modifier.fillMaxWidth()) {
-                Text(choices.find { it.first == current }?.second.orEmpty())
+                Text(choices.find { it.first == current }?.second ?: stringResource(id))
             }
             DropdownMenu(expanded, { expanded = false }) {
                 choices.forEach { (key, label) ->
@@ -173,6 +176,7 @@ internal fun PetEditor(
     dismiss: () -> Unit,
     save: (Pet) -> Unit,
     delete: (String) -> Unit,
+    onboarding: Boolean = false,
 ) {
     var name by remember { mutableStateOf(existing?.name.orEmpty()) }
     var species by remember { mutableStateOf(existing?.species ?: "dog") }
@@ -182,6 +186,7 @@ internal fun PetEditor(
     var allergies by remember { mutableStateOf(existing?.allergies.orEmpty()) }
     var notes by remember { mutableStateOf(existing?.notes.orEmpty()) }
     var photo by remember { mutableStateOf(existing?.photoPath) }
+    val draft = remember { existing ?: Pet(name = "") }
     var weight by remember {
         mutableStateOf(
             existing
@@ -215,7 +220,11 @@ internal fun PetEditor(
                 }
         }
     Editor(
-        if (existing == null) R.string.add_pet else R.string.edit_pet,
+        when {
+            onboarding -> R.string.onboarding_pet
+            existing == null -> R.string.add_pet
+            else -> R.string.edit_pet
+        },
         dismiss,
         {
             val value =
@@ -227,7 +236,7 @@ internal fun PetEditor(
             } else {
                 submitted = true
                 save(
-                    (existing ?: Pet(name = name)).copy(
+                    draft.copy(
                         name = name,
                         species = species,
                         breed = breed,
@@ -281,26 +290,30 @@ internal fun TaskEditor(
     dismiss: () -> Unit,
     save: (CareTask) -> Unit,
     delete: (CareTask) -> Unit,
+    onboarding: Boolean = false,
 ) {
     var pet by remember { mutableStateOf(existing?.petId ?: pets.firstOrNull()?.id.orEmpty()) }
+    val draft = remember { existing ?: CareTask(petId = pet, title = "") }
     var title by remember { mutableStateOf(existing?.title.orEmpty()) }
     var kind by remember { mutableStateOf(existing?.kind ?: CareKind.FEEDING) }
     var due by remember {
         mutableLongStateOf(existing?.time ?: System.currentTimeMillis() + 3600000)
     }
-    var days by remember { mutableStateOf((existing?.recurrenceDays ?: 0).toString()) }
+    var days by remember {
+        mutableStateOf((existing?.recurrenceDays ?: if (onboarding) 1 else 0).toString())
+    }
     var notes by remember { mutableStateOf(existing?.notes.orEmpty()) }
     var assigned by remember { mutableStateOf(existing?.assignedTo.orEmpty()) }
     var dosage by remember { mutableStateOf(existing?.dosage.orEmpty()) }
     var portion by remember { mutableStateOf(existing?.portion.orEmpty()) }
     var meal by remember { mutableStateOf(existing?.mealType.orEmpty()) }
     var minutes by remember { mutableStateOf(existing?.durationMinutes?.toString().orEmpty()) }
-    var reminder by remember { mutableStateOf(existing?.remindersEnabled ?: true) }
+    var reminder by remember { mutableStateOf(existing?.remindersEnabled ?: !onboarding) }
     var start by remember { mutableStateOf(existing?.startDate) }
     var end by remember { mutableStateOf(existing?.endDate) }
     var error by remember { mutableStateOf(false) }
     Editor(
-        R.string.add_task,
+        if (onboarding) R.string.onboarding_routines else R.string.add_task,
         dismiss,
         {
             val recurrence = runCatching { parseNumber(days, locale) }.getOrNull()
@@ -325,7 +338,7 @@ internal fun TaskEditor(
                 error = true
             } else
                 save(
-                    (existing ?: CareTask(petId = pet, title = title)).copy(
+                    draft.copy(
                         petId = pet,
                         title = title,
                         kind = kind,
@@ -345,12 +358,29 @@ internal fun TaskEditor(
         },
         title.isNotBlank() && pet.isNotBlank(),
         existing?.let { { delete(it) } },
+        dismissLabel = if (onboarding) R.string.skip else R.string.cancel,
     ) {
-        PetChoice(pets, pet) { pet = it }
-        KindChoice(kind, CareKind.all) { kind = it }
+        if (onboarding) {
+            Text(stringResource(R.string.feeding))
+        } else {
+            PetChoice(pets, pet) { pet = it }
+            KindChoice(kind, CareKind.all) { kind = it }
+        }
         Field(R.string.task_title, title) { title = it }
         DateTimeField(R.string.due_date, due, locale) { due = it }
-        Field(R.string.interval_days, days) { days = it }
+        if (onboarding) {
+            Choice(
+                R.string.repeat,
+                days,
+                listOf(
+                    "0" to stringResource(R.string.never),
+                    "1" to stringResource(R.string.daily),
+                    "7" to stringResource(R.string.weekly),
+                ),
+            ) { days = it }
+        } else {
+            Field(R.string.interval_days, days) { days = it }
+        }
         if (kind == CareKind.FEEDING) {
             Field(R.string.meal_type, meal) { meal = it }
             Field(R.string.portion, portion) { portion = it }
@@ -363,10 +393,21 @@ internal fun TaskEditor(
         }
         if (kind == CareKind.WALKING) Field(R.string.duration_minutes, minutes) { minutes = it }
         Field(R.string.notes, notes) { notes = it }
-        if (premium) Field(R.string.assigned_to, assigned) { assigned = it }
+        if (premium) {
+            Field(R.string.assigned_to, assigned) { assigned = it }
+            if (members.isNotEmpty()) {
+                val choices = members.map { it.name }.distinct()
+                Choice(R.string.household, assigned, choices.map { it to it }) { assigned = it }
+            }
+        }
         Row {
-            Text(stringResource(R.string.notifications), Modifier.weight(1f))
-            Switch(reminder, { reminder = it })
+            val label = stringResource(R.string.notifications)
+            Text(label, Modifier.weight(1f))
+            Switch(
+                reminder,
+                { reminder = it },
+                modifier = Modifier.semantics { contentDescription = label },
+            )
         }
         if (error)
             Text(stringResource(R.string.invalid_number), color = MaterialTheme.colorScheme.error)

@@ -2,6 +2,8 @@
 
 **BLOCKED — NOT READY FOR SUBMISSION.** The signed APK has been uploaded to an Amazon draft; no app-store review submission or publishing has occurred.
 
+The draft and the checklist below refer to 1.0.0. See [the master prompt follow-up](MASTER_PROMPT_FOLLOW_UP.md) for the separate 1.0.1 candidate, verification and remaining release work.
+
 Verified checklist rate: **37/46 = 80.43%**. PASS37; FAIL0; BLOCKED7; NOT TESTED2. This counts the user's46 mandatory checklist items, with scope/evidence in ACCEPTANCE_CRITERIA.csv; it is not a claim that the entire product is production ready.
 
 ## Implemented and verified

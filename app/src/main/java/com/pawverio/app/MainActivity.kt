@@ -84,7 +84,7 @@ class MainActivity : ComponentActivity() {
                             LayoutDirection.Rtl
                         else LayoutDirection.Ltr
                 ) {
-                    MaterialTheme(colorScheme = pawverioColors(prefs.dark)) {
+                    MaterialTheme(colorScheme = pawverioColors(prefs.dark, prefs.highContrast)) {
                         Surface(Modifier.fillMaxSize()) {
                             Column(
                                 Modifier.fillMaxSize().padding(32.dp),

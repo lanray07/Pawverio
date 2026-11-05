@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "artifact": "deliverables/android/release/Pawverio-1.0.1-signed.apk",
+  "sha256": "d7a207582aa6bf85e15607213613bb7c3cc1c197718c695fec6f42dc27995b39",
+  "unsigned_sha256": "d5aed3db98ce99f3804a675a1e21888104e137bb199fbb5ab9ca693b5a256d63",
+  "alias": "pawverio-release",
+  "key_algorithm": "RSA4096",
+  "signature": "SHA256withRSA",
+  "minimum_verified_api": 26,
+  "alignment_bytes": 4,
+  "zip_entry_native_page_alignment_kib": 16,
+  "device_runtime_verification": "NOT TESTED: signed candidate has not been installed",
+  "password_storage": "Windows CurrentUser DPAPI, outside repository",
+  "version_name": "1.0.1",
+  "version_code": 2,
+  "amazon_draft_uploaded": false
+}

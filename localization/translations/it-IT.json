@@ -177,5 +177,6 @@
   "enabled": "Attivo",
   "quiet_start_hour": "Inizio ore di silenzio (0–23)",
   "quiet_end_hour": "Fine ore di silenzio (0–23)",
-  "attachment_export": "Esporta allegato"
+  "attachment_export": "Esporta allegato",
+  "high_contrast": "Contrasto elevato"
 }

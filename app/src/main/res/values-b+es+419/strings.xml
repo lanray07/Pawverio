@@ -180,6 +180,7 @@
     <string name="quiet_start_hour">"Inicio del silencio (0–23)"</string>
     <string name="quiet_end_hour">"Fin del silencio (0–23)"</string>
     <string name="attachment_export">"Exportar archivo adjunto"</string>
+    <string name="high_contrast">"Alto contraste"</string>
     <plurals name="tasks_count">
         <item quantity="one">"%1$d tarea de cuidado"</item>
         <item quantity="many">"%1$d tareas de cuidado"</item>

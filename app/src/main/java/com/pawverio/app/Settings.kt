@@ -15,6 +15,7 @@ data class Preferences(
     val spoken: Boolean = true,
     val emergency: String = "",
     val instructions: String = "",
+    val highContrast: Boolean = false,
 )
 
 class Settings(private val context: Context) {
@@ -28,6 +29,7 @@ class Settings(private val context: Context) {
                 it[booleanPreferencesKey("spoken")] ?: true,
                 it[stringPreferencesKey("emergency")] ?: "",
                 it[stringPreferencesKey("instructions")] ?: "",
+                it[booleanPreferencesKey("high_contrast")] ?: false,
             )
         }
 

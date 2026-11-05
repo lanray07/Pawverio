@@ -1,5 +1,6 @@
 param(
     [switch]$Initialize,
+    [switch]$Candidate,
     [string]$KeyDirectory = (Join-Path $env:USERPROFILE '.codex/signing/pawverio-production'),
     [string]$SdkDirectory = (Join-Path $env:LOCALAPPDATA 'Android/Sdk')
 )
@@ -44,8 +45,10 @@ try {
     if (!(Test-Path -LiteralPath $unsigned)) { throw 'Build the release variant first.' }
     $tools = Join-Path $SdkDirectory 'build-tools/35.0.0'
     $aligned = Join-Path $repo 'app/build/outputs/apk/release/app-release-aligned.apk'
-    $signed = Join-Path $repo 'deliverables/android/release/Pawverio-release-signed.apk'
-    $logs = Join-Path $repo 'deliverables/android/build-logs'
+    $output = if ($Candidate) { Join-Path $repo 'app/build/outputs/apk/release' } else { Join-Path $repo 'deliverables/android/release' }
+    $signed = Join-Path $output 'Pawverio-release-signed.apk'
+    $logs = if ($Candidate) { $output } else { Join-Path $repo 'deliverables/android/build-logs' }
+    $reports = if ($Candidate) { $output } else { Join-Path $repo 'deliverables/reports' }
     New-Item -ItemType Directory -Force -Path $logs | Out-Null
     & (Join-Path $tools 'zipalign.exe') -P 16 -f 4 $unsigned $aligned
     if ($LASTEXITCODE -ne 0) { throw 'APK alignment failed.' }
@@ -55,10 +58,14 @@ try {
     if ($LASTEXITCODE -ne 0) { throw 'APK signature verification failed.' }
     & (Join-Path $tools 'zipalign.exe') -c -P 16 4 $signed
     if ($LASTEXITCODE -ne 0) { throw 'Signed APK alignment verification failed.' }
-    & python (Join-Path $repo 'scripts/audit_native_alignment.py') --apk $signed --output (Join-Path $repo 'deliverables/reports/NATIVE_PAGE_ALIGNMENT.json')
+    & python (Join-Path $repo 'scripts/audit_native_alignment.py') --apk $signed --output (Join-Path $reports 'NATIVE_PAGE_ALIGNMENT.json')
     if ($LASTEXITCODE -ne 0) { throw 'Packaged native ELF alignment verification failed.' }
     $summary = [ordered]@{status='PASS'; artifact='deliverables/android/release/Pawverio-release-signed.apk'; sha256=(Get-FileHash -LiteralPath $signed -Algorithm SHA256).Hash.ToLowerInvariant(); unsigned_sha256=(Get-FileHash -LiteralPath $unsigned -Algorithm SHA256).Hash.ToLowerInvariant(); alias=$alias; key_algorithm='RSA4096'; signature='SHA256withRSA'; minimum_verified_api=26; alignment_bytes=4; zip_entry_native_page_alignment_kib=16; device_runtime_verification='NOT TESTED: current Fire uses a different debug certificate; data was preserved'; password_storage='Windows CurrentUser DPAPI, outside repository'}
-    $summary | ConvertTo-Json | Set-Content -LiteralPath (Join-Path $repo 'deliverables/reports/SIGNED_RELEASE.json') -Encoding UTF8
+    if ($Candidate) {
+        $summary.artifact = 'app/build/outputs/apk/release/Pawverio-release-signed.apk'
+        $summary.device_runtime_verification = 'NOT TESTED: signed candidate has not been installed'
+    }
+    $summary | ConvertTo-Json | Set-Content -LiteralPath (Join-Path $reports 'SIGNED_RELEASE.json') -Encoding UTF8
     Write-Output ('Signed release verified: ' + $signed)
 } finally {
     Remove-Item Env:PAWVERIO_KEYSTORE_PASSWORD -ErrorAction SilentlyContinue

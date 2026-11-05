@@ -177,5 +177,6 @@
   "enabled": "चालू",
   "quiet_start_hour": "शांत समय शुरू (0–23)",
   "quiet_end_hour": "शांत समय समाप्त (0–23)",
-  "attachment_export": "अटैचमेंट निर्यात करें"
+  "attachment_export": "अटैचमेंट निर्यात करें",
+  "high_contrast": "उच्च कंट्रास्ट"
 }

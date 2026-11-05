@@ -177,5 +177,6 @@
   "enabled": "Aktiviert",
   "quiet_start_hour": "Beginn der Ruhezeit (0–23)",
   "quiet_end_hour": "Ende der Ruhezeit (0–23)",
-  "attachment_export": "Anhang exportieren"
+  "attachment_export": "Anhang exportieren",
+  "high_contrast": "Hoher Kontrast"
 }
