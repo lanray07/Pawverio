@@ -1,5 +1,5 @@
 {
-  "scope": "Local Maven POM license declarations and signed APK entry names. Inherited metadata, embedded third-party code, license obligations, and notice completeness require review.",
+  "scope": "Local and official Maven POM license declarations, including the Guava parent POM, and signed APK entry names. Embedded third-party code, license obligations, and notice completeness require review.",
   "packages": [
     {
       "package": "androidx.activity:activity",
@@ -37,20 +37,38 @@
     {
       "package": "androidx.annotation:annotation",
       "version": "1.8.1",
-      "metadata": "missing POM",
-      "licenses": []
+      "metadata": "official POM",
+      "licenses": [
+        {
+          "name": "The Apache Software License, Version 2.0",
+          "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+        }
+      ],
+      "source": "https://dl.google.com/dl/android/maven2/androidx/annotation/annotation/1.8.1/annotation-1.8.1.pom"
     },
     {
       "package": "androidx.annotation:annotation-experimental",
       "version": "1.4.1",
-      "metadata": "missing POM",
-      "licenses": []
+      "metadata": "official POM",
+      "licenses": [
+        {
+          "name": "The Apache Software License, Version 2.0",
+          "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+        }
+      ],
+      "source": "https://dl.google.com/dl/android/maven2/androidx/annotation/annotation-experimental/1.4.1/annotation-experimental-1.4.1.pom"
     },
     {
       "package": "androidx.annotation:annotation-jvm",
       "version": "1.8.1",
-      "metadata": "missing POM",
-      "licenses": []
+      "metadata": "official POM",
+      "licenses": [
+        {
+          "name": "The Apache Software License, Version 2.0",
+          "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+        }
+      ],
+      "source": "https://dl.google.com/dl/android/maven2/androidx/annotation/annotation-jvm/1.8.1/annotation-jvm-1.8.1.pom"
     },
     {
       "package": "androidx.appcompat:appcompat-resources",
@@ -66,20 +84,38 @@
     {
       "package": "androidx.arch.core:core-common",
       "version": "2.2.0",
-      "metadata": "missing POM",
-      "licenses": []
+      "metadata": "official POM",
+      "licenses": [
+        {
+          "name": "The Apache Software License, Version 2.0",
+          "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+        }
+      ],
+      "source": "https://dl.google.com/dl/android/maven2/androidx/arch/core/core-common/2.2.0/core-common-2.2.0.pom"
     },
     {
       "package": "androidx.arch.core:core-runtime",
       "version": "2.2.0",
-      "metadata": "missing POM",
-      "licenses": []
+      "metadata": "official POM",
+      "licenses": [
+        {
+          "name": "The Apache Software License, Version 2.0",
+          "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+        }
+      ],
+      "source": "https://dl.google.com/dl/android/maven2/androidx/arch/core/core-runtime/2.2.0/core-runtime-2.2.0.pom"
     },
     {
       "package": "androidx.autofill:autofill",
       "version": "1.0.0",
-      "metadata": "missing POM",
-      "licenses": []
+      "metadata": "official POM",
+      "licenses": [
+        {
+          "name": "The Apache Software License, Version 2.0",
+          "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+        }
+      ],
+      "source": "https://dl.google.com/dl/android/maven2/androidx/autofill/autofill/1.0.0/autofill-1.0.0.pom"
     },
     {
       "package": "androidx.collection:collection",
@@ -458,14 +494,26 @@
     {
       "package": "androidx.concurrent:concurrent-futures",
       "version": "1.1.0",
-      "metadata": "missing POM",
-      "licenses": []
+      "metadata": "official POM",
+      "licenses": [
+        {
+          "name": "The Apache Software License, Version 2.0",
+          "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+        }
+      ],
+      "source": "https://dl.google.com/dl/android/maven2/androidx/concurrent/concurrent-futures/1.1.0/concurrent-futures-1.1.0.pom"
     },
     {
       "package": "androidx.concurrent:concurrent-futures-ktx",
       "version": "1.1.0",
-      "metadata": "missing POM",
-      "licenses": []
+      "metadata": "official POM",
+      "licenses": [
+        {
+          "name": "The Apache Software License, Version 2.0",
+          "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+        }
+      ],
+      "source": "https://dl.google.com/dl/android/maven2/androidx/concurrent/concurrent-futures-ktx/1.1.0/concurrent-futures-ktx-1.1.0.pom"
     },
     {
       "package": "androidx.core:core",
@@ -492,8 +540,14 @@
     {
       "package": "androidx.customview:customview-poolingcontainer",
       "version": "1.0.0",
-      "metadata": "missing POM",
-      "licenses": []
+      "metadata": "official POM",
+      "licenses": [
+        {
+          "name": "The Apache Software License, Version 2.0",
+          "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+        }
+      ],
+      "source": "https://dl.google.com/dl/android/maven2/androidx/customview/customview-poolingcontainer/1.0.0/customview-poolingcontainer-1.0.0.pom"
     },
     {
       "package": "androidx.datastore:datastore",
@@ -608,8 +662,14 @@
     {
       "package": "androidx.emoji2:emoji2",
       "version": "1.3.0",
-      "metadata": "missing POM",
-      "licenses": []
+      "metadata": "official POM",
+      "licenses": [
+        {
+          "name": "The Apache Software License, Version 2.0",
+          "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+        }
+      ],
+      "source": "https://dl.google.com/dl/android/maven2/androidx/emoji2/emoji2/1.3.0/emoji2-1.3.0.pom"
     },
     {
       "package": "androidx.exifinterface:exifinterface",
@@ -625,14 +685,26 @@
     {
       "package": "androidx.graphics:graphics-path",
       "version": "1.0.1",
-      "metadata": "missing POM",
-      "licenses": []
+      "metadata": "official POM",
+      "licenses": [
+        {
+          "name": "The Apache Software License, Version 2.0",
+          "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+        }
+      ],
+      "source": "https://dl.google.com/dl/android/maven2/androidx/graphics/graphics-path/1.0.1/graphics-path-1.0.1.pom"
     },
     {
       "package": "androidx.interpolator:interpolator",
       "version": "1.0.0",
-      "metadata": "missing POM",
-      "licenses": []
+      "metadata": "official POM",
+      "licenses": [
+        {
+          "name": "The Apache Software License, Version 2.0",
+          "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+        }
+      ],
+      "source": "https://dl.google.com/dl/android/maven2/androidx/interpolator/interpolator/1.0.0/interpolator-1.0.0.pom"
     },
     {
       "package": "androidx.lifecycle:lifecycle-common",
@@ -901,14 +973,26 @@
     {
       "package": "androidx.savedstate:savedstate",
       "version": "1.2.1",
-      "metadata": "missing POM",
-      "licenses": []
+      "metadata": "official POM",
+      "licenses": [
+        {
+          "name": "The Apache Software License, Version 2.0",
+          "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+        }
+      ],
+      "source": "https://dl.google.com/dl/android/maven2/androidx/savedstate/savedstate/1.2.1/savedstate-1.2.1.pom"
     },
     {
       "package": "androidx.savedstate:savedstate-ktx",
       "version": "1.2.1",
-      "metadata": "missing POM",
-      "licenses": []
+      "metadata": "official POM",
+      "licenses": [
+        {
+          "name": "The Apache Software License, Version 2.0",
+          "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+        }
+      ],
+      "source": "https://dl.google.com/dl/android/maven2/androidx/savedstate/savedstate-ktx/1.2.1/savedstate-ktx-1.2.1.pom"
     },
     {
       "package": "androidx.sqlite:sqlite",
@@ -935,38 +1019,74 @@
     {
       "package": "androidx.startup:startup-runtime",
       "version": "1.1.1",
-      "metadata": "missing POM",
-      "licenses": []
+      "metadata": "official POM",
+      "licenses": [
+        {
+          "name": "The Apache Software License, Version 2.0",
+          "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+        }
+      ],
+      "source": "https://dl.google.com/dl/android/maven2/androidx/startup/startup-runtime/1.1.1/startup-runtime-1.1.1.pom"
     },
     {
       "package": "androidx.tracing:tracing",
       "version": "1.2.0",
-      "metadata": "missing POM",
-      "licenses": []
+      "metadata": "official POM",
+      "licenses": [
+        {
+          "name": "The Apache Software License, Version 2.0",
+          "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+        }
+      ],
+      "source": "https://dl.google.com/dl/android/maven2/androidx/tracing/tracing/1.2.0/tracing-1.2.0.pom"
     },
     {
       "package": "androidx.tracing:tracing-ktx",
       "version": "1.2.0",
-      "metadata": "missing POM",
-      "licenses": []
+      "metadata": "official POM",
+      "licenses": [
+        {
+          "name": "The Apache Software License, Version 2.0",
+          "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+        }
+      ],
+      "source": "https://dl.google.com/dl/android/maven2/androidx/tracing/tracing-ktx/1.2.0/tracing-ktx-1.2.0.pom"
     },
     {
       "package": "androidx.vectordrawable:vectordrawable",
       "version": "1.1.0",
-      "metadata": "missing POM",
-      "licenses": []
+      "metadata": "official POM",
+      "licenses": [
+        {
+          "name": "The Apache Software License, Version 2.0",
+          "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+        }
+      ],
+      "source": "https://dl.google.com/dl/android/maven2/androidx/vectordrawable/vectordrawable/1.1.0/vectordrawable-1.1.0.pom"
     },
     {
       "package": "androidx.vectordrawable:vectordrawable-animated",
       "version": "1.1.0",
-      "metadata": "missing POM",
-      "licenses": []
+      "metadata": "official POM",
+      "licenses": [
+        {
+          "name": "The Apache Software License, Version 2.0",
+          "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+        }
+      ],
+      "source": "https://dl.google.com/dl/android/maven2/androidx/vectordrawable/vectordrawable-animated/1.1.0/vectordrawable-animated-1.1.0.pom"
     },
     {
       "package": "androidx.versionedparcelable:versionedparcelable",
       "version": "1.1.1",
-      "metadata": "missing POM",
-      "licenses": []
+      "metadata": "official POM",
+      "licenses": [
+        {
+          "name": "The Apache Software License, Version 2.0",
+          "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+        }
+      ],
+      "source": "https://dl.google.com/dl/android/maven2/androidx/versionedparcelable/versionedparcelable/1.1.1/versionedparcelable-1.1.1.pom"
     },
     {
       "package": "androidx.work:work-runtime",
@@ -1015,8 +1135,15 @@
     {
       "package": "com.google.guava:listenablefuture",
       "version": "1.0",
-      "metadata": "missing POM",
-      "licenses": []
+      "metadata": "official parent POM",
+      "licenses": [
+        {
+          "name": "The Apache Software License, Version 2.0",
+          "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+        }
+      ],
+      "source": "https://repo.maven.apache.org/maven2/com/google/guava/listenablefuture/1.0/listenablefuture-1.0.pom",
+      "license_source": "https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/26.0-android/guava-parent-26.0-android.pom"
     },
     {
       "package": "com.squareup.okhttp3:okhttp",
@@ -1164,32 +1291,62 @@
     {
       "package": "org.jetbrains.kotlinx:kotlinx-coroutines-android",
       "version": "1.9.0",
-      "metadata": "missing POM",
-      "licenses": []
+      "metadata": "official POM",
+      "licenses": [
+        {
+          "name": "The Apache Software License, Version 2.0",
+          "url": "https://www.apache.org/licenses/LICENSE-2.0.txt"
+        }
+      ],
+      "source": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlinx/kotlinx-coroutines-android/1.9.0/kotlinx-coroutines-android-1.9.0.pom"
     },
     {
       "package": "org.jetbrains.kotlinx:kotlinx-coroutines-bom",
       "version": "1.9.0",
-      "metadata": "missing POM",
-      "licenses": []
+      "metadata": "official POM",
+      "licenses": [
+        {
+          "name": "The Apache Software License, Version 2.0",
+          "url": "https://www.apache.org/licenses/LICENSE-2.0.txt"
+        }
+      ],
+      "source": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlinx/kotlinx-coroutines-bom/1.9.0/kotlinx-coroutines-bom-1.9.0.pom"
     },
     {
       "package": "org.jetbrains.kotlinx:kotlinx-coroutines-core",
       "version": "1.9.0",
-      "metadata": "missing POM",
-      "licenses": []
+      "metadata": "official POM",
+      "licenses": [
+        {
+          "name": "The Apache Software License, Version 2.0",
+          "url": "https://www.apache.org/licenses/LICENSE-2.0.txt"
+        }
+      ],
+      "source": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlinx/kotlinx-coroutines-core/1.9.0/kotlinx-coroutines-core-1.9.0.pom"
     },
     {
       "package": "org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm",
       "version": "1.9.0",
-      "metadata": "missing POM",
-      "licenses": []
+      "metadata": "official POM",
+      "licenses": [
+        {
+          "name": "The Apache Software License, Version 2.0",
+          "url": "https://www.apache.org/licenses/LICENSE-2.0.txt"
+        }
+      ],
+      "source": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlinx/kotlinx-coroutines-core-jvm/1.9.0/kotlinx-coroutines-core-jvm-1.9.0.pom"
     },
     {
       "package": "org.jetbrains:annotations",
       "version": "23.0.0",
-      "metadata": "missing POM",
-      "licenses": []
+      "metadata": "official POM",
+      "licenses": [
+        {
+          "name": "The Apache Software License, Version 2.0",
+          "url": "https://www.apache.org/licenses/LICENSE-2.0.txt"
+        }
+      ],
+      "source": "https://repo.maven.apache.org/maven2/org/jetbrains/annotations/23.0.0/annotations-23.0.0.pom"
     }
   ],
   "notice_named_apk_entries": [

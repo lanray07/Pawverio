@@ -8,7 +8,8 @@ The artifact checked was Pawverio-1.0.0-fe0d7e21.apk, SHA-256 fe0d7e21e3cc206b61
 | Signed artifact integrity | PASS | APK Signature Scheme v2 and v3, 16 KiB ZIP alignment, eight native libraries with static 16 KiB segment alignment, and 75 matching non-signature payload entries against the unsigned build. The Amazon public key matches the source asset. |
 | Release manifest and QA hooks | PASS | Automatic backup disabled. No INTERNET or location permission declared. The launcher is exported and other exported SDK and AndroidX components require Amazon notification, BIND_JOB_SERVICE or DUMP permissions. The qa_route and qa_capture intent keys are absent from packaged DEX. |
 | Runtime dependency advisory lookup | PASS | The OSV Maven query returned zero advisory matches across 120 resolved release-runtime coordinates on the date above. The lookup covers those coordinates and available OSV data. |
-| Dependency licensing metadata | BLOCKED | Cached POMs declare Apache 2.0 for 93 coordinates and Amazon Program Materials License for one. Another 26 coordinates lack cached POMs. The APK contains okhttp3/internal/publicsuffix/NOTICE. This inventory does not establish redistribution or notice completeness. |
+| Dependency license declarations | PASS | All 120 coordinates have license declarations. Local and official POMs, including the Guava parent POM, declare Apache 2.0 for 119 coordinates and Amazon Program Materials License for one. See RELEASE_LICENSE_INVENTORY.json. |
+| Packaged third-party notices | BLOCKED | The APK contains okhttp3/internal/publicsuffix/NOTICE. The declaration inventory does not establish redistribution or notice completeness. |
 | Scheduled notification | PASS | A real delayed WorkManager job posted the expected notification without invoking the worker directly. The device was awake and the instrumentation process remained alive. |
 | English speech synthesis | PASS | The installed engine completed file synthesis and MediaExtractor read an audio sample from its output. Audible quality, live recognition and additional locale voices remain open. |
 
@@ -20,3 +21,9 @@ The Amazon console shows the app and Premium IAP as unsubmitted drafts. The app 
 
 - [Android signing requirements for updates](https://developer.android.com/google/play/app-updates)
 - [OSV batch API](https://google.github.io/osv.dev/post-v1-querybatch/)
+
+## Follow-up checks
+
+The GitHub Android workflow passed for ce5d1a7. The dedicated Android API 36 QA emulator could not boot because Windows hardware acceleration was unavailable and its software-only fallback exited before ADB connected. Neither emulator attempt changed the Fire tablet. The signed APK still needs a clean-device runtime test.
+
+- [GitHub Android workflow](https://github.com/lanray07/Pawverio/actions/runs/41984164721)
