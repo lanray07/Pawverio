@@ -9,6 +9,6 @@
   "minimum_verified_api": 26,
   "alignment_bytes": 4,
   "zip_entry_native_page_alignment_kib": 16,
-  "device_runtime_verification": "BLOCKED: Fire rejected the in-place install with INSTALL_FAILED_UPDATE_INCOMPATIBLE. See FIRE_RELEASE_CHECKS.md.",
+  "device_runtime_verification": "PASS: Exact APK installed and rendered its first activity on KFTRWI / API 28. Onboarding interaction and persistence remain NOT TESTED. See FIRE_RELEASE_CHECKS.md.",
   "password_storage": "Windows CurrentUser DPAPI, outside repository"
 }

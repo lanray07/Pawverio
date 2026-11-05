@@ -16,7 +16,7 @@ The app and Premium entitlement remain saved drafts. Neither Submit App nor Subm
 | Updated signed APK in Amazon draft | PASS | Pawverio-1.0.0-fe0d7e21.apk, versionCode1; 12 Fire selections retained |
 | Current debug update on physical Fire | PASS | Matching debug signature, install -r succeeded, process present; data preserved |
 | Visible current-debug UI launch | NOT TESTED | Fire is PIN-locked; host am-start wait interrupted, no PIN bypass or data clearing |
-| Exact production-signed runtime | BLOCKED | Android rejected the exact signed APK as an update on the Fire due to the certificate mismatch. See FIRE_RELEASE_CHECKS.md. |
+| Exact production-signed install and launch | PASS | The draft APK installed and reached its first rendered activity on the Fire after an authorized temporary swap. Live billing remains a separate check. See FIRE_RELEASE_CHECKS.md. |
 | 16KiB device runtime | NOT TESTED | Static alignment is a separate check |
 | App Tester sandbox product/purchase/cancel/restore | PASS | US catalog price, checkout and cancellation, fulfillment, cache-free restore, revocation and forced failure retest on KFTRWI |
 | Live DevTest / real product and transactions | BLOCKED | Amazon requires a submitted live IAP; owner requires everything to remain unsubmitted |

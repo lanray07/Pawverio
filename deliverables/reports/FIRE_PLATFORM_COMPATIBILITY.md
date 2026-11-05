@@ -27,7 +27,7 @@ Evidence: `deliverables/android/build-logs/platform-device-tests/` copied from t
 | Password-encrypted backup runtime | PASS | UTF-8 round-trip and wrong-password rejection |
 | Records-only backup full UI workflow | NOT TESTED | Tested encryption primitive; root app tests are separate |
 | Missing Amazon key behavior | PASS | Store unavailable without starting vendor authentication |
-| Amazon purchase/restore/price/receipt verification | BLOCKED | Public key, draft SKU and App Tester coverage verified. Live purchase, receipt verification and signed runtime remain open. |
+| Amazon purchase/restore/price/receipt verification | BLOCKED | Public key, draft SKU and App Tester coverage verified. Live purchase and receipt verification remain open. |
 | Android API33 notification-permission denial | NOT TESTED | Tested device is API28 |
 | Optional device-lock PIN removal recovery | NOT TESTED | Guard implemented; no device PIN manipulation performed |
 
@@ -39,7 +39,7 @@ Final copied XML supersedes the earlier ten-test baseline: 11 platform and 14 co
 
 ## Production-signing and console targeting update
 
-A separate dedicated production certificate now signs the release. The existing KFTRWI debug app/data were preserved. Exact production-signed runtime remains NOT TESTED. Amazon auto-filtering exposes 12 compatible Fire tablet entries, with Fire TV/Automotive unselected; this is a console compatibility result, not physical certification of those 12. Older incompatible Fire models, Alexa/Amazon Kids tablet families and Fire Phone remain disabled. Microphone hardware is explicitly optional.
+A separate dedicated production certificate now signs the release. The existing KFTRWI debug app/data were preserved. The exact production-signed APK installed and rendered its first activity on KFTRWI. Signed onboarding interactions and persistence remain NOT TESTED. Amazon auto-filtering exposes 12 compatible Fire tablet entries, with Fire TV/Automotive unselected; this is a console compatibility result, not physical certification of those 12. Older incompatible Fire models, Alexa/Amazon Kids tablet families and Fire Phone remain disabled. Microphone hardware is explicitly optional.
 
 Current debug artifact passive smoke: matching-debug-certificate in-place update succeeded, preserving existing data. The launcher activity started and the app process remained alive. No pet records were mutated, and no install/uninstall workaround was used for the production certificate conflict. This is not an end-to-end test of the production-signed APK. See android/build-logs/current-debug-startup-smoke.log.
 

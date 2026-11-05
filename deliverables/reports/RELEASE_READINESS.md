@@ -12,7 +12,7 @@ Evidence:178 core JVM +15 platform JVM tests;14 core +11 earlier platform physic
 
 19×179 translated resource strings, CLDR forms/placeholders and independent Android-resource expectations. All translations remain AI-authored drafts pending human review. 304 screenshot compositions and their real app-source PNGs are inventoried;19 target locales×8screens×2layouts when complete. The phone layout was captured in an app-only native360×640dp viewport on Fire; this does not certify phone hardware. Metadata19 locale drafts and original branding/assets are included. See screenshot and brand manifests.
 
-Debug APK:android/debug/Pawverio-debug.apk. Signed release:android/release/Pawverio-release-signed.apk; unsigned build input is retained separately. The signed release is uploaded to the unsubmitted Amazon draft. Production-signed runtime: BLOCKED: Fire rejected the in-place install with INSTALL_FAILED_UPDATE_INCOMPATIBLE. See FIRE_RELEASE_CHECKS.md. SHA256s:RELEASE_STATUS.json, SIGNED_RELEASE.json and FILE_CHECKSUMS.csv.
+Debug APK:android/debug/Pawverio-debug.apk. Signed release:android/release/Pawverio-release-signed.apk; unsigned build input is retained separately. The signed release is uploaded to the unsubmitted Amazon draft. Production-signed runtime: PASS: Exact APK installed and rendered its first activity on KFTRWI / API 28. Onboarding interaction and persistence remain NOT TESTED. See FIRE_RELEASE_CHECKS.md. SHA256s:RELEASE_STATUS.json, SIGNED_RELEASE.json and FILE_CHECKSUMS.csv.
 
 ## Required before submission
 

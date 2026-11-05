@@ -1,0 +1,6 @@
+PASS: owner backup matches current persistent file hashes; exact debug APK verified and Fire read all backup entries.
+PASS: exact production-signed APK installed on KFTRWI / API 28; installed APK SHA-256 matches the Amazon draft artifact.
+PASS: exact original debug APK, all owner persistent file hashes, and package registration in both profiles verified after restoration. Original app data ownership retained under the reinstalled app UID.
+PASS: exact debug APK and owner persistent file hashes restored after the repeat test. Both profiles and their instrumentation package registrations verified.
+PASS: first launch ActivityManager recorded onCreate, onResume and first-frame launch completion. Repeat launch reached foreground focus.
+NOT TESTED: onboarding interaction and persistence. UIAutomator failed to produce a readable hierarchy. Fire keyguard was showing after the repeat attempt.
