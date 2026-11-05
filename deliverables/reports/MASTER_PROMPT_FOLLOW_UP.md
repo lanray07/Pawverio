@@ -1,6 +1,6 @@
 # Master prompt follow-up
 
-The repository now targets Pawverio 1.0.1, version code 2. Amazon now saves Pawverio-1.0.1-signed.apk as version code 2 in place of 1.0.0. The app and Premium IAP are unsubmitted drafts. The console retained 12 selected Fire tablets.
+The repository now targets Pawverio 1.0.1, version code 2. Amazon now saves Pawverio-1.0.1-signed.apk as version code 2 in place of 1.0.0. The console retained 12 selected Fire tablets. On 5 November 2026 the owner authorized submission despite the open checks and publication upon approval. Amazon showed the app as Submitted and the Premium entitlement as Approved. The app’s estimated Appstore date was 10 November 2026 at 10:00 GMT.
 
 | Master prompt area | Follow-up |
 |---|---|
